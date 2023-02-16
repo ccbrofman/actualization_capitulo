@@ -1,0 +1,117 @@
+
+.header{
+grid-area: header;
+position: sticky;
+z-index: 2; 
+}
+
+.titulo{
+    background-color: $color-fondo;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+        img{
+        width: 180px;
+        height: 200px;
+        padding-top: 10px;
+        padding-left:  10px;
+        }
+
+        h1{
+        color: white;
+        background-color:$color-fondo;
+        padding-top: 10px;
+        font-size: nth ($font-size, 1);
+        font-family:'Raleway', sans-serif;
+        font-style: normal;
+        text-align: center;
+        }
+        
+        .cirujano{
+
+            background-color:$color-fondo;
+            margin-top: 0;
+            @extend %flex;
+            flex-direction: column;
+            
+            a{
+                text-decoration: none;
+                color: white;
+                font-family: 'Raleway', sans-serif;
+                font-size: nth($font-size ,6 );
+                margin-top: 10px;
+                text-align: center;
+                margin-left: 5px;
+
+                img{
+                    width: 50px;
+                    height: 50px;
+                    padding-top: 10px;
+                    padding-left:  10px;
+                }
+            }
+
+        }
+    }
+
+
+.menu{
+
+    nav{
+        list-style: none;
+        background-color: $color-fondo;
+        margin-top: 0;
+        position: sticky;
+        display: flex;
+        justify-content:center;
+        div{
+
+            list-style: none;
+            background-color: $color-fondo;
+            margin-top: 0;
+            position: sticky;
+            @include flex (flex, space-evenly,center);
+            flex-direction: row;
+
+            span.navbar-toggler-icon{
+                background-image:url(../img/hamburger.jpg);
+                width: 20px;
+                height: 20px;
+                }
+            }   
+
+            ul{
+                text-decoration: none;
+                text-align: left;
+                color:$color-principal;
+                background-color: $color-fondo;
+                overflow: visible;
+                li{
+                    display: inline-block;
+                    margin: 0px;
+
+                    padding: 5px;
+                    &:hover{
+                        background: $colorhover;
+                    }
+
+                    a{
+                        font-family: 'Raleway', sans-serif;
+                        text-decoration: none;
+                        text-align: center;
+                        color:$color-principal; 
+                        background-color: $color-fondo;
+                        &:hover{
+                            background:$colorhover;
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+
+    

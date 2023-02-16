@@ -1,0 +1,36 @@
+$color-fondo: rgb(25, 25, 61);
+$colorhover: rgb(18, 34, 113);
+$color-principal: white;
+$color-secundario:  rgb(0, 0, 0);
+
+
+
+$font-size:
+40px,
+30px,
+20px,
+15px,
+12px,
+10px;
+
+
+/*$boton:(
+bg-boton:  rgb(25, 25, 61),
+border-boton: 2px solid rgb(214, 234, 214),
+color-texto: white,
+);*/
+
+
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex ($flex, $justify, $align){
+    display: $flex; 
+    justify-content: $justify;
+    align-items:$align ;
+
+}
+

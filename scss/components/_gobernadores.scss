@@ -1,0 +1,47 @@
+.herogob{
+    height: 100vh;
+    height: 100%;
+    top: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/pexels-anna-shvets-4483327.jpg);
+    h2{
+        color:$color-secundario;
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        font-size:nth($font-size, 1 );
+        margin-top: 0;
+        padding-top: 20px;}
+
+div{
+    @extend %flex;
+    flex-direction: column;
+
+    div{
+        @extend %flex;
+        flex-direction: column;
+        h3{
+            font-family: 'Raleway', sans-serif;
+            font-size: nth($font-size, 3 );
+            color: $color-secundario;
+            margin: 20px;
+            padding: 20px;
+
+            text-decoration: underline;}
+        p{
+            font-family: 'Raleway', sans-serif;
+            font-size: nth($font-size, 3 );
+            color:$color-secundario;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;}
+    }
+    
+}
+
+
+
+        
+    }

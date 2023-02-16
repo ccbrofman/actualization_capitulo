@@ -1,0 +1,1215 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&family=Raleway:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&family=Pacifico&family=Raleway:wght@200;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif; }
+
+/*$boton:(
+bg-boton:  rgb(25, 25, 61),
+border-boton: 2px solid rgb(214, 234, 214),
+color-texto: white,
+);*/
+.actividades .cursos, .actividades .cursos div.grid-cursos div, .galeriaCursos div.alineargaleria, .mensajes div, .textarea div, .titulo .cirujano, .hero .heroacercadel, .herogob div, .herogob div div, .heropres div, .heropres div div, .heroautoridades div, .heroautoridades div div, .heroautoridades div div ol, .heroautoridades div div ul, .formarparte div, .contacto div, .footer div.logosfooter div.mapa, .heromiembros div div.usuario, .heromiembros div dir.contrasena, .heromiembros .botonmiembros div, .educacion .cursos div.grid-cursos div {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.carousel-inner img {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  object-fit: cover; }
+
+.carousel-inner div h5 {
+  color: black;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-style: bold;
+  margin: 20px;
+  padding-top: 5px; }
+
+.carousel-inner div p {
+  color: black;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  margin: 20px;
+  padding-top: 5px; }
+
+.carousel-item div a {
+  color: white;
+  background-color: #19193d;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 15px;
+  margin: 20px;
+  padding: 15px;
+  text-decoration: none; }
+
+.carousel-item div p {
+  color: #8d8d8d;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  font-style: italic; }
+
+.actividades {
+  height: 130vh;
+  width: 100%;
+  top: 20px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/pexels-anna-shvets-4586994.jpg); }
+  .actividades h2 {
+    position: relative;
+    color: black;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    padding-top: 45px;
+    margin-top: 15px; }
+  .actividades p {
+    position: relative;
+    color: black;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-top: 25px;
+    padding-bottom: 10px; }
+  .actividades .cursos div.grid-cursos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 70px;
+    gap: 15px;
+    width: 85%;
+    margin-top: 20px;
+    padding-top: 150px; }
+    .actividades .cursos div.grid-cursos div {
+      flex-direction: column; }
+      .actividades .cursos div.grid-cursos div img {
+        width: 200px;
+        height: 200px;
+        box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
+        margin-bottom: 0px; }
+      .actividades .cursos div.grid-cursos div a {
+        width: 200px;
+        height: 50px;
+        font-size: 12px;
+        font-family: 'Raleway', sans-serif;
+        color: white;
+        background-color: #19193d;
+        border: 2px solid #d6ead6;
+        padding: 5px;
+        display: inline-block;
+        list-style: none;
+        text-decoration: none;
+        margin-bottom: 10px;
+        text-align: center;
+        margin-top: 0;
+        padding-top: 15px;
+        padding-bottom: 15px; }
+
+.galeriaCursos {
+  height: 150vh;
+  width: 100%;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/depositphotos_110346632-stock-photo-surgeons-team-hands-during-laparoscopic.jpeg); }
+  .galeriaCursos h2 {
+    position: relative;
+    color: black;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    margin: 25px;
+    padding-top: 45px; }
+  .galeriaCursos div.alineargaleria {
+    margin: 50px; }
+    .galeriaCursos div.alineargaleria div.grid-galeria {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-rows: 150px;
+      gap: 15px;
+      width: 75%; }
+      .galeriaCursos div.alineargaleria div.grid-galeria div.grid-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
+        margin: 20px; }
+      .galeriaCursos div.alineargaleria div.grid-galeria .img-1 {
+        grid-column: span 2; }
+      .galeriaCursos div.alineargaleria div.grid-galeria .img-5 {
+        grid-row: span 2; }
+      .galeriaCursos div.alineargaleria div.grid-galeria .img-8 {
+        grid-row: span 2; }
+      .galeriaCursos div.alineargaleria div.grid-galeria .img-9 {
+        grid-column: span 2;
+        grid-row: span 2; }
+
+.mensajes {
+  height: 80vh;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/pexels-pixabay-247786.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .mensajes h2 {
+    color: black;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-bottom: 20px; }
+  .mensajes div {
+    flex-direction: column; }
+
+.textarea div {
+  flex-direction: row; }
+  .textarea div input {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    background-color: #19193d;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px; }
+
+.nombre {
+  margin: 10px; }
+
+.correo {
+  margin: 10px;
+  padding-bottom: 15px; }
+
+.header {
+  grid-area: header;
+  position: sticky;
+  z-index: 2; }
+
+.titulo {
+  background-color: #19193d;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .titulo img {
+    width: 180px;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 10px; }
+  .titulo h1 {
+    color: white;
+    background-color: #19193d;
+    padding-top: 10px;
+    font-size: nth 40px, 30px, 20px, 15px, 12px, 10px, 1;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    text-align: center; }
+  .titulo .cirujano {
+    background-color: #19193d;
+    margin-top: 0;
+    flex-direction: column; }
+    .titulo .cirujano a {
+      text-decoration: none;
+      color: white;
+      font-family: 'Raleway', sans-serif;
+      font-size: 10px;
+      margin-top: 10px;
+      text-align: center;
+      margin-left: 5px; }
+      .titulo .cirujano a img {
+        width: 50px;
+        height: 50px;
+        padding-top: 10px;
+        padding-left: 10px; }
+
+.menu nav {
+  list-style: none;
+  background-color: #19193d;
+  margin-top: 0;
+  position: sticky;
+  display: flex;
+  justify-content: center; }
+  .menu nav div {
+    list-style: none;
+    background-color: #19193d;
+    margin-top: 0;
+    position: sticky;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row; }
+    .menu nav div span.navbar-toggler-icon {
+      background-image: url(../img/hamburger.jpg);
+      width: 20px;
+      height: 20px; }
+  .menu nav ul {
+    text-decoration: none;
+    text-align: left;
+    color: white;
+    background-color: #19193d;
+    overflow: visible; }
+    .menu nav ul li {
+      display: inline-block;
+      margin: 0px;
+      padding: 5px; }
+      .menu nav ul li:hover {
+        background: #122271; }
+      .menu nav ul li a {
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        background-color: #19193d; }
+        .menu nav ul li a:hover {
+          background: #122271; }
+
+.hero .heroacercadel {
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/pexels-anna-shvets-4483327.jpg);
+  height: 50vh;
+  width: 100%;
+  flex-direction: column; }
+  .hero .heroacercadel p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: black; }
+  .hero .heroacercadel a {
+    color: white;
+    background-color: #19193d;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 15px;
+    margin: 20px;
+    padding: 15px;
+    text-decoration: none; }
+
+.herogob {
+  height: 100vh;
+  height: 100%;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/pexels-anna-shvets-4483327.jpg); }
+  .herogob h2 {
+    color: black;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    margin-top: 0;
+    padding-top: 20px; }
+  .herogob div {
+    flex-direction: column; }
+    .herogob div div {
+      flex-direction: column; }
+      .herogob div div h3 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        color: black;
+        margin: 20px;
+        padding: 20px;
+        text-decoration: underline; }
+      .herogob div div p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        color: black;
+        margin: 10px;
+        padding: 10px;
+        text-align: center; }
+
+.heropres {
+  height: 100vh;
+  height: 100%;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/pexels-anna-shvets-4483327.jpg); }
+  .heropres h2 {
+    color: black;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    margin-top: 0;
+    padding-top: 20px; }
+  .heropres div {
+    flex-direction: column; }
+    .heropres div div {
+      flex-direction: column; }
+      .heropres div div h3 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        color: black;
+        margin: 20px;
+        padding: 20px;
+        text-decoration: underline; }
+      .heropres div div p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        color: black;
+        margin: 10px;
+        padding: 10px;
+        text-align: center; }
+
+.heroautoridades {
+  height: 100vh;
+  height: 100%;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/pexels-anna-shvets-4483327.jpg); }
+  .heroautoridades h2 {
+    color: black;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    margin: 20px;
+    padding-top: 5px; }
+  .heroautoridades div {
+    flex-direction: column; }
+    .heroautoridades div div {
+      flex-direction: column; }
+      .heroautoridades div div h3 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        color: black;
+        margin: 20px;
+        padding: 20px;
+        text-decoration: underline; }
+      .heroautoridades div div p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        color: black;
+        margin: 10px;
+        padding: 10px;
+        text-align: center; }
+      .heroautoridades div div ol {
+        flex-direction: column; }
+        .heroautoridades div div ol li {
+          font-family: 'Raleway', sans-serif;
+          font-size: 20px;
+          color: black;
+          margin: 10px;
+          padding: 10px;
+          text-justify: auto; }
+      .heroautoridades div div ul {
+        flex-direction: column;
+        border: 3px #19193d solid; }
+        .heroautoridades div div ul li {
+          font-family: 'Raleway', sans-serif;
+          font-size: 20px;
+          color: black;
+          margin: 10px;
+          padding: 10px;
+          list-style: none; }
+
+.formarparte {
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/pexels-anna-shvets-4483327.jpg); }
+  .formarparte div {
+    flex-direction: column; }
+    .formarparte div h2 {
+      color: black;
+      text-align: center;
+      font-family: 'Pacifico', cursive;
+      font-size: 40px;
+      margin: 10px;
+      padding-top: 15px; }
+    .formarparte div div {
+      width: 85%; }
+      .formarparte div div p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        color: black;
+        margin-top: 25px; }
+      .formarparte div div ol li {
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        color: black;
+        text-justify: auto; }
+      .formarparte div div a {
+        color: white;
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        font-size: 30px;
+        margin: 20px;
+        padding: 10px;
+        background-color: black;
+        border: 4px solid #010f56;
+        text-decoration: none; }
+
+.contacto div {
+  height: 100%;
+  height: 100%;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/pexels-anna-shvets-4483327.jpg);
+  flex-direction: column; }
+  .contacto div h2 {
+    color: black;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    margin: 20px;
+    padding-top: 5px; }
+  .contacto div p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: black;
+    margin: 50px;
+    padding: 30px;
+    text-justify: auto; }
+  .contacto div a {
+    color: white;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    margin: 15px;
+    padding: 5px;
+    background-color: black;
+    border: 4px solid #010f56;
+    text-decoration: none; }
+
+.footer {
+  background-color: #19193d;
+  width: 100%;
+  height: 45vh;
+  margin: 0; }
+  .footer div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row; }
+    .footer div h2 {
+      color: white;
+      text-align: center;
+      font-family: 'Pacifico', cursive;
+      font-size: 30px;
+      padding-top: 25px;
+      text-decoration: underline; }
+  .footer div.logosfooter div.redes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .footer div.logosfooter div.redes a img {
+      width: 50px;
+      height: 50px;
+      margin: 7px; }
+      .footer div.logosfooter div.redes a img:active {
+        border: 2px white solid; }
+  .footer div.logosfooter div.mapa {
+    flex-direction: column; }
+    .footer div.logosfooter div.mapa iframe {
+      margin-top: 0;
+      width: 150px;
+      height: 150px;
+      border: 2px solid #cbcbcb; }
+    .footer div.logosfooter div.mapa p {
+      font-size: 15px;
+      font-family: 'Raleway', sans-serif;
+      color: white;
+      margin-top: 2px; }
+  .footer div.logosfooter .divfacs a img {
+    width: 90px;
+    height: 90px;
+    margin: 7px; }
+    .footer div.logosfooter .divfacs a img:active {
+      border: 2px crimson solid; }
+  .footer div.logosfooter .divfacs img {
+    width: 90px;
+    height: 100px; }
+
+.herohistoria {
+  height: 100vh;
+  height: 100%;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/pexels-anna-shvets-4483327.jpg); }
+  .herohistoria h2 {
+    color: black;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    margin: 20px;
+    padding-top: 45px; }
+  .herohistoria div.textohistoria {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row; }
+    .herohistoria div.textohistoria p {
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px;
+      color: black;
+      margin: 30px;
+      padding: 30px;
+      line-height: 45px;
+      text-align: justify; }
+    .herohistoria div.textohistoria img {
+      width: 200px;
+      height: 250px;
+      margin-top: 70px;
+      margin-left: 50px;
+      margin-right: 50px; }
+
+.heromiembros div {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/pexels-anna-shvets-4483327.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .heromiembros div h2 {
+    color: black;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    margin: 20px;
+    padding-top: 5px; }
+  .heromiembros div div.usuario {
+    margin: 10px;
+    flex-direction: column;
+    margin: 10px; }
+  .heromiembros div dir.contrasena {
+    margin: 10px;
+    flex-direction: column;
+    margin: 10px; }
+
+.heromiembros .botonmiembros div {
+  flex-direction: row;
+  margin: 20px; }
+  .heromiembros .botonmiembros div input {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    background-color: #19193d;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px; }
+
+.heromiembros div.botonformar a {
+  color: white;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  margin: 50px;
+  padding: 10px;
+  background-color: black;
+  border: 4px solid #19193d;
+  text-decoration: none; }
+
+.educacion {
+  width: 100%;
+  height: 80vh;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/pexels-anna-shvets-4483327.jpg); }
+  .educacion h2 {
+    color: black;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    padding-top: 25px; }
+  .educacion .cursos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row; }
+    .educacion .cursos h2 {
+      font-size: 40px; }
+    .educacion .cursos div.grid-cursos {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-auto-rows: 70px;
+      gap: 60px;
+      width: 85%;
+      margin-top: 20px;
+      padding-top: 150px; }
+      .educacion .cursos div.grid-cursos div {
+        flex-direction: column; }
+        .educacion .cursos div.grid-cursos div img {
+          width: 200px;
+          height: 200px;
+          box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
+          -webkit-box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
+          -moz-box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
+          margin-bottom: 0px; }
+        .educacion .cursos div.grid-cursos div a {
+          width: 200px;
+          height: 50px;
+          font-size: 12px;
+          font-family: 'Raleway', sans-serif;
+          color: white;
+          background-color: #19193d;
+          border: 2px solid #d6ead6;
+          padding-left: 5px;
+          padding-right: 5px;
+          display: inline-block;
+          list-style: none;
+          text-decoration: none;
+          margin-bottom: 10px;
+          text-align: center;
+          margin-top: 0;
+          padding-top: 15px;
+          padding-bottom: 15px; }
+
+@media screen and (max-width: 1250px) {
+  .titulo h1 {
+    font-size: 30px; }
+  .titulo img {
+    width: 130px;
+    height: 150px; }
+  .cirujano a {
+    font-size: 10px; }
+  .educacion h2 {
+    color: black;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    padding-top: 25px; }
+  .educacion .cursos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row; }
+    .educacion .cursos div.grid-cursos {
+      gap: 20px; } }
+
+@media screen and (max-width: 1000px) {
+  .educacion {
+    height: 100vh; }
+    .educacion .cursos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row; }
+      .educacion .cursos div.grid-cursos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 200px; }
+  .titulo h1 {
+    font-size: 30px; }
+  .titulo img {
+    width: 150px;
+    height: 170px; }
+  .actividades .cursos div.grid-cursos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 300px;
+    margin-top: 10px;
+    padding-top: 30px; }
+    .actividades .cursos div.grid-cursos div.grid-itemcursos img {
+      width: 150px;
+      height: 150px; }
+    .actividades .cursos div.grid-cursos div.grid-itemcursos a {
+      width: 150px;
+      height: 40px;
+      font-size: 11px; }
+  .formarparte div h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding: 5px; }
+  .formarparte div.textoformarparte p {
+    font-size: 15px; }
+  .formarparte div.textoformarparte ol li {
+    font-size: 15px; }
+  .formarparte div.textoformarparte a {
+    font-size: 15px;
+    margin: 10px;
+    padding: 5px; } }
+
+@media screen and (max-width: 868px) {
+  .herohistoria div.textohistoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .herohistoria div.textohistoria div.allende img {
+      margin: 20px; }
+  .titulo h1 {
+    font-size: 25px; }
+  .titulo img {
+    width: 100px;
+    height: 110px; }
+  .titulo .cirujano a img {
+    width: 45px;
+    height: 45px; }
+  .actividades {
+    height: 150vh; }
+    .actividades h2 {
+      font-size: 30px;
+      margin-top: 15px;
+      padding-top: 25px; } }
+
+@media screen and (max-width: 739px) {
+  .contacto div {
+    width: 100%;
+    height: 50vh; }
+    .contacto div h2 {
+      font-size: 30px; }
+    .contacto div p {
+      font-size: 15px;
+      margin: 40px;
+      padding: 20px; }
+    .contacto div a {
+      font-size: 15px; }
+  .hero div.acerca {
+    height: 50vh; }
+    .hero div.acerca div.heroacercadel {
+      height: 30vh;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .hero div.acerca div.heroacercadel p {
+        font-size: 15px; }
+  .hero {
+    height: 30vh; }
+    .hero div div div img {
+      height: 30vh; }
+  .educacion {
+    height: 90vh; }
+    .educacion h2 {
+      font-size: 30px; }
+    .educacion .cursos div.grid-cursos {
+      gap: 150px; }
+      .educacion .cursos div.grid-cursos div img {
+        width: 150px;
+        height: 150px; }
+      .educacion .cursos div.grid-cursos div a {
+        text-align: center;
+        height: 55px;
+        width: 150px;
+        padding-bottom: 15px; }
+  .menu nav div div ul li a {
+    font-size: 12px; }
+  .heroautoridades h2 {
+    font-size: 30px; }
+  .heroautoridades div div h3 {
+    font-size: 20px; }
+  .heroautoridades div div p {
+    font-size: 15px; }
+  .heroautoridades div div ol li {
+    font-size: 15px; }
+  .heroautoridades div div ul li {
+    font-size: 15px; }
+  .herogob h2 {
+    padding-top: 20px;
+    margin-top: 0;
+    font-size: 30px; }
+  .herogob div div h3 {
+    font-size: 20px; }
+  .herogob div div p {
+    font-size: 15px; }
+  .heropres h2 {
+    padding-top: 20px;
+    margin-top: 0;
+    font-size: 30px; }
+  .heropres div div h3 {
+    font-size: 20px; }
+  .heropres div div p {
+    font-size: 15px; }
+  .herohistoria h2 {
+    font-size: 30px; }
+  .herohistoria div.textohistoria p {
+    font-size: 15px;
+    padding: 15px;
+    margin: 15px;
+    line-height: 36px; }
+  .heroautoridades h2 {
+    font-size: 30px; }
+  .heroautoridades div.autoridades div.lista ol li {
+    font-size: 16px; }
+  .heroautoridades div.autoridades div.lista p {
+    font-size: 16px; }
+  .actividades h2 {
+    margin-top: 15px;
+    padding-top: 25px; }
+  .galeriaCursos {
+    height: 175vh;
+    width: 100%; }
+    .galeriaCursos div.alineargaleria {
+      margin: 20px; }
+      .galeriaCursos div.alineargaleria div.grid-galeria {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); }
+        .galeriaCursos div.alineargaleria div.grid-galeria .img-2 {
+          grid-column: span 2; }
+        .galeriaCursos div.alineargaleria div.grid-galeria .img-5 {
+          grid-row: span 1; }
+        .galeriaCursos div.alineargaleria div.grid-galeria .img-7 {
+          grid-column: span 2; }
+        .galeriaCursos div.alineargaleria div.grid-galeria .img-9 {
+          grid-column: span 1; }
+  .footer {
+    height: 40vh; }
+    .footer div h2 {
+      font-size: 20px; }
+    .footer div.logosfooter .mapa iframe {
+      margin-top: 20px;
+      width: 120px;
+      height: 120px; }
+    .footer div.logosfooter .mapa p {
+      padding-top: 2px;
+      font-size: 12px;
+      margin: 5px; }
+    .footer div.logosfooter .divfacs img {
+      display: none; } }
+
+@media screen and (max-width: 522px) {
+  .contacto div {
+    height: 70vh; }
+    .contacto div h2 {
+      font-size: 30px; }
+    .contacto div p {
+      font-size: 15px;
+      margin: 20px;
+      padding: 10px; }
+    .contacto div a {
+      font-size: 15px; }
+  .hero {
+    height: 100vh; }
+    .hero div.acerca {
+      height: 20vh; }
+      .hero div.acerca div.heroacercadel p {
+        font-size: 12px; }
+      .hero div.acerca div.heroacercadel a {
+        font-size: 12px; }
+  .hero {
+    height: 30vh; }
+    .hero div div img {
+      height: 30vh; }
+  .formarparte {
+    height: 120vh; }
+  .educacion {
+    height: 90vh; }
+    .educacion h2 {
+      font-size: 20px; }
+    .educacion .cursos div.grid-cursos {
+      gap: 100px; }
+      .educacion .cursos div.grid-cursos div img {
+        width: 120px;
+        height: 120px; }
+      .educacion .cursos div.grid-cursos div a {
+        width: 120px; }
+  .herogob h2 {
+    font-size: 20px; }
+  .herogob div div h3 {
+    font-size: 15px; }
+  .herogob div div p {
+    font-size: 12px; }
+  .heropres h2 {
+    padding-top: 20px;
+    margin-top: 0;
+    font-size: 20px; }
+  .heropres div div h3 {
+    font-size: 15px; }
+  .heropres div div p {
+    font-size: 12px; }
+  .herohistoria h2 {
+    font-size: 30px; }
+  .herohistoria div.textohistoria p {
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+    line-height: 30px; }
+  .heroautoridades div h2 {
+    font-size: 20px; }
+  .heroautoridades div div h3 {
+    font-size: 12px; }
+  .heroautoridades div div p {
+    font-size: 12px; }
+  .titulo h1 {
+    font-size: 25px; }
+  .titulo img {
+    width: 65px;
+    height: 75px; }
+  .titulo div img {
+    width: 30px;
+    height: 30px; }
+  .titulo div a {
+    display: none; }
+  .actividades {
+    height: 100vh; }
+    .actividades h2 {
+      font-size: 20px;
+      margin: 20px; }
+    .actividades p {
+      font-size: 15px; }
+    .actividades div.cursos {
+      margin-top: 10px;
+      padding-top: 10px; }
+      .actividades div.cursos div.grid-cursos {
+        padding: 5px; }
+  .galeriaCursos h2 {
+    font-size: 30px; }
+  .mensajes {
+    height: 70vh; }
+    .mensajes h2 {
+      font-size: 20px; }
+    .mensajes .textarea {
+      width: 150px;
+      height: 170px; }
+      .mensajes .textarea div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row; }
+        .mensajes .textarea div label {
+          font-size: 15px; }
+        .mensajes .textarea div input {
+          font-family: 'Raleway', sans-serif;
+          font-size: 12px;
+          background-color: #19193d;
+          color: white;
+          padding-left: 10px;
+          padding-right: 10px;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          margin: 10px; }
+  .footer {
+    height: 25vh; }
+    .footer div h2 {
+      font-size: 20px; }
+    .footer div.logosfooter {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px; }
+      .footer div.logosfooter div.redes a img {
+        width: 40px;
+        height: 40px; }
+      .footer div.logosfooter div.mapa iframe {
+        display: none; }
+      .footer div.logosfooter div.mapa p {
+        display: none; } }
+
+@media screen and (max-width: 465px) {
+  .hero {
+    height: 100vh; }
+    .hero div.acerca {
+      height: 30vh; }
+      .hero div.acerca div.heroacercadel {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+  .hero {
+    height: 20vh; }
+    .hero div div div img {
+      height: 20vh; }
+  .herohistoria h2 {
+    font-size: 20px; }
+  .herohistoria div.textohistoria p {
+    font-size: 12px;
+    padding: 10px;
+    margin: 10px;
+    line-height: 30px; }
+  .titulo h1 {
+    font-size: 15px; }
+  .titulo img {
+    width: 55px;
+    height: 65px; }
+  .titulo .actividades {
+    height: 100vh; }
+    .titulo .actividades h2 {
+      font-size: 20px;
+      margin-top: 15px;
+      padding-top: 25px; }
+    .titulo .actividades p {
+      font-size: 15px;
+      padding: 5px; }
+  .titulo .galeriaCursos {
+    height: 150vh;
+    width: 100%; }
+    .titulo .galeriaCursos h2 {
+      font-size: 25px; }
+    .titulo .galeriaCursos div.alineargaleria {
+      margin: 5px; }
+      .titulo .galeriaCursos div.alineargaleria div.grid-galeria {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); }
+        .titulo .galeriaCursos div.alineargaleria div.grid-galeria .img-1 {
+          grid-row: span 1; }
+        .titulo .galeriaCursos div.alineargaleria div.grid-galeria .img-2 {
+          grid-row: span 1; }
+        .titulo .galeriaCursos div.alineargaleria div.grid-galeria .img-7 {
+          grid-row: span 1; }
+        .titulo .galeriaCursos div.alineargaleria div.grid-galeria .img-8 {
+          grid-column: span 1;
+          grid-row: span 1; }
+        .titulo .galeriaCursos div.alineargaleria div.grid-galeria .img-9 {
+          grid-column: span 1;
+          grid-row: span 1; }
+  .titulo .herohistoria h2 {
+    font-size: 20px;
+    padding: 15px;
+    margin: 15px; }
+  .titulo .herohistoria div.textohistoria p {
+    font-size: 10px;
+    padding: 5px;
+    margin: 5px;
+    line-height: 20px; } }
+
+@media screen and (max-width: 465px) and (max-width: 390px) {
+  .formarparte {
+    height: 120vh; }
+    .formarparte div h2 {
+      font-size: 30px; }
+    .formarparte div div p {
+      font-size: 15px; }
+    .formarparte div div ol li {
+      font-size: 15px; }
+    .formarparte div div a {
+      font-size: 20px; }
+  .educacion {
+    height: 100vh; }
+    .educacion h2 {
+      font-size: 20px; }
+    .educacion .cursos div.grid-cursos {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 90px;
+      margin-top: 0;
+      padding-top: 70px; }
+      .educacion .cursos div.grid-cursos div a {
+        font-size: 10px; }
+  .hero div.acerca {
+    height: 30vh; }
+    .hero div.acerca div.heroacercadel {
+      height: 30vh; }
+  .hero {
+    height: 20vh; }
+    .hero div div div img {
+      height: 20vh; }
+  .actividades h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    padding-top: 10px; }
+  .actividades p {
+    font-size: 13px;
+    padding: 2px; }
+  .galeriaCursos h2 {
+    font-size: 20px; }
+  .mensajes h2 {
+    font-size: 20px; }
+  .mensajes div input {
+    width: 150px; }
+  .mensajes div.textarea textarea {
+    width: 150px;
+    height: 170px; }
+  .mensajes div.textarea div input {
+    width: 55px; } }
+
+@media screen and (max-width: 465px) and (max-width: 364px) {
+  .contacto div {
+    height: 70vh; }
+    .contacto div h2 {
+      font-size: 20px; }
+    .contacto div p {
+      font-size: 12px;
+      margin: 20px;
+      padding: 10px; }
+    .contacto div a {
+      font-size: 12px; }
+  .formarparte {
+    height: 130vh; }
+    .formarparte div h2 {
+      font-size: 20px; }
+    .formarparte div div {
+      width: 95%; }
+      .formarparte div div p {
+        text-align: center;
+        font-size: 12px; }
+      .formarparte div div ol li {
+        font-size: 12px; }
+      .formarparte div div a {
+        font-size: 15px; }
+  .actividades div.cursos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin-top: 10px;
+    padding-top: 10px; }
+    .actividades div.cursos div.grid-cursos {
+      padding: 5px; }
+  .galeriaCursos {
+    height: 260vh; }
+    .galeriaCursos div.alineargaleria div.grid-galeria {
+      display: grid;
+      grid-template-columns: 1fr;
+      object-fit: cover; }
+      .galeriaCursos div.alineargaleria div.grid-galeria .img-2 {
+        grid-column: span 2; }
+      .galeriaCursos div.alineargaleria div.grid-galeria .img-3 {
+        grid-column: span 2; }
+      .galeriaCursos div.alineargaleria div.grid-galeria .img-4 {
+        grid-column: span 2; }
+      .galeriaCursos div.alineargaleria div.grid-galeria .img-5 {
+        grid-row: span 1;
+        grid-column: span 2; }
+      .galeriaCursos div.alineargaleria div.grid-galeria .img-7 {
+        grid-column: span 2; }
+      .galeriaCursos div.alineargaleria div.grid-galeria .img-9 {
+        grid-column: span 2; } }

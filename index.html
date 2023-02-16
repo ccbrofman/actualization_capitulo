@@ -5,13 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="cirugia, asociacion, college, american, surgeons, capitulo, argentino, membresia, fellow, fellos, facs,">    
+    <meta name="description" content="Capitulo Argentino del American College of Surgeons: Si sos cirujano y fellow en nuestro país, sé parte de nuestro Capítulo. Accedé a todas actividades y beneficios que brindamos y sé parte de esta experiencia con los más altos estándares de calidad académica.">
+    <meta property="og:type" content="website">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!--css-->
+        <!--css-->
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/estilos.css">
 
-    <title>CAPARG</title>
+    <title>Capítulo Argentino del American College of Surgeons</title>
 </head>
 
 <body>
@@ -19,8 +23,8 @@
         <header class="header">
             <div class="titulo">
                 <img src="./img/logo capitulo.png" alt="logocapitulo">
-                <h1>Capitulo Argentino del American College of Surgeons</h1>
-                <div>
+                <h1>Capítulo Argentino del American College of Surgeons</h1>
+                <div class="cirujano">
                     <a href="./pages/miembros.html"><img class="miembros"
                             src="./img/cirujano.png" alt="facs"></a>
                     <a href="./pages/miembros.html">Login</a>
@@ -42,8 +46,19 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="./pages/historia.html">Historia</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./pages/autoridades.html">Autoridades</a>
+
+
+                                <li class="nav-item desplegable dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Autoridades</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="./pages/gobernadores.html">Gobernadores</a></li>
+                                        <li><a class="dropdown-item" href="./pages/presidentes.html">Presidentes</a></li>
+                                        <li><a class="dropdown-item" href="./pages/acercadelcapítulo.html">Comisión Directiva</a></li>
+                                        <li><a class="dropdown-item" href="./pages/fellows.html">Fellows Honorarios</a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="./pages/programasdeeducacióncontínua.html">Programas</a>
@@ -90,21 +105,21 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="../img/pexels-anna-shvets-4483327.jpg" class="d-block w-100" alt="...">
+                        <img src="./img/pexels-anna-shvets-4483327.jpg" class="d-block w-100" alt="carrusel1">
                         <div class="carousel-caption d-none d-sm-block">
                             <h5>Bienvenidos</h5>
                             <p>Te invitamos a formar parte. No te lo pierdas</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="./img/pexels-mikhail-nilov-8942728.jpg" class="d-block w-100" alt="...">
+                        <img src="./img/pexels-mikhail-nilov-8942728.jpg" class="d-block w-100" alt="carrusel2">
                         <div class="carousel-caption d-none d-sm-block">
                             <a href="./pages/comoformarparte.html">Requisitos</a>
                             <p>Presioná el botón para más información</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="./img/pexels-pavel-danilyuk-6754173.jpg" class="d-block w-100" alt="...">
+                        <img src="./img/pexels-pavel-danilyuk-6754173.jpg" class="d-block w-100" alt="carrusel3">
                         <div class="carousel-caption d-none d-sm-block">
                             <a href="./pages/programasdeeducacióncontínua.html">Programas</a>
                         </div>
@@ -217,19 +232,20 @@
         <div class="logosfooter">
             <div class="redes">
 
-                <a href="https://www.instagram.com/"><img class="instagram" src="./img/instagram.png"
+                <a href="https://instagram.com/facs.org.ar?igshid=YmMyMTA2M2Y="><img class="instagram" src="./img/instagram.png"
                         alt="instagram"></a>
                 <a href="https://m.facebook.com/login/?locale=es_ES&refsrc=deprecated"><img class="facebook"
                         src="./img/facebook.png" alt="facebook"></a>
                 <a href="https://twitter.com/?lang=es"><img class="twitter" src="./img/gorjeo.png" alt="twitter"></a>
             </div>
             <div class="divfacs">
-                <a href="https://www.facs.org/"><img class="facs" src="./img/ACS FACS.png" alt="facs"></a>
+                <a href="https://www.facs.org/" target="_blank"><img class="facs" src="./img/ACS FACS.png" alt="facs"></a>
                 <img src="./img/logo capitulo.png" alt="logocapitulo">
 
             </div>
+            
             <div class="mapa">
-                <iframe
+                    <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105079.05216279534!2d-58.47885842946098!3d-34.61123158708203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbd8caab9e5f%3A0x90da013d9a9f1640!2sAsociaci%C3%B3n%20Argentina%20de%20Cirug%C3%ADa!5e0!3m2!1ses-419!2sar!4v1673274109808!5m2!1ses-419!2sar"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>

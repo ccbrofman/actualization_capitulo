@@ -1,0 +1,42 @@
+.hero{
+    .heroacercadel{
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(../img/pexels-anna-shvets-4483327.jpg);
+        height: 50vh;
+        width: 100%;
+
+        @extend %flex;
+        flex-direction: column;
+        p{
+            font-family: 'Raleway', sans-serif;
+            font-size: nth($font-size, 3 );
+            color: $color-secundario;
+        }
+        a{
+            color: $color-principal;
+            background-color:$color-fondo;
+            text-align: center;
+            font-family: 'Pacifico', cursive;
+            font-size: nth($font-size, 4 );
+            margin: 20px;
+            padding: 15px;
+            text-decoration: none;
+        }
+
+
+    }
+}
+
+        
+
+
+
+
+
+

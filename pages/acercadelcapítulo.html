@@ -5,9 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="keywords" content="cirugia, asociacion, college, american, surgeons, capitulo, argentino, membresia, fellow, fellos, facs,estatuto, reglamento, titulares, adherentes, filiacion">    
+    <meta name="description" content="Capitulo Argentino del American College of Surgeons: Conoce nuestro estatuto. Si sos cirujano y fellow en nuestro país, sé parte de nuestro Capítulo. Accedé a todas actividades y beneficios que brindamos y sé parte de esta experiencia con los más altos estándares de calidad académica.">
+    <meta property="og:type" content="website">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/estilos.css">
     <title>Acerca del Capítulo</title>
 </head>
 
@@ -17,7 +22,7 @@
             <div class="titulo">
                 <img src="../img/logo capitulo.png" alt="logocapitulo">
                 <h1>Capitulo Argentino del American College of Surgeons</h1>
-                <div>
+                <div class="cirujano">
                     <a href="./miembros.html"><img class="miembros"
                             src="../img/cirujano.png" alt="facs"></a>
                     <a href="./miembros.html">Login</a>
@@ -37,13 +42,24 @@
                                     <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="../pages/historia.html">Historia</a>
+                                    <a class="nav-link" href="./historia.html">Historia</a>
+                                </li>
+
+
+                                <li class="nav-item desplegable dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Autoridades</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="./gobernadores.html">Gobernadores</a></li>
+                                        <li><a class="dropdown-item" href="./presidentes.html">Presidentes</a></li>
+                                        <li><a class="dropdown-item" href="./acercadelcapítulo.html">Comisión Directiva</a></li>
+                                        <li><a class="dropdown-item" href="./fellows.html">Fellows Honorarios</a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="../pages/autoridades.html">Autoridades</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../pages/programasdeeducacióncontínua.html">Programas</a>
+                                    <a class="nav-link" href="./programasdeeducacióncontínua.html">Programas</a>
                                 </li>
                                 <li class="nav-item desplegable dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
@@ -51,12 +67,15 @@
                                         Miembros
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a class="dropdown-item" class="btn btn-primary" role="button" href="../pages/comoformarparte.html">Asociarse</a></li>
-                                        <li><a class="dropdown-item" href="../pages/acercadelcapítulo.html">Acerca del Capítulo</a></li>
-                                        <li><a class="dropdown-item" href="../pages/miembros.html">Sector Miembros</a></li>
+                                        <li><a class="dropdown-item" class="btn btn-primary" role="button"
+                                                href="./comoformarparte.html">Asociarse</a></li>
+                                        <li><a class="dropdown-item" href="./acercadelcapítulo.html">Acerca del
+                                                Capítulo</a></li>
+                                        <li><a class="dropdown-item" href="./miembros.html">Sector Miembros</a>
+                                        </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">Contacto</a></li>
+                                <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
                             </ul>
                         </div>
                     </div>
@@ -70,15 +89,22 @@
         </header>
     </div>
     <main>
-
         <section class="hero">
-            <div class="heroacercadel">
-                <p>Para conocer nuestro Estatuto, hacé click</p>
-                <a href="../img/hoja_membrete_2008_sin_memb02.pdf" download="estatuto">Ver Estatuto</a> 
+            <div class="acerca">
+                <div class="heroacercadel">
+                    <p>Para conocer nuestro Estatuto, hacé click</p>
+                    <a href="../img/hoja_membrete_2008_sin_memb02.pdf" download="estatuto" target="_blank">Ver Estatuto</a> 
+                </div>
+
             </div>
+
         </section>
     </main>
+
+
 </body>
+
+
 <footer class="footer" id="Pie">
     <div>
         <h2>Contacto</h2>
@@ -91,7 +117,7 @@
             <a href="https://twitter.com/?lang=es"><img class="twitter" src="../img/gorjeo.png" alt="twitter"></a> 
         </div>  
         <div class="divfacs">
-            <a href="https://www.facs.org/"><img class="facs" src="../img/ACS FACS.png" alt="facs"></a> 
+            <a href="https://www.facs.org/" target="_blank"><img class="facs" src="../img/ACS FACS.png" alt="facs"></a> 
             <img src="../img/logo capitulo.png" alt="logocapitulo">
 
         </div>

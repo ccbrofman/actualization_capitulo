@@ -1,0 +1,1184 @@
+@media screen and (max-width:1250px){
+    
+    
+    .titulo{
+        h1 {
+            font-size: nth($font-size, 2);}
+        img{
+            width: 130px;
+            height: 150px;}
+        }
+        .cirujano{
+            a{
+                font-size: 10px;
+            }
+        }
+
+        .educacion{
+
+            h2{
+                color:$color-secundario;
+                text-align: center;
+                font-family: 'Pacifico', cursive;
+                font-size:nth($font-size,1 );
+                padding-top: 25px;
+            }
+        
+            .cursos{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-direction: row ;
+            
+                div.grid-cursos{
+
+                    gap: 20px;
+                }
+            }
+            
+        }
+}
+
+
+
+@media screen and (max-width:1000px){
+
+
+
+    .educacion{
+        height: 100vh;
+        .cursos{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row ;
+        
+            div.grid-cursos{
+                display: grid;
+                grid-template-columns:repeat(2,1fr); 
+                gap: 200px
+
+            }
+        }
+        
+    }
+    
+.titulo{
+    h1 {
+        font-size: nth($font-size, 2);}
+    img{
+        width: 150px;
+        height: 170px;}
+    }
+
+
+.actividades{
+    .cursos{
+        div.grid-cursos{
+            display: grid;
+            grid-template-columns:repeat(2,1fr); 
+            grid-template-rows: 300px;
+            margin-top: 10px;
+            padding-top: 30px;
+                div.grid-itemcursos{
+                    img{
+                        width: 150px;
+                        height: 150px;
+                        }
+                    a{
+                        width: 150px;
+                        height: 40px;
+                        font-size: 11px;
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+.formarparte{
+    div{
+        h2{
+
+        font-size:nth($font-size, 2);
+        margin-bottom: 10px;
+        padding: 5px;
+        }
+
+        }
+
+        div.textoformarparte{
+            p{
+            font-size: nth($font-size, 4 );
+
+            }
+        ol{
+            li{
+                font-size: nth($font-size, 4 );}
+            }
+        a{
+            font-size: nth($font-size, 4 );
+            margin: 10px;
+            padding: 5px;}
+        }
+    }
+}
+
+    @media screen and (max-width: 868px) {
+    
+        .herohistoria {
+            div.textohistoria{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                div.allende{
+                    img{
+                        margin: 20px;
+                    }
+                }
+            }
+        }
+    
+
+
+
+.titulo{
+
+    h1{
+        font-size: 25px;
+    }
+    img{
+        width: 100px;
+        height: 110px;
+    }
+    .cirujano{
+        a{
+            img{
+                width: 45px;
+                height: 45px;
+            }
+        }
+    }
+}    
+
+
+.actividades{
+    height: 150vh;
+    h2{
+        font-size: nth($font-size ,2 );
+        margin-top: 15px;
+        padding-top: 25px;
+    }
+}
+} 
+@media screen and (max-width: 739px) {
+
+
+    .contacto{
+
+        div{
+            width: 100%;
+            height: 50vh;
+            
+            h2{
+
+                font-size:nth($font-size, 2 );
+
+    
+            }
+            p{
+                font-size: nth($font-size, 4 );
+                margin: 40px;
+                padding: 20px;
+
+            }
+            a{
+                font-size:nth($font-size, 4 );
+            }
+        }
+    }
+
+.hero{
+
+    div.acerca{
+        height: 50vh;
+        div.heroacercadel{
+            height: 30vh;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            p{
+                font-size: nth($font-size, 4);
+            }
+                }
+    }
+    
+
+}
+
+
+.hero{
+    height: 30vh; 
+    div{
+        div{
+            div{
+                img{
+                    height: 30vh;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+    
+    
+    
+    
+    .educacion{
+        h2{
+            font-size:nth($font-size,2 );
+        }
+        height: 90vh;
+        .cursos{
+
+        
+            div.grid-cursos{
+                gap: 150px;
+                div{
+                    img{
+                        width: 150px;
+                        height: 150px;
+                    }
+                    a{
+                        text-align: center;
+                        height: 55px;
+                        width: 150px;
+                        padding-bottom: 15px;
+
+                        
+                    }
+                }
+            }
+        }
+        
+    }
+
+
+.menu{
+
+    nav{
+        div{
+            div{
+                ul{
+                    li{
+                        a{
+                            font-size: nth($font-size, 5 );
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.heroautoridades{
+
+    h2{
+
+        font-size:nth($font-size, 2);
+    }
+
+        div{
+            div{
+                
+                h3{
+
+                    font-size: nth($font-size, 3 );}
+                p{
+
+                    font-size: nth($font-size, 4 );
+                    }
+                ol{
+
+                    li{
+
+                    font-size: nth($font-size, 4 );
+}
+                    }
+                    ul{
+
+                        li{
+
+                            font-size: nth($font-size, 4 );
+
+                        }
+                    }
+            }
+        }
+    
+        }
+        
+
+
+        .herogob{
+
+            h2{
+                padding-top: 20px;
+                margin-top: 0;
+                font-size:nth($font-size, 2);
+            }
+        
+                div{
+                    div{
+                        
+                        h3{
+        
+                            font-size: nth($font-size, 3 );}
+                        p{
+        
+                            font-size: nth($font-size, 4 );
+                            }
+                    
+                    }
+                }
+            
+                }
+                
+
+
+                .heropres{
+
+                    h2{
+                        padding-top: 20px;
+                        margin-top: 0;
+                        font-size:nth($font-size, 2);
+                    }
+                
+                        div{
+                            div{
+                                
+                                h3{
+                
+                                    font-size: nth($font-size, 3 );}
+                                p{
+                
+                                    font-size: nth($font-size, 4 );
+                                    }
+                            
+                            }
+                        }
+                    
+                        }
+                        
+
+
+
+        
+
+.herohistoria{
+
+    h2{
+        font-size: nth($font-size, 2);
+    }
+    div.textohistoria{
+        p{
+            font-size: nth($font-size,4 );
+            padding: 15px;
+            margin:15px;
+            line-height: 36px;
+        }
+
+    }
+}
+
+
+.heroautoridades{
+    h2{
+        font-size: 30px;
+    }
+    div.autoridades{
+
+        div.lista{
+            ol{
+                li{
+                    font-size: 16px; 
+                }
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+
+
+
+.actividades{
+
+    h2{
+        margin-top: 15px;
+        padding-top: 25px;
+    }
+}
+
+    
+.galeriaCursos{
+    height: 175vh;
+    width: 100%;
+    div.alineargaleria{
+        margin: 20px;
+        div.grid-galeria{
+            display: grid;
+            grid-template-columns:repeat(2,1fr); ;
+
+            .img-2{
+                grid-column: span 2 ;
+            }
+            .img-5{
+                grid-row: span 1 ;
+            }
+            .img-7{
+                grid-column: span 2 ;
+            }
+            .img-9{
+                grid-column: span 1 ;
+            }
+        }
+    }
+}
+
+
+    .footer {
+        height: 40vh;  
+        div{
+            h2{
+                font-size: nth($font-size, 3);
+            }
+        } 
+    
+        div.logosfooter{
+            .mapa{
+                iframe{
+                    margin-top: 20px;
+                    width: 120px;
+                    height: 120px;
+                }
+                p{
+                    padding-top: 2px;
+                    font-size: nth($font-size , 5 );
+                    margin: 5px;
+                }
+            }
+            .divfacs{
+                img{
+                    display: none;
+                }
+            }
+
+        }       
+    }
+}
+
+
+
+@media screen and (max-width: 522px){
+
+
+    .contacto{
+
+        div{
+            height: 70vh;
+            
+            h2{
+
+                font-size:nth($font-size, 2 );
+
+    
+            }
+            p{
+
+                font-size: nth($font-size, 4 );
+                margin: 20px;
+                padding: 10px;
+
+            }
+            a{
+
+                font-size:nth($font-size, 4 );
+
+            }
+        }
+    }
+
+
+    .hero{
+        height:100vh;
+div.acerca{
+    height: 20vh;
+    div.heroacercadel{
+        p{
+            font-size: nth($font-size, 5);
+        }
+        a{
+            font-size: nth($font-size, 5);
+        }
+            }
+}
+
+    
+    
+    }
+
+
+    .hero{
+        height: 30vh;   
+        div{
+            div{
+                img{
+                    height: 30vh;
+                }
+            }
+        }
+    }
+    
+
+
+
+    .formarparte{
+        height: 120vh;
+
+    }
+
+    .educacion{
+        h2{
+            font-size:nth($font-size,3 );
+        }
+        height: 90vh;
+        .cursos{
+
+        
+            div.grid-cursos{
+                gap: 100px;
+                div{
+                    img{
+                        width: 120px;
+                        height: 120px;
+                    }
+                    a{
+                        width: 120px;  
+                    }
+                }
+            }
+        }
+        
+    }
+    .herogob{
+
+        h2{
+    
+            font-size:nth($font-size, 3 );
+        }
+    
+            div{
+                div{
+                    
+                    h3{
+    
+                        font-size: nth($font-size, 4 );}
+                    p{
+    
+                        font-size: nth($font-size, 5 );
+                        }
+                    
+                        
+                }
+            }
+        
+            }
+            
+            .heropres{
+
+                h2{
+                    padding-top: 20px;
+                    margin-top: 0;
+                    font-size:nth($font-size, 3);
+                }
+            
+                    div{
+                        div{
+                            
+                            h3{
+            
+                                font-size: nth($font-size, 4 );}
+                            p{
+            
+                                font-size: nth($font-size, 5 );
+                                }
+                        
+                        }
+                    }
+                
+                    }
+                    
+
+
+
+
+    .herohistoria{
+
+        h2{
+            font-size: 30px;
+        }
+        div.textohistoria{
+            p{
+                font-size: nth($font-size, 4);
+                padding: 10px;
+                margin:10px;
+                line-height: 30px;
+            }
+    
+        }
+    }
+
+    .heroautoridades{
+        div{
+            h2{
+                font-size: 20px;
+            }
+            div{
+                h3{
+                    font-size: 12px;
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+
+
+    .titulo{
+        h1 {
+            font-size: 25px;}
+        img{
+            width: 65px;
+            height: 75px;
+        }
+        div{
+            img{
+                width: 30px;
+                height: 30px;
+            }
+            a{
+                display: none;
+            }
+        }
+    }
+
+
+
+    .actividades{
+        height: 100vh;
+
+        h2{
+            font-size:nth($font-size, 3); ;
+            margin: 20px;
+        }
+        p{
+            font-size: nth($font-size, 4);
+        }
+
+        div.cursos{
+            div.grid-cursos{
+                padding: 5px;
+            }
+            margin-top: 10px;
+            padding-top: 10px;
+
+                }
+
+    }
+
+.galeriaCursos{
+
+h2{
+    font-size: nth($font-size, 2 );
+}
+
+}
+
+
+.mensajes{
+    h2{
+        font-size: nth($font-size ,3);
+    }
+    height: 70vh;
+    .textarea{
+        width: 150px;
+        height: 170px;
+
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+
+            label{
+                font-size: nth($font-size, 4);
+            }
+            input{
+                font-family:  'Raleway', sans-serif;
+                font-size: nth($font-size,5);
+                background-color: $color-fondo;
+                color: $color-principal;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                margin: 10px;
+            }
+        }
+    }
+}
+
+
+
+
+.footer {
+    height: 25vh;  
+    div{
+        h2{
+            font-size: nth($font-size , 3 );
+        }
+    }
+    
+    div.logosfooter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        div.redes{
+            a{
+
+                img{
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+        div.mapa{
+            iframe{
+display: none;
+            }
+            p{
+display: none;
+            }
+        }
+
+    }       
+}
+}
+
+
+    
+@media screen and (max-width: 465px){
+
+    .hero{
+        height:100vh;
+div.acerca{
+    height: 30vh;
+    div.heroacercadel{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+    
+    
+    }
+
+    .hero{
+        height: 20vh;  
+        div{
+            div{
+                div{
+                    img{
+                        height: 20vh;
+                    }
+                }
+            }
+        }
+    }
+        
+    
+    .herohistoria{
+
+        h2{
+            font-size:nth($font-size, 3);
+        }
+        div.textohistoria{
+            p{
+                font-size: nth($font-size, 5);
+                padding: 10px;
+                margin:10px;
+                line-height: 30px;
+            }
+    
+        }
+    }
+
+
+
+    .titulo{
+        h1 {
+            font-size: nth($font-size,4);
+        }
+        img{
+            width: 55px;
+            height: 65px;
+        }
+    
+    
+
+
+
+    .actividades{
+        height: 100vh;
+        h2{
+            font-size: nth($font-size, 3);
+            margin-top: 15px;
+            padding-top: 25px;
+        }
+        p{
+            font-size: 15px;
+            padding: 5px;
+        }
+    }
+
+
+.galeriaCursos{
+    height: 150vh;
+    width: 100%;
+    h2{
+    font-size: 25px;
+    }
+    div.alineargaleria{
+        margin: 5px;
+        div.grid-galeria{
+            display: grid;
+            grid-template-columns:repeat(2,1fr);
+
+                .img-1{
+                    grid-row: span 1;
+                
+                }
+                .img-2{
+                    grid-row: span 1;
+                
+                }
+                .img-7{
+                    grid-row: span 1;
+                    
+                }
+                .img-8{
+                    grid-column: span 1;
+                    grid-row: span 1;
+                }
+                .img-9{
+                    grid-column: span 1; 
+                    grid-row: span 1;
+                }
+            
+        }
+    }
+
+}
+
+
+
+
+
+.herohistoria{
+
+    h2{
+        font-size: 20px;
+        padding: 15px;
+        margin: 15px;
+    }
+    div.textohistoria{
+        p{
+            font-size: 10px;
+            padding: 5px;
+            margin:5px;
+            line-height: 20px;
+        }
+    }
+}
+
+
+}
+
+
+    @media screen and (max-width: 390px){
+
+        .formarparte{
+            height: 120vh;
+        
+            div{
+                h2{
+
+                    font-size:nth($font-size, 2 );
+                }
+                div{
+                    p{
+                        font-size: nth($font-size, 4 );
+
+                    }
+                    ol{
+                        li{
+                            font-size: nth($font-size, 4 );
+
+                        }
+                    }
+                    a{
+
+                        font-size: nth($font-size, 3 );
+
+                    }
+                }
+        
+        
+            }
+            
+            }
+        
+
+        .educacion{
+            h2{
+                font-size:nth($font-size,3 );
+            }
+            height: 100vh;
+            .cursos{
+    
+            
+                div.grid-cursos{
+                    display: grid;
+                    grid-template-columns: 1fr; 
+                    gap: 90px;
+                    margin-top: 0;
+                    padding-top: 70px;
+
+                    div{
+
+                        a{
+                            font-size: nth($font-size, 6);
+                        }
+                    }
+
+
+                }
+            }
+            
+        }
+
+
+
+.hero{
+
+div.acerca{
+    height: 30vh;
+    div.heroacercadel{
+        height: 30vh;
+
+
+
+    }
+}
+
+}
+        .hero{
+            height:20vh;
+            div{
+                div{
+                    div{
+                        img{
+                            height: 20vh;
+                        }
+                    }
+                }
+            }
+        }
+
+        .actividades{
+            h2{
+                font-size: 20px;
+                margin-top: 10px;
+                padding-top: 10px;
+            }
+            p{
+                font-size: 13px;
+                padding: 2px;
+            }
+        }
+
+        .galeriaCursos{
+            h2{
+                font-size: 20px;
+            
+            }
+        } 
+
+
+        .mensajes{
+            h2{
+                font-size: 20px;
+            }
+            div{
+                input{
+                    width: 150px;
+                }
+            }
+            div.textarea{
+                textarea{
+                    width: 150px;
+                    height: 170px;
+                }
+                div{
+                    input{
+                        width: 55px;
+                    }
+                }
+            }
+            
+        }
+
+    
+}
+    @media screen and (max-width: 364px) {
+
+
+
+        .contacto{
+
+            div{
+                height: 70vh;
+                
+                h2{
+    
+                    font-size:nth($font-size, 3 );
+    
+        
+                }
+                p{
+    
+                    font-size: nth($font-size, 5 );
+                    margin: 20px;
+                    padding: 10px;
+    
+                }
+                a{
+    
+                    font-size:nth($font-size, 5);
+    
+                }
+            }
+        }
+
+        .formarparte{
+            height: 130vh;
+        
+            div{
+                h2{
+
+                    font-size:nth($font-size, 3 );
+                }
+                div{
+                    width: 95%;
+                    p{
+                        text-align: center;
+                        font-size: nth($font-size, 5 );
+
+                    }
+                    ol{
+                        li{
+                            font-size: nth($font-size, 5);
+
+                        }
+                    }
+                    a{
+
+                        font-size: nth($font-size, 4 );
+
+                    }
+                }
+        
+        
+            }
+            
+            }
+
+
+        .actividades{
+
+            div.cursos{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 85%;
+
+
+                div.grid-cursos{
+                    padding: 5px;
+                }
+                margin-top: 10px;
+                padding-top: 10px;
+    
+                    }
+    
+        }
+    
+
+
+
+        .galeriaCursos{
+            height: 260vh;
+        
+            div.alineargaleria{
+        
+                div.grid-galeria{
+                display: grid;
+                grid-template-columns: 1fr;
+                object-fit: cover;
+    
+                        .img-2{
+                        grid-column: span 2;}
+                        .img-3{
+                        grid-column: span 2;}
+                        .img-4{
+                        grid-column: span 2;}
+                        .img-5{
+                        grid-row: span 1;
+                        grid-column: span 2;}
+                        .img-7{
+                        grid-column: span 2;}
+                        .img-9{
+                        grid-column: span 2;}
+                        
+                    }
+                }
+            }
+        }
+    }
+
+
+

@@ -1,0 +1,39 @@
+.herohistoria{
+    height: 100vh;
+    height: 100%;
+    top: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/pexels-anna-shvets-4483327.jpg);
+    h2{
+        color:$color-secundario;
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        font-size: nth($font-size,1);
+        margin: 20px;
+        padding-top: 45px;
+    }
+    div.textohistoria{
+        @include flex (flex,center,flex-start);
+
+        flex-direction: row;
+        p{
+            font-family: 'Raleway', sans-serif;
+            font-size: nth($font-size, 3);
+            color:$color-secundario;
+            margin: 30px;
+            padding: 30px;
+            line-height: 45px;
+            text-align: justify;
+        }
+        img{
+            width: 200px;
+            height: 250px;
+            margin-top: 70px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+    }
+}
