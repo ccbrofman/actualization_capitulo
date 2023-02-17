@@ -41,6 +41,26 @@
 
 
 
+.formarparte{
+    height: 150vh;
+    div{
+        
+
+        div.textoformarparte{
+
+            div.serfacs{
+                width: 95%;
+
+                a{
+                    box-shadow: black;
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+}
+
+
 @media screen and (max-width:1000px){
 
 
@@ -117,10 +137,16 @@
             li{
                 font-size: nth($font-size, 4 );}
             }
-        a{
-            font-size: nth($font-size, 4 );
-            margin: 10px;
+        a.formulario{
+            font-size: nth($font-size, 3 );
+            margin-top: 20px;
             padding: 5px;}
+            div.serfacs{
+                width: 90%;
+                p{
+                    font-size: nth($font-size, 4 );
+                }
+            }
         }
     }
 }
@@ -200,12 +226,12 @@
         }
     }
 
-.hero{
 
-    div.acerca{
+
+.acerca{
         height: 50vh;
         div.heroacercadel{
-            height: 30vh;
+            height: 50vh;
             
             display: flex;
             justify-content: center;
@@ -218,7 +244,7 @@
     }
     
 
-}
+
 
 
 .hero{
@@ -517,13 +543,10 @@
             }
         }
     }
-
-
-    .hero{
-        height:100vh;
-div.acerca{
-    height: 20vh;
+.acerca{
+    height: 70vh;
     div.heroacercadel{
+        height: 70vh;
         p{
             font-size: nth($font-size, 5);
         }
@@ -535,7 +558,7 @@ div.acerca{
 
     
     
-    }
+    
 
 
     .hero{
@@ -552,8 +575,12 @@ div.acerca{
 
 
 
+
+
+
+
     .formarparte{
-        height: 120vh;
+        height: 150vh;
 
     }
 
@@ -792,8 +819,7 @@ display: none;
     
 @media screen and (max-width: 465px){
 
-    .hero{
-        height:100vh;
+
 div.acerca{
     height: 30vh;
     div.heroacercadel{
@@ -804,8 +830,6 @@ div.acerca{
 }
 
     
-    
-    }
 
     .hero{
         height: 20vh;  
@@ -927,40 +951,63 @@ div.acerca{
 
 
 }
+.formarparte{
+    div{
+
+        
+
+        div.textoformarparte{
+            div.serfacs{
+                width: 100%;
+
+            }
+        }
+    }
+}
+
 
 
     @media screen and (max-width: 390px){
 
+
+
+
+
         .formarparte{
-            height: 120vh;
-        
+            height: 130vh;
             div{
                 h2{
+        
+                font-size:nth($font-size, 3);
 
-                    font-size:nth($font-size, 2 );
                 }
-                div{
+        
+                
+        
+                div.textoformarparte{
                     p{
-                        font-size: nth($font-size, 4 );
-
+                    font-size: nth($font-size, 5 );
+        
                     }
-                    ol{
-                        li{
-                            font-size: nth($font-size, 4 );
-
+                ol{
+                    li{
+                        font-size: nth($font-size, 5 );}
+                    }
+                a.formulario{
+                    font-size: nth($font-size, 4 );
+                    margin-top: 18px;
+                    }
+                    div.serfacs{
+                        width: 90%;
+                        p{
+                            font-size: nth($font-size, 5 );
                         }
                     }
-                    a{
-
-                        font-size: nth($font-size, 3 );
-
-                    }
                 }
-        
-        
             }
-            
-            }
+        }
+        
+
         
 
         .educacion{
@@ -993,19 +1040,13 @@ div.acerca{
 
 
 
-.hero{
 
-div.acerca{
-    height: 30vh;
+.acerca{
+    height: 70vh;
     div.heroacercadel{
-        height: 30vh;
+        height: 70vh;}
+        }
 
-
-
-    }
-}
-
-}
         .hero{
             height:20vh;
             div{

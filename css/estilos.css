@@ -7,12 +7,15 @@
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif; }
 
+body {
+  height: 100vh; }
+
 /*$boton:(
 bg-boton:  rgb(25, 25, 61),
 border-boton: 2px solid rgb(214, 234, 214),
 color-texto: white,
 );*/
-.actividades .cursos, .actividades .cursos div.grid-cursos div, .galeriaCursos div.alineargaleria, .mensajes div, .textarea div, .titulo .cirujano, .hero .heroacercadel, .herogob div, .herogob div div, .heropres div, .heropres div div, .heroautoridades div, .heroautoridades div div, .heroautoridades div div ol, .heroautoridades div div ul, .formarparte div, .contacto div, .footer div.logosfooter div.mapa, .heromiembros div div.usuario, .heromiembros div dir.contrasena, .heromiembros .botonmiembros div, .educacion .cursos div.grid-cursos div {
+.actividades .cursos, .actividades .cursos div.grid-cursos div, .galeriaCursos div.alineargaleria, .mensajes div, .textarea div, .titulo .cirujano, .acerca div.heroacercadel, .herogob div, .herogob div div, .heropres div, .heropres div div, .heroautoridades div, .heroautoridades div div, .heroautoridades div div ol, .heroautoridades div div ul, .formarparte div, .contacto div, .footer div.logosfooter div.mapa, .heromiembros div div.usuario, .heromiembros div dir.contrasena, .heromiembros .botonmiembros div, .educacion .cursos div.grid-cursos div {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -290,7 +293,7 @@ color-texto: white,
         .menu nav ul li a:hover {
           background: #122271; }
 
-.hero .heroacercadel {
+.acerca div.heroacercadel {
   height: 100vh;
   width: 100%;
   top: 0;
@@ -302,11 +305,11 @@ color-texto: white,
   height: 50vh;
   width: 100%;
   flex-direction: column; }
-  .hero .heroacercadel p {
+  .acerca div.heroacercadel p {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     color: black; }
-  .hero .heroacercadel a {
+  .acerca div.heroacercadel a {
     color: white;
     background-color: #19193d;
     text-align: center;
@@ -441,7 +444,7 @@ color-texto: white,
           list-style: none; }
 
 .formarparte {
-  height: 100vh;
+  height: 130vh;
   width: 100%;
   top: 0;
   background-size: cover;
@@ -470,7 +473,7 @@ color-texto: white,
         font-size: 20px;
         color: black;
         text-justify: auto; }
-      .formarparte div div a {
+      .formarparte div div a.formulario {
         color: white;
         text-align: center;
         font-family: 'Pacifico', cursive;
@@ -480,6 +483,19 @@ color-texto: white,
         background-color: black;
         border: 4px solid #010f56;
         text-decoration: none; }
+    .formarparte div div.serfacs {
+      margin-top: 20px; }
+      .formarparte div div.serfacs p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        color: black;
+        margin-top: 25px; }
+      .formarparte div div.serfacs a.ser {
+        border: none;
+        background-color: none; }
+        .formarparte div div.serfacs a.ser img.facs {
+          width: 200px;
+          height: 70px; }
 
 .contacto div {
   height: 100%;
@@ -737,6 +753,14 @@ color-texto: white,
     .educacion .cursos div.grid-cursos {
       gap: 20px; } }
 
+.formarparte {
+  height: 150vh; }
+  .formarparte div div.textoformarparte div.serfacs {
+    width: 95%; }
+    .formarparte div div.textoformarparte div.serfacs a {
+      box-shadow: black;
+      margin-top: 40px; }
+
 @media screen and (max-width: 1000px) {
   .educacion {
     height: 100vh; }
@@ -775,10 +799,14 @@ color-texto: white,
     font-size: 15px; }
   .formarparte div.textoformarparte ol li {
     font-size: 15px; }
-  .formarparte div.textoformarparte a {
-    font-size: 15px;
-    margin: 10px;
-    padding: 5px; } }
+  .formarparte div.textoformarparte a.formulario {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 5px; }
+  .formarparte div.textoformarparte div.serfacs {
+    width: 90%; }
+    .formarparte div.textoformarparte div.serfacs p {
+      font-size: 15px; } }
 
 @media screen and (max-width: 868px) {
   .herohistoria div.textohistoria {
@@ -815,14 +843,14 @@ color-texto: white,
       padding: 20px; }
     .contacto div a {
       font-size: 15px; }
-  .hero div.acerca {
+  .acerca {
     height: 50vh; }
-    .hero div.acerca div.heroacercadel {
-      height: 30vh;
+    .acerca div.heroacercadel {
+      height: 50vh;
       display: flex;
       justify-content: center;
       align-items: center; }
-      .hero div.acerca div.heroacercadel p {
+      .acerca div.heroacercadel p {
         font-size: 15px; }
   .hero {
     height: 30vh; }
@@ -928,20 +956,20 @@ color-texto: white,
       padding: 10px; }
     .contacto div a {
       font-size: 15px; }
-  .hero {
-    height: 100vh; }
-    .hero div.acerca {
-      height: 20vh; }
-      .hero div.acerca div.heroacercadel p {
+  .acerca {
+    height: 70vh; }
+    .acerca div.heroacercadel {
+      height: 70vh; }
+      .acerca div.heroacercadel p {
         font-size: 12px; }
-      .hero div.acerca div.heroacercadel a {
+      .acerca div.heroacercadel a {
         font-size: 12px; }
   .hero {
     height: 30vh; }
     .hero div div img {
       height: 30vh; }
   .formarparte {
-    height: 120vh; }
+    height: 150vh; }
   .educacion {
     height: 90vh; }
     .educacion h2 {
@@ -1046,14 +1074,12 @@ color-texto: white,
         display: none; } }
 
 @media screen and (max-width: 465px) {
-  .hero {
-    height: 100vh; }
-    .hero div.acerca {
-      height: 30vh; }
-      .hero div.acerca div.heroacercadel {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center; }
+  div.acerca {
+    height: 30vh; }
+    div.acerca div.heroacercadel {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center; }
   .hero {
     height: 20vh; }
     .hero div div div img {
@@ -1109,19 +1135,26 @@ color-texto: white,
     font-size: 10px;
     padding: 5px;
     margin: 5px;
-    line-height: 20px; } }
+    line-height: 20px; }
+  .formarparte div div.textoformarparte div.serfacs {
+    width: 100%; } }
 
 @media screen and (max-width: 465px) and (max-width: 390px) {
   .formarparte {
-    height: 120vh; }
+    height: 130vh; }
     .formarparte div h2 {
-      font-size: 30px; }
-    .formarparte div div p {
-      font-size: 15px; }
-    .formarparte div div ol li {
-      font-size: 15px; }
-    .formarparte div div a {
       font-size: 20px; }
+    .formarparte div div.textoformarparte p {
+      font-size: 12px; }
+    .formarparte div div.textoformarparte ol li {
+      font-size: 12px; }
+    .formarparte div div.textoformarparte a.formulario {
+      font-size: 15px;
+      margin-top: 18px; }
+    .formarparte div div.textoformarparte div.serfacs {
+      width: 90%; }
+      .formarparte div div.textoformarparte div.serfacs p {
+        font-size: 12px; }
   .educacion {
     height: 100vh; }
     .educacion h2 {
@@ -1134,10 +1167,10 @@ color-texto: white,
       padding-top: 70px; }
       .educacion .cursos div.grid-cursos div a {
         font-size: 10px; }
-  .hero div.acerca {
-    height: 30vh; }
-    .hero div.acerca div.heroacercadel {
-      height: 30vh; }
+  .acerca {
+    height: 70vh; }
+    .acerca div.heroacercadel {
+      height: 70vh; }
   .hero {
     height: 20vh; }
     .hero div div div img {
