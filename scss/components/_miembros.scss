@@ -9,10 +9,8 @@
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: center;
-        background-image: url(../img/pexels-anna-shvets-4483327.jpg);
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)),  url(../img/pexels-anna-shvets-4483327.jpg) ;
+        @extend %flex;
         flex-direction: column;
         h2{
             color:$color-secundario;
@@ -21,24 +19,34 @@
             font-size:nth($font-size,1 );
             margin: 20px;
             padding-top: 5px;}
+    div.uyc{
 
-            div.usuario{
+        div.usuario{
+        margin: 10px;
+        @extend %flex;
+        flex-direction: column;
+        margin: 10px;
+        label{
+            font-family:  'Raleway', sans-serif;
+            color: $color-secundario ;
+            font-size: nth($font-size,4);}
+            }
+        dir.contrasena{
             margin: 10px;
             @extend %flex;
             flex-direction: column;
-            margin: 10px}
-            dir.contrasena{
-                margin: 10px;
-                @extend %flex;
-                flex-direction: column;
-                margin: 10px}
+            margin: 10px; 
+                label{
+                    font-family:  'Raleway', sans-serif;
+                    color: $color-secundario ;
+                    font-size: nth($font-size,4);}
+                }
+}
+            
         }
-        .botonmiembros{
-
-            div{
-                @extend %flex;
-                flex-direction: row;
-                margin: 20px;
+        div.botonmiembros{
+            @extend %flex;
+            flex-direction: row;
                 input{
                     font-family:  'Raleway', sans-serif;
                     font-size: nth($font-size,5);
@@ -50,7 +58,12 @@
                     padding-bottom: 5px;
                     margin: 10px;
                 }
-            }
+                label{
+                    font-family:  'Raleway', sans-serif;
+                    font-size: nth($font-size,5);
+                    color: $color-secundario;
+                }
+            
         }
         div.botonformar{
             a{

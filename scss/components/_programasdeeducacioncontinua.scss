@@ -6,7 +6,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(../img/pexels-anna-shvets-4483327.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)),  url(../img/pexels-anna-shvets-4483327.jpg) ;
 
 
     h2{
@@ -24,7 +24,7 @@
         }
         @include flex (flex,space-evenly,center);
         flex-direction: row ;
-    
+
         div.grid-cursos{
             display: grid;
             grid-template-columns:repeat(4,1fr); 
@@ -37,17 +37,21 @@
             div{
                 @extend %flex;
                 flex-direction: column;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            
     
                 img{
-                    width: 200px;
-                    height: 200px;
+                    width: 250px;
+                    height: 250px;
                     box-shadow: 10px 10px 37px -7px rgba(0,0,0,0.75);
                     -webkit-box-shadow: 10px 10px 37px -7px rgba(0,0,0,0.75);
                     -moz-box-shadow: 10px 10px 37px -7px rgba(0,0,0,0.75);
                     margin-bottom: 0px;  
                 }
                 a{
-                    width: 200px;
+                    width: 250px;
                     height: 50px;
                     font-size: nth($font-size, 5);
                     font-family: 'Raleway', sans-serif;

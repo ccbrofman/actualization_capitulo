@@ -1,9 +1,10 @@
 
-.header{
+div.grid-contenedor .header{
 grid-area: header;
 position: sticky;
 z-index: 2; 
 }
+
 
 .titulo{
     background-color: $color-fondo;
@@ -11,13 +12,15 @@ z-index: 2;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
-        img{
-        width: 180px;
-        height: 200px;
-        padding-top: 10px;
-        padding-left:  10px;
+        a{
+            img{
+                width: 180px;
+                height: 200px;
+                padding-top: 10px;
+                padding-left:  10px;
+                }
         }
+
 
         h1{
         color: white;
@@ -46,8 +49,8 @@ z-index: 2;
                 margin-left: 5px;
 
                 img{
-                    width: 50px;
-                    height: 50px;
+                    width: 70px;
+                    height:70px;
                     padding-top: 10px;
                     padding-left:  10px;
                 }
