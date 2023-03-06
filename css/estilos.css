@@ -475,7 +475,7 @@ div.grid-contenedor .header {
           list-style: none; }
 
 .formarparte {
-  height: 130vh;
+  height: 80vh;
   width: 100%;
   top: 0;
   background-size: cover;
@@ -492,19 +492,19 @@ div.grid-contenedor .header {
       font-size: 40px;
       margin: 10px;
       padding-top: 15px; }
-    .formarparte div div {
+    .formarparte div div.textoformarparte {
       width: 85%; }
-      .formarparte div div p {
+      .formarparte div div.textoformarparte p {
         font-family: 'Raleway', sans-serif;
         font-size: 20px;
         color: black;
         margin-top: 25px; }
-      .formarparte div div ol li {
+      .formarparte div div.textoformarparte ol li {
         font-family: 'Raleway', sans-serif;
         font-size: 20px;
         color: black;
         text-justify: auto; }
-      .formarparte div div a.formulario {
+      .formarparte div div.textoformarparte a.formulario {
         color: white;
         text-align: center;
         font-family: 'Pacifico', cursive;
@@ -514,19 +514,19 @@ div.grid-contenedor .header {
         background-color: black;
         border: 4px solid #010f56;
         text-decoration: none; }
-    .formarparte div div.serfacs {
-      margin-top: 20px; }
-      .formarparte div div.serfacs p {
-        font-family: 'Raleway', sans-serif;
-        font-size: 20px;
-        color: black;
-        margin-top: 25px; }
-      .formarparte div div.serfacs a.ser {
-        border: none;
-        background-color: none; }
-        .formarparte div div.serfacs a.ser img.facs {
-          width: 200px;
-          height: 70px; }
+      .formarparte div div.textoformarparte div.serfacs {
+        margin-top: 20px; }
+        .formarparte div div.textoformarparte div.serfacs p {
+          font-family: 'Raleway', sans-serif;
+          font-size: 20px;
+          color: black;
+          margin-top: 25px; }
+        .formarparte div div.textoformarparte div.serfacs a.ser {
+          border: none;
+          background-color: none; }
+          .formarparte div div.textoformarparte div.serfacs a.ser img.facs {
+            width: 200px;
+            height: 70px; }
 
 .contacto div {
   height: 100%;
@@ -849,7 +849,7 @@ div.grid-contenedor .header {
   height: 160vh; }
   .formarparte div div.textoformarparte div.serfacs {
     width: 95%; }
-    .formarparte div div.textoformarparte div.serfacs a {
+    .formarparte div div.textoformarparte div.serfacs a.ser img.facs {
       box-shadow: black;
       margin-top: 40px; }
 
@@ -869,7 +869,7 @@ div.grid-contenedor .header {
   .formarparte {
     height: 170vh; }
   .educacion {
-    height: 60vh; }
+    height: 80vh; }
     .educacion .cursos div.grid-cursos div img {
       width: 200px;
       height: 200px; }
@@ -879,7 +879,7 @@ div.grid-contenedor .header {
 
 @media screen and (max-width: 1000px) {
   .educacion {
-    height: 100vh; }
+    height: 120vh; }
     .educacion .cursos {
       display: flex;
       justify-content: center;
@@ -921,7 +921,7 @@ div.grid-contenedor .header {
         width: 160px;
         height: 50px; }
   .formarparte {
-    height: 130vh; }
+    height: 180vh; }
     .formarparte div h2 {
       font-size: 30px;
       margin-bottom: 10px;
@@ -940,8 +940,6 @@ div.grid-contenedor .header {
         font-size: 15px; } }
 
 @media screen and (max-width: 868px) {
-  .formarparte {
-    height: 140vh; }
   .herohistoria div.textohistoria {
     display: flex;
     justify-content: center;
@@ -967,7 +965,7 @@ div.grid-contenedor .header {
 
 @media screen and (max-width: 739px) {
   .formarparte {
-    height: 150vh; }
+    height: 190vh; }
   .comision div div p {
     font-size: 15px;
     text-align: center; }
@@ -996,7 +994,7 @@ div.grid-contenedor .header {
     .hero div div div img {
       height: 30vh; }
   .educacion {
-    height: 90vh; }
+    height: 120vh; }
     .educacion h2 {
       font-size: 30px; }
     .educacion .cursos div.grid-cursos {
@@ -1040,7 +1038,7 @@ div.grid-contenedor .header {
   .herohistoria h2 {
     font-size: 30px; }
   .herohistoria div.textohistoria p {
-    font-size: 15px;
+    font-size: 20px;
     padding: 15px;
     margin: 15px;
     line-height: 36px; }
@@ -1111,9 +1109,9 @@ div.grid-contenedor .header {
 
 @media screen and (max-width: 650px) {
   .formarparte {
-    height: 160vh; }
+    height: 200vh; }
   .educacion {
-    height: 90vh; }
+    height: 125vh; }
     .educacion h2 {
       font-size: 30px; }
     .educacion .cursos {
@@ -1137,6 +1135,14 @@ div.grid-contenedor .header {
           height: 55px;
           width: 150px;
           padding-bottom: 15px; } }
+
+@media screen and (max-width: 610px) {
+  .formarparte {
+    height: 215vh; } }
+
+@media screen and (max-width: 550px) {
+  .formarparte {
+    height: 225vh; } }
 
 @media screen and (max-width: 522px) {
   .comision div h2 {
@@ -1166,9 +1172,9 @@ div.grid-contenedor .header {
     .hero div div img {
       height: 30vh; }
   .formarparte {
-    height: 170vh; }
+    height: 235vh; }
   .educacion {
-    height: 90vh; }
+    height: 120vh; }
     .educacion h2 {
       font-size: 20px; }
     .educacion .cursos div.grid-cursos {
@@ -1270,9 +1276,13 @@ div.grid-contenedor .header {
       .footer div.logosfooter div.mapa p {
         display: none; } }
 
+@media screen and (max-width: 475px) {
+  .formarparte {
+    height: 245vh; } }
+
 @media screen and (max-width: 465px) {
   .educacion {
-    height: 140vh; }
+    height: 180vh; }
     .educacion h2 {
       font-size: 20px; }
     .educacion .cursos div.grid-cursos {
@@ -1299,9 +1309,8 @@ div.grid-contenedor .header {
     .hero div div div img {
       height: 20vh; }
   .herohistoria h2 {
-    font-size: 20px; }
+    font-size: 30px; }
   .herohistoria div.textohistoria p {
-    font-size: 12px;
     padding: 10px;
     margin: 10px;
     line-height: 30px; }
@@ -1341,37 +1350,38 @@ div.grid-contenedor .header {
         .galeriaCursos div.alineargaleria div.grid-galeria .img-9 {
           grid-column: span 1;
           grid-row: span 1; }
-  .herohistoria h2 {
-    font-size: 20px;
-    padding: 15px;
-    margin: 15px; }
-  .herohistoria div.textohistoria p {
-    font-size: 10px;
-    padding: 5px;
-    margin: 5px;
-    line-height: 20px; } }
+  .formarparte {
+    height: 245vh; }
+    .formarparte div div.textoformarparte div.serfacs {
+      width: 100%; }
+      .formarparte div div.textoformarparte div.serfacs a.ser img.facs {
+        width: 150px;
+        height: 50px; } }
 
-.formarparte {
-  height: 180vh; }
-  .formarparte div div.textoformarparte div.serfacs {
-    width: 100%; }
+@media screen and (max-width: 428px) {
+  .formarparte {
+    height: 250vh; } }
+
+@media screen and (max-width: 411px) {
+  .formarparte {
+    height: 260vh; } }
 
 @media screen and (max-width: 390px) {
   .formarparte {
-    height: 155vh; }
+    height: 190vh; }
     .formarparte div h2 {
       font-size: 20px; }
     .formarparte div div.textoformarparte p {
-      font-size: 12px; }
+      font-size: 15px; }
     .formarparte div div.textoformarparte ol li {
-      font-size: 12px; }
+      font-size: 15px; }
     .formarparte div div.textoformarparte a.formulario {
       font-size: 15px;
       margin-top: 18px; }
     .formarparte div div.textoformarparte div.serfacs {
       width: 90%; }
       .formarparte div div.textoformarparte div.serfacs p {
-        font-size: 12px; }
+        font-size: 15px; }
   .acerca {
     height: 70vh; }
     .acerca div.heroacercadel {
@@ -1429,19 +1439,17 @@ div.grid-contenedor .header {
       padding: 10px; }
     .contacto div a {
       font-size: 12px; }
-  .formarparte {
-    height: 145vh; }
-    .formarparte div h2 {
-      font-size: 20px; }
-    .formarparte div div {
-      width: 95%; }
-      .formarparte div div p {
-        text-align: center;
-        font-size: 12px; }
-      .formarparte div div ol li {
-        font-size: 12px; }
-      .formarparte div div a {
-        font-size: 15px; }
+  .formarparte div h2 {
+    font-size: 20px; }
+  .formarparte div div {
+    width: 95%; }
+    .formarparte div div p {
+      text-align: center;
+      font-size: 12px; }
+    .formarparte div div ol li {
+      font-size: 12px; }
+    .formarparte div div a {
+      font-size: 15px; }
   .actividades div.texto {
     width: 96%; }
     .actividades div.texto h2 {

@@ -1,5 +1,5 @@
 .formarparte{
-    height: 130vh;
+    height: 80vh;
     width: 100%;
     top: 0;
     background-size: cover;
@@ -15,12 +15,12 @@
             color:$color-secundario;
             text-align: center;
             font-family: 'Pacifico', cursive;
-            font-size:nth($font-size, 1 );
+            font-size:nth($font-size, 1);
             margin: 10px;
             padding-top: 15px;
     
         }
-        div{
+        div.textoformarparte{
             width: 85%;
 
             p{
@@ -46,20 +46,18 @@
                 padding: 10px;
                 background-color:$color-secundario;
                 border: 4px solid rgb(1, 15, 86);
-                text-decoration: none;
-            }
+                text-decoration: none;}
             
-        }
-        div.serfacs{
-margin-top: 20px;
-            p{
+        
+            div.serfacs{
+                margin-top: 20px;
+                p{
                 font-family: 'Raleway', sans-serif;
                 font-size: nth($font-size, 3 );
                 color: $color-secundario;
-                margin-top: 25px;
+                margin-top: 25px;}
                 
-            }
-            a.ser{
+                a.ser{
                 border: none;
                 background-color: none;
                 img.facs{
@@ -68,6 +66,7 @@ margin-top: 20px;
                 }
             }
         }
+    }
 
 
     }
