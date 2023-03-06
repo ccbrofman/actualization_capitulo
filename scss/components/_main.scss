@@ -88,7 +88,7 @@
     }
 }
 .actividades{
-    height: 150vh;
+    height: 110vh;
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
@@ -142,7 +142,7 @@
     
     
     
-            div{
+            div.grid-itemcursos{
                 @extend %flex;
                 flex-direction: column;
                 &:hover{
@@ -164,7 +164,7 @@
                     font-family: 'Raleway', sans-serif;
                     color: $color-principal ;
                     background-color:$color-fondo;
-                    border: 2px solid rgb(214, 234, 214);
+                    border: 2px solid $color-fondo;
                     padding:5px ;
                     display: inline-block;
                     list-style: none;

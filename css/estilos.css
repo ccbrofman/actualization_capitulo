@@ -10,7 +10,7 @@
 body {
   height: 100vh; }
 
-.actividades div.texto, .actividades div.cursos, .actividades div.cursos div.grid-cursos div, .galeriaCursos div.alineargaleria, .mensajes, .mensajes div, .textarea div, .titulo .cirujano, .acerca div.heroacercadel, .herogob div, .herogob div div, .heropres div, .heropres div div, .heroautoridades div, .heroautoridades div div, .heroautoridades div div ol, .heroautoridades div div ul, .formarparte div, .contacto div, .footer div.logosfooter div.mapa, .heromiembros div, .heromiembros div div.uyc div.usuario, .heromiembros div div.uyc dir.contrasena, .heromiembros div.botonmiembros, .educacion .cursos div.grid-cursos div, .comision div {
+.actividades div.texto, .actividades div.cursos, .actividades div.cursos div.grid-cursos div.grid-itemcursos, .galeriaCursos div.alineargaleria, .mensajes, .mensajes div, .textarea div, .titulo .cirujano, .acerca div.heroacercadel, .herogob div, .herogob div div, .heropres div, .heropres div div, .heroautoridades div, .heroautoridades div div, .heroautoridades div div ol, .heroautoridades div div ul, .formarparte div, .contacto div, .footer div.logosfooter div.mapa, .heromiembros div, .heromiembros div div.uyc div.usuario, .heromiembros div div.uyc dir.contrasena, .heromiembros div.botonmiembros, .educacion .cursos div.grid-cursos div, .comision div {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -90,7 +90,7 @@ div.grid-contenedor a.top img.show {
   font-style: italic; }
 
 .actividades {
-  height: 150vh;
+  height: 110vh;
   width: 100%;
   background-size: cover;
   background-attachment: fixed;
@@ -124,25 +124,25 @@ div.grid-contenedor a.top img.show {
       width: 85%;
       margin-top: 20px;
       padding-top: 150px; }
-      .actividades div.cursos div.grid-cursos div {
+      .actividades div.cursos div.grid-cursos div.grid-itemcursos {
         flex-direction: column; }
-        .actividades div.cursos div.grid-cursos div:hover {
+        .actividades div.cursos div.grid-cursos div.grid-itemcursos:hover {
           transform: scale(1.1); }
-        .actividades div.cursos div.grid-cursos div img {
+        .actividades div.cursos div.grid-cursos div.grid-itemcursos img {
           width: 225px;
           height: 225px;
           box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
           -webkit-box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
           -moz-box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
           margin-bottom: 0px; }
-        .actividades div.cursos div.grid-cursos div a {
+        .actividades div.cursos div.grid-cursos div.grid-itemcursos a {
           width: 225px;
           height: 50px;
           font-size: 12px;
           font-family: 'Raleway', sans-serif;
           color: white;
           background-color: #19193d;
-          border: 2px solid #d6ead6;
+          border: 2px solid #19193d;
           padding: 5px;
           display: inline-block;
           list-style: none;
@@ -843,27 +843,22 @@ div.grid-contenedor .header {
     align-items: center;
     flex-direction: row; }
     .educacion .cursos div.grid-cursos {
-      gap: 20px; } }
-
-.formarparte {
-  height: 160vh; }
-  .formarparte div div.textoformarparte div.serfacs {
-    width: 95%; }
-    .formarparte div div.textoformarparte div.serfacs a.ser img.facs {
-      box-shadow: black;
-      margin-top: 40px; }
-
-.mensajes {
-  height: 100vh; }
-
-.galeriaCursos {
-  height: 180vh; }
-
-.footer {
-  height: 50vh; }
-
-.actividades {
-  height: 20vh; }
+      gap: 20px; }
+  .formarparte {
+    height: 160vh; }
+    .formarparte div div.textoformarparte div.serfacs {
+      width: 95%; }
+      .formarparte div div.textoformarparte div.serfacs a.ser img.facs {
+        box-shadow: black;
+        margin-top: 40px; }
+  .mensajes {
+    height: 100vh; }
+  .galeriaCursos {
+    height: 180vh; }
+  .footer {
+    height: 50vh; }
+  .actividades {
+    height: 130vh; } }
 
 @media screen and (max-width: 1090px) {
   .formarparte {
@@ -875,7 +870,14 @@ div.grid-contenedor .header {
       height: 200px; }
     .educacion .cursos div.grid-cursos div a {
       width: 200px;
-      height: 50px; } }
+      height: 50px; }
+  .actividades {
+    height: 140vh; }
+    .actividades div.cursos div.grid-cursos div.grid-itemcursos img {
+      width: 205px;
+      height: 205px; }
+    .actividades div.cursos div.grid-cursos div.grid-itemcursos a {
+      width: 205px; } }
 
 @media screen and (max-width: 1000px) {
   .educacion {
@@ -896,30 +898,18 @@ div.grid-contenedor .header {
     height: 150px; }
   .grid-contenedor .header .titulo .cirujano a {
     font-size: 10px; }
-  .grid-contenedor .header .titulo h1 {
-    font-size: 30px; }
-  .grid-contenedor .header .titulo a img {
-    width: 150px;
-    height: 170px; }
   .actividades {
-    height: 400vh; }
-    .actividades div.texto {
-      width: 95%; }
-      .actividades div.texto h2 {
-        padding-top: 50px; }
+    height: 170vh; }
+    .actividades div.texto h2 {
+      font-size: 30px;
+      padding-top: 50px; }
     .actividades div.cursos div.grid-cursos {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: 350px;
       padding-top: 0;
-      margin: 0;
-      gap: 10px; }
-      .actividades div.cursos div.grid-cursos div.grid-itemcursos img {
-        width: 160px;
-        height: 160px; }
-      .actividades div.cursos div.grid-cursos div.grid-itemcursos a {
-        width: 160px;
-        height: 50px; }
+      margin: 10px;
+      gap: 50px; }
   .formarparte {
     height: 180vh; }
     .formarparte div h2 {
@@ -954,14 +944,11 @@ div.grid-contenedor .header {
     height: 110px; }
   .cirujano a img {
     width: 45px;
-    height: 45px; } }
-
-.actividades {
-  height: 150vh; }
+    height: 45px; }
   .actividades h2 {
     font-size: 30px;
     margin-top: 15px;
-    padding-top: 25px; }
+    padding-top: 25px; } }
 
 @media screen and (max-width: 739px) {
   .formarparte {
@@ -1069,10 +1056,10 @@ div.grid-contenedor .header {
         align-items: center;
         justify-content: center; }
         .actividades div.cursos div.grid-cursos div.grid-itemcursos img {
-          width: 150px;
-          height: 150px; }
+          width: 170px;
+          height: 170px; }
         .actividades div.cursos div.grid-cursos div.grid-itemcursos a {
-          width: 150px;
+          width: 170px;
           height: 50px;
           padding-top: 5px;
           padding-bottom: 10px; }
@@ -1360,7 +1347,25 @@ div.grid-contenedor .header {
 
 @media screen and (max-width: 428px) {
   .formarparte {
-    height: 250vh; } }
+    height: 250vh; }
+  .actividades {
+    height: 240vh; }
+    .actividades div.texto {
+      width: 95%; }
+    .actividades div.cursos div.grid-cursos {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 70px;
+      margin-bottom: 0px;
+      margin-top: 80px;
+      gap: 180px;
+      padding-top: 0px;
+      padding-bottom: 0px; }
+      .actividades div.cursos div.grid-cursos div.grid-itemcursos img {
+        width: 250px;
+        height: 200px; }
+      .actividades div.cursos div.grid-cursos div.grid-itemcursos a {
+        width: 250px; } }
 
 @media screen and (max-width: 411px) {
   .formarparte {
@@ -1390,13 +1395,15 @@ div.grid-contenedor .header {
     height: 20vh; }
     .hero div div div img {
       height: 20vh; }
-  .actividades h2 {
-    font-size: 20px;
-    margin-top: 10px;
-    padding-top: 10px; }
-  .actividades p {
-    font-size: 13px;
-    padding: 2px; }
+  .actividades {
+    height: 210vh; }
+    .actividades div.texto h2 {
+      font-size: 20px;
+      margin-top: 10px;
+      padding-top: 10px; }
+    .actividades div.texto p {
+      font-size: 13px;
+      padding: 2px; }
   .galeriaCursos h2 {
     font-size: 20px; }
   .mensajes h2 {
@@ -1449,26 +1456,4 @@ div.grid-contenedor .header {
     .formarparte div div ol li {
       font-size: 12px; }
     .formarparte div div a {
-      font-size: 15px; }
-  .actividades div.texto {
-    width: 96%; }
-    .actividades div.texto h2 {
-      font-size: 20px; }
-    .actividades div.texto p {
-      font-size: 12px; }
-  .actividades div.cursos div.grid-cursos {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 300px;
-    gap: 10px;
-    padding: 10px; }
-    .actividades div.cursos div.grid-cursos div.grid-itemcursos {
-      display: flex;
-      align-items: center;
-      justify-content: center; }
-      .actividades div.cursos div.grid-cursos div.grid-itemcursos img {
-        width: 130px;
-        height: 130px; }
-      .actividades div.cursos div.grid-cursos div.grid-itemcursos a {
-        width: 130px;
-        height: 50px; } }
+      font-size: 15px; } }
