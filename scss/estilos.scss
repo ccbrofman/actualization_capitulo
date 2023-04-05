@@ -1,10 +1,10 @@
 @import "./base/_generales.scss";
 @import "./base/_variables.scss";
 @import "./components/_main.scss";
-@import "./components/header";
+@import "./components/_header.scss";
 @import "./components/_acercadelcapitulo.scss";
-@import "./components/gobernadores";
-@import "./components/presidentes";
+@import "./components/_gobernadores.scss";
+@import "./components/_presidentes.scss";
 @import "./components/_autoridades.scss";
 @import "./components/_comoformarparte.scss";
 @import "./components/_contacto.scss";
@@ -12,5 +12,7 @@
 @import "./components/_historia.scss";
 @import "./components/_miembros.scss";
 @import "./components/_programasdeeducacioncontinua.scss";
-@import "./components/comision";
+@import "./components/_comision.scss";
 @import "./base/_mediaquery.scss";
+@import "./components/_smiles.scss";
+@import "./components/_jornadas.scss";

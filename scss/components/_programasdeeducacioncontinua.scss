@@ -57,7 +57,7 @@
                     font-family: 'Raleway', sans-serif;
                     color: $color-principal ;
                     background-color:$color-fondo;
-                    border: 2px solid rgb(214, 234, 214);
+                    border: 2px solid $color-fondo;
                     padding-left:5px ;
                     padding-right: 5px;
                     display: inline-block;

@@ -1,0 +1,14 @@
+.construccion{
+    top: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)),  url(../img/pexels-anna-shvets-4483327.jpg) ;
+    @extend %flex;
+    img{
+        margin: 30px;
+        width: 400px;
+        height: 300px;
+    }
+}
