@@ -4,11 +4,184 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)),  url(../img/pexels-anna-shvets-4483327.jpg) ;
+    background-image: linear-gradient(rgba(28, 27, 27, 0.471), rgba(255, 255, 255, 0.409)),  url(../img/pexels-anna-shvets-4483327.jpg) ;
+    // @include flex (flex, space-around,center);
+    // flex-direction: column;
+
+div{
     @extend %flex;
-    img{
+    flex-direction: column;
+    h2{
+        color: $color-secundario;
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        font-size: nth($font-size, 1);
+
         margin: 30px;
-        width: 400px;
-        height: 300px;
+        padding: 20px;
     }
 }
+
+div.webinars23{
+    margin: 0px;
+    @extend %flex;
+
+
+    div.grid-webi{
+
+        @extend %flex;
+        margin: 30px;
+
+        div.grid-item{
+            @extend %flex;
+            flex-direction: column;
+            border: 2px solid black;
+            width: 85%;
+
+                h3{
+                color: $color-secundario;
+                text-align: center;
+                font-family: 'Raleway', sans-serif;
+                font-size: nth($font-size, 4);}
+                p{
+                    color: $color-secundario;
+                    text-align: center;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: nth($font-size, 4);
+                }
+                a{
+                    img{
+                        width: 350px;
+                        height: 350px;
+                        margin: 5px;
+                        padding: 5px;
+                    }
+                }
+                a{
+                    text-decoration: none;
+                    color: $color-principal;
+                    text-align: center;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: nth($font-size, 4);
+                    background-color:$color-fondo;
+                    margin: 20px;
+                    padding: 15px;
+                }
+            }
+        
+        }
+            
+        }
+    
+
+
+
+
+
+    div.webinars21{
+        margin: 0px;
+        @extend %flex;
+        h2{
+            color: $color-secundario;
+            text-align: center;
+            font-family: 'Pacifico', cursive;
+            font-size: nth($font-size, 1);
+    
+            margin: 30px;
+            padding: 20px;
+            }
+
+        div.grid-webi{
+            display: grid;
+            grid-template-columns:repeat(3,1fr); ;
+            grid-auto-rows: 500px;
+            gap: 15px;
+            @extend %flex;
+            margin: 30px;
+
+            div.grid-item{
+                @extend %flex;
+                flex-direction: column;
+                border: 2px solid black;
+                width: 85%;
+
+                h3{
+                    color: $color-secundario;
+                    text-align: center;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: nth($font-size, 4);
+                    p{
+                        color: $color-secundario;
+                        text-align: center;
+                        font-family: 'Raleway', sans-serif;
+                        font-size: nth($font-size, 4);
+                    }
+                }
+                iframe{
+                    width: 350px;
+                    height: 350px;
+                    margin: 5px;
+                    padding: 5px;
+                }
+            }
+                
+            }
+        }
+
+        div.webinars20{
+            margin: 0px;
+            @extend %flex;
+            h2{
+                color: $color-secundario;
+                text-align: center;
+                font-family: 'Pacifico', cursive;
+                font-size: nth($font-size, 1);
+        
+                margin: 30px;
+                padding: 20px;
+                }
+    
+            div.grid-webi{
+                display: grid;
+                grid-template-columns:repeat(3,1fr); ;
+                grid-auto-rows: 500px;
+                gap: 15px;
+                @extend %flex;
+                margin: 30px;
+    
+                div.grid-item{
+                    @extend %flex;
+                    flex-direction: column;
+                    border: 2px solid black;
+                    width: 85%;
+    
+                    h3{
+                        color: $color-secundario;
+                        text-align: center;
+                        font-family: 'Raleway', sans-serif;
+                        font-size: nth($font-size, 4);
+                        p{
+                            color: $color-secundario;
+                            text-align: center;
+                            font-family: 'Raleway', sans-serif;
+                            font-size: nth($font-size, 4);
+                        }
+                    }
+                    iframe{
+                        width: 350px;
+                        height: 350px;
+                        margin: 5px;
+                        padding: 5px;
+                    }
+                }
+                    
+                }
+            }
+    
+
+
+
+  }
+
+
+

@@ -1,18 +1,40 @@
+@media screen and (max-width:1410px){
+    .smiles{
+        height: 205vh;
+        div.cacsmile{
+            display: grid;
+            grid-template-columns:repeat(3,1fr);
+            grid-auto-rows: 250px;
+            div.cacsmile1{
+                img{
+                    height: 250px;
+                    width: 350px;
+                }
+            }
+            div.cacsmile1{
+                img{
+                    height: 250px;
+                    width: 350px;
+                }
+            }
+        }
 
+    }
+}
 
 @media screen and (max-width:1350px){
 
     .educacion{
     height:70vh ;
-    
+
         .cursos{
 
             div.grid-cursos{
 
-        
+
                 div{
 
-        
+
                     img{
                         width: 220px;
                         height: 220px;
@@ -21,23 +43,133 @@
                     a{
                         width: 220px;
                         height: 50px;
-                        
+
                     }
                 }
             }
         }
-        
+
     }
-    
+
+
+    .construccion{
+        div.webinars21{
+            div.grid-webi{
+                div.grid-item{
+                    iframe{
+                        width: 300px;
+                        height: 300px;
+                    }
+
+                }
+
+            }
+
+        }
+        div.webinars20{
+            div.grid-webi{
+
+                div.grid-item{
+                    iframe{
+                        width: 300px;
+                        height: 300px;
+                    }
+                }
+
+            }
+
+        }
+    }
 }
 
 
 
+
 @media screen and (max-width:1250px){
-    
+
+
+
+    .smiles{
+        height: 205vh;
+        div.cacsmile{
+            display: grid;
+            grid-template-columns:repeat(3,1fr);
+            grid-auto-rows: 210px;
+            div.cacsm1{
+                img{
+                    height: 210px;
+                    width: 310px;
+                }
+
+            }
+            div.cacsm2{
+                img{
+                    height: 210px;
+                    width: 310px;
+                }
+
+            }
+        }
+        div.websmile{
+            div.websm1{
+                img{
+                    height: 300px;
+                    width: 300px;
+                }
+
+            }
+            div.websm2{
+                a{
+                    img{
+                        height: 300px;
+                        width: 300px;
+                    }
+                }
+            }
+
+    }
+
+     }
+
+    .construccion{
+        div.webinars21{
+            div.grid-webi{
+                div.grid-item{
+                    h3{
+                        font-size: nth($font-size, 5);
+                    }
+                    iframe{
+                        width: 220px;
+                        height: 220px;
+                    }
+
+                }
+
+            }
+
+        }
+        div.webinars20{
+            div.grid-webi{
+                div.grid-item{
+                    h3{
+                        font-size: nth($font-size, 5);
+                    }
+                    iframe{
+                        width: 220px;
+                        height: 220px;
+                    }
+                }
+
+            }
+
+        }
+    }
+
+
+
 .grid-contenedor{
     a.top img{
-        
+
         width: 25px;
         height: 25px;}
 
@@ -73,19 +205,19 @@
                 font-size:nth($font-size,1 );
                 padding-top: 25px;
             }
-        
+
             div.cursos{
                 display: flex;
                 justify-content: space-evenly;
                 align-items: center;
                 flex-direction: row ;
-            
+
                 div.grid-cursos{
 
                     gap: 20px;
                 }
             }
-            
+
         }
 
 
@@ -116,7 +248,7 @@
 }
 
 
-.galeriaCursos{
+.eventos{
     height: 180vh;
 
 }
@@ -134,8 +266,66 @@
 
 }
 
-@media screen and (max-width:1090px){
 
+@media screen and (max-width:1128px){
+
+    .smiles{
+        height: 170vh;
+
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1090px){
+.smiles{
+    height: 190vh;
+    div.websmile{
+        div.websm1{
+            img{
+                height: 300px;
+                width: 300px;
+            }
+        }
+        div.websm2{
+            a{
+                img{
+                    height: 300px;
+                    width: 300px;
+                    }
+                }
+            }
+
+
+    }
+    div.cacsmile{
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+        grid-auto-rows: 350px;
+        gap: 15px;
+        div .cacsm1 {
+            img{
+                height: 300px;
+                width: 400px;
+            }
+
+        }
+
+
+        div .cacsm2 {
+            img{
+                height: 300px;
+                width: 400px;
+            }
+
+        }
+    }
+
+}
 
     .formarparte{
         height: 170vh;
@@ -143,15 +333,15 @@
 
     .educacion{
         height:80vh ;
-    
+
         .cursos{
 
             div.grid-cursos{
 
-        
+
                 div{
 
-        
+
                     img{
                         width: 200px;
                         height: 200px;
@@ -160,12 +350,12 @@
                     a{
                         width: 200px;
                         height: 50px;
-                        
+
                     }
                 }
             }
         }
-        
+
     }
     .actividades{
         height: 140vh;
@@ -185,13 +375,55 @@
             }
         }
     }
-    
 
-    
+
+
 }
 
 
 @media screen and (max-width:1000px){
+.smiles{
+
+
+    div.cacsmile{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-auto-rows: 180px;
+        margin-top: 50px;
+        width: 80%;
+
+
+
+        div{
+
+            h3{
+                margin:10px;
+            }
+            p{
+                margin-left: 10px;
+                margin-right:10px ;
+            }
+        }
+
+
+        }
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     .educacion{
         height: 120vh;
@@ -200,17 +432,17 @@
             justify-content: center;
             align-items: center;
             flex-direction: row ;
-        
+
             div.grid-cursos{
                 display: grid;
-                grid-template-columns:repeat(2,1fr); 
+                grid-template-columns:repeat(2,1fr);
                 gap: 200px
 
             }
         }
-        
+
     }
-    
+
 
 
 
@@ -248,7 +480,7 @@
         div.cursos{
             div.grid-cursos{
             display: grid;
-            grid-template-columns:repeat(2,1fr); 
+            grid-template-columns:repeat(2,1fr);
             grid-template-rows: 350px;
             padding-top: 0;
             margin: 10px;
@@ -297,17 +529,65 @@
 }
 
     @media screen and (max-width: 868px) {
-
         .smiles{
-        
-            height:300vh ;
-            div.titsmile{
-                h2{
-                    font-size:nth($font-size, 2 );
-                }
-        } }
+            height: 220vh;
 
-    
+            div.websmile{
+                display: grid;
+                grid-template-columns:repeat(2,1fr);
+                grid-auto-rows: 280px;
+                margin-top: 50px;
+                width: 80%;
+
+
+
+                div{
+
+                    h3{
+                        margin:10px;
+                    }
+                    p{
+                        margin-left: 10px;
+                        margin-right:10px ;
+                    }
+                }
+
+
+                }
+
+
+            }
+
+
+        .construccion{
+            div.webinars21{
+                div.grid-webi{
+                    div.grid-item{
+                        iframe{
+                            width: 180px;
+                            height: 180px;
+                        }
+
+                    }
+
+                }
+
+            }
+            div.webinars20{
+                div.grid-webi{
+
+                    div.grid-item{
+                        iframe{
+                            width: 180px;
+                            height: 180px;
+                        }
+                    }
+
+                }
+
+            }
+        }
+
         .herohistoria {
             div.textohistoria{
                 display: flex;
@@ -321,7 +601,7 @@
                 }
             }
         }
-    
+
 
 .grid-contenedor{
     .header{
@@ -330,14 +610,14 @@
             h1{
                 font-size: 25px;
             }
-        
+
             a{
                 img{
                     width: 100px;
                     height: 110px;
                 }
             }
-        
+
         }
 
     }
@@ -362,13 +642,47 @@
             padding-top: 25px;
         }
     }
-}    
+}
 
 
 
 @media screen and (max-width: 739px) {
 
+    .construccion{
+        div.webinars21{
+            div.grid-webi{
+                display: grid;
+                grid-template-columns:repeat(2,1fr); ;
+                grid-auto-rows: 350px;
+                gap: 15px;
+                div.grid-item{
+                    iframe{
+                        width: 250px;
+                        height: 250px;
+                    }
 
+                }
+
+            }
+
+        }
+        div.webinars20{
+            div.grid-webi{
+                display: grid;
+                grid-template-columns:repeat(2,1fr); ;
+                grid-auto-rows: 350px;
+                gap: 15px;
+                div.grid-item{
+                    iframe{
+                        width: 250px;
+                        height: 250px;
+                    }
+                }
+
+            }
+
+        }
+    }
 
     .formarparte{
         height: 190vh;
@@ -387,8 +701,8 @@
                     text-align: center;
                 }
             }
-            
-            
+
+
         }
     }
     .contacto{
@@ -396,12 +710,12 @@
         div{
             width: 100%;
             height: 50vh;
-            
+
             h2{
 
                 font-size:nth($font-size, 2 );
 
-    
+
             }
             p{
                 font-size: nth($font-size, 4 );
@@ -421,23 +735,23 @@
         height: 50vh;
         div.heroacercadel{
             height: 50vh;
-            
+
             display: flex;
             justify-content: center;
             align-items: center;
-            
+
             p{
                 font-size: nth($font-size, 4);
             }
                 }
     }
-    
+
 
 
 
 
 .hero{
-    height: 30vh; 
+    height: 30vh;
     div{
         div{
             div{
@@ -452,10 +766,10 @@
 
 
 
-    
-    
-    
-    
+
+
+
+
     .educacion{
         height: 120vh;
         h2{
@@ -464,11 +778,11 @@
 
         .cursos{
 
-        
+
             div.grid-cursos{
                 padding-top: 100px;
                 div{
-                    
+
                     img{
                         width: 180px;
                         height: 180px;
@@ -479,12 +793,12 @@
                         width: 180px;
                         padding-bottom: 15px;
 
-                        
+
                     }
                 }
             }
         }
-        
+
     }
 
 
@@ -514,7 +828,7 @@
 
         div{
             div{
-                
+
                 h3{
 
                     font-size: nth($font-size, 3 );}
@@ -539,9 +853,9 @@
                     }
             }
         }
-    
+
         }
-        
+
 
 
         .herogob{
@@ -551,23 +865,23 @@
                 margin-top: 0;
                 font-size:nth($font-size, 2);
             }
-        
+
                 div{
                     div{
-                        
+
                         h3{
-        
+
                             font-size: nth($font-size, 3 );}
                         p{
-        
+
                             font-size: nth($font-size, 4 );
                             }
-                    
+
                     }
                 }
-            
+
                 }
-                
+
 
 
                 .heropres{
@@ -577,27 +891,27 @@
                         margin-top: 0;
                         font-size:nth($font-size, 2);
                     }
-                
+
                         div{
                             div{
-                                
+
                                 h3{
-                
+
                                     font-size: nth($font-size, 3 );}
                                 p{
-                
+
                                     font-size: nth($font-size, 4 );
                                     }
-                            
+
                             }
                         }
-                    
+
                         }
-                        
 
 
 
-        
+
+
 
 .herohistoria{
 
@@ -625,7 +939,7 @@
         div.lista{
             ol{
                 li{
-                    font-size: 16px; 
+                    font-size: 16px;
                 }
             }
             p{
@@ -655,7 +969,7 @@
         div.cursos{
             div.grid-cursos{
             display: grid;
-            grid-template-columns:repeat(2,1fr); 
+            grid-template-columns:repeat(2,1fr);
             grid-template-rows: 350px;
             gap: 10px;
             padding: 10px;
@@ -682,41 +996,41 @@
 
 
 
-    
-.galeriaCursos{
-    height: 230vh;
-    width: 100%;
-    div.alineargaleria{
-        margin: 20px;
-        div.grid-galeria{
-            display: grid;
-            grid-template-columns:repeat(2,1fr); ;
 
-            .img-2{
-                grid-column: span 2 ;
-            }
-            .img-5{
-                grid-row: span 1 ;
-            }
-            .img-7{
-                grid-column: span 2 ;
-            }
-            .img-9{
-                grid-column: span 1 ;
-            }
-        }
-    }
-}
+// .eventos{
+//     height: 230vh;
+
+//     // div.alineargaleria{
+//     //     margin: 20px;
+//     //     div.grid-galeria{
+//     //         display: grid;
+//     //         grid-template-columns:repeat(2,1fr); ;
+
+//     //         .img-2{
+//     //             grid-column: span 2 ;
+//     //         }
+//     //         .img-5{
+//     //             grid-row: span 1 ;
+//     //         }
+//     //         .img-7{
+//     //             grid-column: span 2 ;
+//     //         }
+//     //         .img-9{
+//     //             grid-column: span 1 ;
+//     //         }
+//     //     }
+//     // }
+// }
 
 
     .footer {
-        height: 45vh;  
+        height: 45vh;
         div{
             h2{
                 font-size: nth($font-size, 3);
             }
-        } 
-    
+        }
+
         div.logosfooter{
             .mapa{
                 iframe{
@@ -736,12 +1050,131 @@
                 }
             }
 
-        }       
+        }
+    }
+}
+@media screen and (max-width:779px){
+   .smiles{
+    height: 220vh;
+   }
+
+   .eventos{
+    height: 180vh;
+}
+}
+
+@media screen and (max-width: 670px){
+    .eventos{
+        height: 160vh;
+        div.grid-webi{
+            div.grid-item{
+                a{
+                    img{
+                        width: 500px;
+                        height: 600px;
+                    }
+                }
+            }
+        }
+    }
+
+    .construccion{
+        div.webinars21{
+            div.grid-webi{
+
+                div.grid-item{
+                    iframe{
+                        width: 220px;
+                        height: 220px;
+                    }
+
+                }
+
+            }
+
+        }
+        div.webinars20{
+            div.grid-webi{
+
+                div.grid-item{
+                    iframe{
+                        width: 220px;
+                        height: 220px;
+                    }
+                }
+
+            }
+
+        }
     }
 }
 
+@media screen and (max-width: 665px){
+.smiles{
+    height: 420vh;
 
 
+div.websmile{
+
+        width: 95%;
+        display: grid;
+        grid-template-columns:1fr;
+        grid-auto-rows: 350px;
+        div.websm1{
+            img{
+                height: 450px;
+                width: 450px;
+            }
+
+        }
+        div.websm2{
+            a{
+                img{
+                    height: 450px;
+                    width: 450px;
+                    }
+                }
+            }
+            div{
+                h3{
+                    font-size: nth($font-size, 2 );
+                }
+                p{
+                    font-size: nth($font-size, 3 );
+                }
+            }
+        }
+        div.cacsmile{
+            width: 95%;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-auto-rows: 450px;
+            div{
+                h3{
+                    font-size: nth($font-size, 2);
+                }
+                p{
+                    font-size: nth($font-size, 3);
+                }
+            }
+            div.cacsm1 {
+                img{
+                    height: 450px;
+                    width: 550px;
+                }
+
+            }
+            div.cacsm2 {
+                img{
+                    height: 450px;
+                    width: 550px;
+                }
+
+            }
+        }
+         }
+
+}
 
 
 @media screen and (max-width: 650px){
@@ -764,7 +1197,7 @@
             flex-direction: row ;
             div.grid-cursos{
                 display: grid;
-                grid-template-columns:repeat(2,1fr); 
+                grid-template-columns:repeat(2,1fr);
                 grid-auto-rows: 170px ;
                 gap: 100px;
                 width: 65%;
@@ -772,7 +1205,7 @@
                 padding-top: 50px;
 
                 div{
-                    
+
                     img{
                         width: 150px;
                         height: 150px;
@@ -783,12 +1216,12 @@
                         width: 150px;
                         padding-bottom: 15px;
 
-                        
+
                     }
                 }
             }
         }
-        
+
     }
 
 
@@ -807,24 +1240,147 @@
         height: 215vh;
 
     }
+
+    .construccion{
+        div.webinars21{
+            div.grid-webi{
+
+                div.grid-item{
+                    iframe{
+                        width: 180px;
+                        height: 180px;
+                    }
+
+                }
+
+            }
+
+        }
+        div.webinars20{
+            div.grid-webi{
+
+                div.grid-item{
+                    iframe{
+                        width: 180px;
+                        height: 180px;
+                    }
+                }
+
+            }
+
+        }
+    }
+
+
+    .smiles{
+        height: 370vh;
+
+        div.titsmile{
+            h2{
+                font-size:nth($font-size, 2 );
+            }
+        }
+        div.actsmile{
+            width: 95%;
+            margin: 0;
+        }
+    div.websmile{
+            margin-top: 0px;
+            width: 95%;
+            display: grid;
+            grid-template-columns:1fr;
+            grid-auto-rows: 400px;
+            div.websm1{
+                img{
+                    height: 400px;
+                    width: 400px;
+                }
+
+            }
+            div.websm2{
+                a{
+                    img{
+                        height: 400px;
+                        width: 400px;
+                        }
+                    }
+                }
+
+            }
+            div.cacsmile{
+                width: 95%;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-auto-rows: 350px;
+
+                div.cacsm1 {
+                    img{
+                        height: 350px;
+                        width: 450px;
+                    }
+
+                }
+                div.cacsm2 {
+                    img{
+                        height: 350px;
+                        width: 450px;
+                    }
+
+                }
+            }
+             }
+
      }
 
 
 
-     @media screen and (max-width: 550px){
+    @media screen and (max-width: 550px){
+        .eventos{
 
+            h2{
+                font-size: nth($font-size, 2);
+            }
+            div.grid-webi{
+                div.grid-item{
+
+                    a{
+                        img{
+                            width: 450px;
+                            height: 540px;
+                        }
+                    }
+                }
+            }
+        }
 
         .formarparte{
             height: 225vh;
-    
+
         }
          }
-    
+
 
 
 
 @media screen and (max-width: 522px){
+    .eventos{
+height: 140vh;
+h2{
+    margin: 10px;
+}
+        div.grid-webi{
+            div.grid-item{
 
+                a{
+                    img{
+                        margin-top: 0px;
+                        width: 400px;
+                        height: 480px;
+                    }
+                }
+            }
+        }
+    }
     .comision{
 
         div{
@@ -833,30 +1389,100 @@
 
                 font-size:nth($font-size, 2 );
 
-    
+
             }
             div{
                 h3{
 
                     font-size: nth($font-size, 3 );
-  
+
                 }
 
             }
-            
-            
+
+
         }
     }
+    .construccion{
+        div{
+
+            h2{
+
+                font-size: nth($font-size, 2);
+
+            }
+        }
+        div.webinars23{
+            div.grid-webi{
+                div.grid-item{
+                    a{
+                        img{
+                            width: 300px;
+                            height: 300px;
+                        }
+                    }
+                }
+            }
+        }
+        div.webinars21{
+            h2{
+
+                font-size: nth($font-size, 2);
+
+            }
+            div.grid-webi{
+                display: grid;
+                grid-template-columns:1fr ;
+                grid-auto-rows: 350px;
+
+                div.grid-item{
+                    iframe{
+                        width: 250px;
+                        height: 250px;
+                    }
+
+                }
+
+            }
+
+        }
+        div.webinars20{
+            h2{
+
+                font-size: nth($font-size, 2);
+
+            }
+            div.grid-webi{
+                display: grid;
+                grid-template-columns:1fr ;
+                grid-auto-rows: 350px;
+
+                div.grid-item{
+                    iframe{
+                        width: 250px;
+                        height: 250px;
+                    }
+                }
+
+            }
+
+        }
+    }
+
+
+
+
+
     .contacto{
 
         div{
             height: 70vh;
-            
+
             h2{
 
                 font-size:nth($font-size, 2 );
 
-    
+
             }
             p{
 
@@ -885,13 +1511,13 @@
             }
 }
 
-    
-    
-    
+
+
+
 
 
     .hero{
-        height: 30vh;   
+        height: 30vh;
         div{
             div{
                 img{
@@ -900,7 +1526,7 @@
             }
         }
     }
-    
+
 
 
 
@@ -920,7 +1546,7 @@
         height: 120vh;
         .cursos{
 
-        
+
             div.grid-cursos{
                 gap: 100px;
                 div{
@@ -929,37 +1555,37 @@
                         height: 120px;
                     }
                     a{
-                        width: 120px;  
+                        width: 120px;
                     }
                 }
             }
         }
-        
+
     }
     .herogob{
 
         h2{
-    
+
             font-size:nth($font-size, 3 );
         }
-    
+
             div{
                 div{
-                    
+
                     h3{
-    
+
                         font-size: nth($font-size, 4 );}
                     p{
-    
+
                         font-size: nth($font-size, 5 );
                         }
-                    
-                        
+
+
                 }
             }
-        
+
             }
-            
+
             .heropres{
 
                 h2{
@@ -967,23 +1593,23 @@
                     margin-top: 0;
                     font-size:nth($font-size, 3);
                 }
-            
+
                     div{
                         div{
-                            
+
                             h3{
-            
+
                                 font-size: nth($font-size, 4 );}
                             p{
-            
+
                                 font-size: nth($font-size, 5 );
                                 }
-                        
+
                         }
                     }
-                
+
                     }
-                    
+
 
 
 
@@ -1000,7 +1626,7 @@
                 margin:10px;
                 line-height: 30px;
             }
-    
+
         }
     }
 
@@ -1024,34 +1650,33 @@
 
     .header{
 
-        .titulo{
-            h1 {
-                font-size: 25px;}
-    
-                a{
-    
-                    img{
-                        width: 65px;
-                        height: 75px;
-                    }
-                }
-    
-            div{
+        div.titulo{
+            h1{
+                font-size: nth($font-size ,3 );
+            }
+            a{
                 img{
-                    width: 30px;
-                    height: 30px;
+                    width: 75px;
+                    height: 85px;
+                    margin-top: 0px;
                 }
+            }
+
+
+
+            div.cirujano{
+
                 a{
                     display: none;
                 }
             }
         }
-    
+
 
     }
 }
 
-    
+
 
 
 
@@ -1081,13 +1706,13 @@
 
     }
 
-.galeriaCursos{
+// .galeriaCursos{
 
-h2{
-    font-size: nth($font-size, 2 );
-}
+// h2{
+//     font-size: nth($font-size, 2 );
+// }
 
-}
+// }
 
 
 .mensajes{
@@ -1127,13 +1752,13 @@ h2{
 
 
 .footer {
-    height: 25vh;  
+    height: 25vh;
     div{
         h2{
             font-size: nth($font-size , 3 );
         }
     }
-    
+
     div.logosfooter{
         display: flex;
         justify-content: center;
@@ -1157,20 +1782,142 @@ display: none;
             }
         }
 
-    }       
+    }
 }
 }
 
+@media screen and (max-width: 485px){
+    .smiles{
+        height: 350vh;
 
+
+    div.websmile{
+
+            display: grid;
+            grid-template-columns:1fr;
+            grid-auto-rows: 300px;
+            div.websm1{
+                img{
+                    height: 300px;
+                    width: 300px;
+                }
+
+            }
+            div.websm2{
+                a{
+                    img{
+                        height: 300px;
+                        width: 300px;
+                        }
+                    }
+                }
+                div{
+                    h3{
+                        font-size: nth($font-size, 4 );
+                    }
+                    p{
+                        font-size: nth($font-size, 4 );
+                    }
+                }
+            }
+            div.cacsmile{
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-auto-rows: 350px;
+                div{
+                    h3{
+                        font-size: nth($font-size, 4);
+                    }
+                    p{
+                        font-size: nth($font-size, 4);
+                    }
+                }
+                div.cacsm1 {
+                    img{
+                        height: 300px;
+                        width: 400px;
+                    }
+
+                }
+                div.cacsm2 {
+                    img{
+                        height: 300px;
+                        width: 400px;
+                    }
+
+                }
+            }
+            }
+}
 @media screen and (max-width: 475px){
+
+    .eventos{
+        height: 130vh;
+
+                div.grid-webi{
+                    div.grid-item{
+        
+                        a{
+                            img{
+
+                                width: 300px;
+                                height: 380px;
+                            }
+                        }
+                    }
+                }
+            }
+
+
 .formarparte{
     height: 245vh;
 }
+
+
+.construccion{
+    div.webinars23{
+        div.grid-webi{
+
+        div.grid-item{
+            a{
+                img{
+                    width: 280px;
+                    height: 280px;
+
+                }
+            }
+        }
+        }
+
+    }
 }
 
 
-    
+}
+
+
+
 @media screen and (max-width: 465px){
+
+
+
+    .construccion{
+        div.webinars23{
+            div.grid-webi{
+
+            div.grid-item{
+                a{
+                    img{
+                        width: 250px;
+                        height: 250px;
+
+                    }
+                }
+            }
+            }
+
+        }
+    }
 
     .educacion{
         height: 180vh;
@@ -1180,10 +1927,10 @@ display: none;
 
         .cursos{
 
-        
+
             div.grid-cursos{
                 display: grid;
-                grid-template-columns: 1fr; 
+                grid-template-columns: 1fr;
                 gap: 90px;
                 margin-top: 0;
                 padding-top: 70px;
@@ -1203,7 +1950,7 @@ display: none;
 
             }
         }
-        
+
     }
 
 
@@ -1217,10 +1964,10 @@ div.acerca{
     }
 }
 
-    
+
 
     .hero{
-        height: 20vh;  
+        height: 20vh;
         div{
             div{
                 div{
@@ -1231,8 +1978,8 @@ div.acerca{
             }
         }
     }
-        
-    
+
+
     .herohistoria{
 
         h2{
@@ -1244,7 +1991,7 @@ div.acerca{
                 margin:10px;
                 line-height: 30px;
             }
-    
+
         }
     }
 
@@ -1262,7 +2009,7 @@ div.acerca{
                     height: 65px;}
                 }
         }
-    
+
     }
 }
 
@@ -1280,43 +2027,43 @@ div.acerca{
     }
 
 
-.galeriaCursos{
-    height: 200vh;
-    width: 100%;
-    h2{
-    font-size: 25px;
-    }
-    div.alineargaleria{
-        margin: 5px;
-        div.grid-galeria{
-            display: grid;
-            grid-template-columns:repeat(2,1fr);
+// .galeriaCursos{
+//     height: 200vh;
+//     width: 100%;
+//     h2{
+//     font-size: 25px;
+//     }
+//     div.alineargaleria{
+//         margin: 5px;
+//         div.grid-galeria{
+//             display: grid;
+//             grid-template-columns:repeat(2,1fr);
 
-                .img-1{
-                    grid-row: span 1;
-                
-                }
-                .img-2{
-                    grid-row: span 1;
-                
-                }
-                .img-7{
-                    grid-row: span 1;
-                    
-                }
-                .img-8{
-                    grid-column: span 1;
-                    grid-row: span 1;
-                }
-                .img-9{
-                    grid-column: span 1; 
-                    grid-row: span 1;
-                }
-            
-        }
-    }
+//                 .img-1{
+//                     grid-row: span 1;
 
-}
+//                 }
+//                 .img-2{
+//                     grid-row: span 1;
+
+//                 }
+//                 .img-7{
+//                     grid-row: span 1;
+
+//                 }
+//                 .img-8{
+//                     grid-column: span 1;
+//                     grid-row: span 1;
+//                 }
+//                 .img-9{
+//                     grid-column: span 1;
+//                     grid-row: span 1;
+//                 }
+
+//         }
+//     }
+
+// }
 
 .formarparte{
     height: 245vh;
@@ -1354,14 +2101,14 @@ div{
             div.cursos{
                 div.grid-cursos{
                 display: grid;
-                grid-template-columns: 1fr; 
+                grid-template-columns: 1fr;
                 grid-template-rows: 70px;
                 margin-bottom: 0px;
                 margin-top: 80px;
                 gap: 180px;
                 padding-top: 0px;
                 padding-bottom: 0px;
-    
+
                     div.grid-itemcursos{
 
                         img{
@@ -1376,37 +2123,124 @@ div{
                     }
                 }
             }
-    
+
 }
 
 
 @media screen and (max-width: 411px){
+
+
+
+    .construccion{
+        div.webinars23{
+            div.grid-webi{
+
+            div.grid-item{
+                a{
+                    margin: 10px;
+
+                    padding: 5px;
+
+
+
+                }
+            }
+            }
+
+        }
+    }
     .formarparte{
         height: 260vh;
     }
+
+    .smiles{
+        height: 320vh;
+        div.titsmile{
+            div{
+
+                img{
+                    height: 220px;
+                    width: 180px;
+                }
+        }
+         }
+
+
+            div.cacsmile{
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-auto-rows: 250px;
+                div{
+                    h3{
+                        font-size: nth($font-size, 4);
+                    }
+                    p{
+                        font-size: nth($font-size, 4);
+                    }
+                }
+                div.cacsm1 {
+                    img{
+                        height: 250px;
+                        width: 300px;
+                    }
+
+                }
+                div.cacsm2 {
+                    img{
+                        height: 250px;
+                        width: 300px;
+                    }
+
+                }
+            }
+             }
+
+
+
+
 }
 
     @media screen and (max-width: 390px){
 
 
+        .construccion{
+            div.webinars23{
+                div.grid-webi{
 
+                div.grid-item{
+                    a{
+                        margin-bottom: 10px;
+
+                        padding: 5px;
+
+                        img{
+                            width: 200px;
+                            height: 200px;
+                        }
+
+                    }
+                }
+                }
+
+            }
+        }
 
 
         .formarparte{
             height: 190vh;
             div{
                 h2{
-        
+
                 font-size:nth($font-size, 3);
 
                 }
-        
-                
-        
+
+
+
                 div.textoformarparte{
                     p{
                     font-size: nth($font-size, 4 );
-        
+
                     }
                 ol{
                     li{
@@ -1425,9 +2259,9 @@ div{
                 }
             }
         }
-        
 
-        
+
+
 
 
 
@@ -1468,12 +2302,12 @@ div{
 
         }
 
-        .galeriaCursos{
-            h2{
-                font-size: 20px;
-            
-            }
-        } 
+        // .galeriaCursos{
+        //     h2{
+        //         font-size: 20px;
+
+        //     }
+        // }
 
 
         .mensajes{
@@ -1496,71 +2330,153 @@ div{
                     }
                 }
             }
-            
+
         }
 
-        .galeriaCursos{
-            height: 260vh;
-        
-            div.alineargaleria{
-        
-                div.grid-galeria{
-                display: grid;
-                grid-template-columns: 1fr;
-                object-fit: cover;
-    
-                        .img-2{
-                        grid-column: span 2;}
-                        .img-3{
-                        grid-column: span 2;}
-                        .img-4{
-                        grid-column: span 2;}
-                        .img-5{
-                        grid-row: span 1;
-                        grid-column: span 2;}
-                        .img-7{
-                        grid-column: span 2;}
-                        .img-9{
-                        grid-column: span 2;}
-                        
-                    }
-                }
-            }
-    
+        // .galeriaCursos{
+        //     height: 260vh;
+
+        //     div.alineargaleria{
+
+        //         div.grid-galeria{
+        //         display: grid;
+        //         grid-template-columns: 1fr;
+        //         object-fit: cover;
+
+        //                 .img-2{
+        //                 grid-column: span 2;}
+        //                 .img-3{
+        //                 grid-column: span 2;}
+        //                 .img-4{
+        //                 grid-column: span 2;}
+        //                 .img-5{
+        //                 grid-row: span 1;
+        //                 grid-column: span 2;}
+        //                 .img-7{
+        //                 grid-column: span 2;}
+        //                 .img-9{
+        //                 grid-column: span 2;}
+
+        //             }
+        //         }
+        //     }
+
 }
     @media screen and (max-width: 364px) {
 
+
+        .eventos{
+            height: 100vh;
+    
+                    div.grid-webi{
+                        div.grid-item{
+            
+                            a{
+                                img{
+    
+                                    width: 230px;
+                                    height: 280px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+        .smiles{
+            height: 310vh;
+            div.titsmile{
+                div{
+
+                    img{
+                        height: 200px;
+                        width: 160px;
+                    }
+            }
+            }
+            }
+
+
+        .construccion{
+            div{
+
+                h2{
+
+                    font-size: nth($font-size, 3);
+
+                }
+            }
+
+            div.webinars21{
+                h2{
+
+                    font-size: nth($font-size, 3);
+
+                }
+                div.grid-webi{
+
+
+                    div.grid-item{
+                        iframe{
+                            width: 220px;
+                            height: 220px;
+                        }
+
+                    }
+
+                }
+
+            }
+            div.webinars20{
+                h2{
+
+                    font-size: nth($font-size, 3);
+
+                }
+                div.grid-webi{
+
+
+                    div.grid-item{
+                        iframe{
+                            width: 220px;
+                            height: 220px;
+                        }
+                    }
+
+                }
+
+            }
+        }
 
 
         .contacto{
 
             div{
                 height: 70vh;
-                
+
                 h2{
-    
+
                     font-size:nth($font-size, 3 );
-    
-        
+
+
                 }
                 p{
-    
+
                     font-size: nth($font-size, 5 );
                     margin: 20px;
                     padding: 10px;
-    
+
                 }
                 a{
-    
+
                     font-size:nth($font-size, 5);
-    
+
                 }
             }
         }
 
         .formarparte{
 
-        
+
             div{
                 h2{
 
@@ -1585,13 +2501,13 @@ div{
 
                     }
                 }
-        
-        
+
+
             }
-            
+
             }
  }
-    
+
 
 
 

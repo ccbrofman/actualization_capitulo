@@ -1,0 +1,100 @@
+.heromiembros{
+
+
+    div{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)),  url(../img/pexels-anna-shvets-4483327.jpg) ;
+        @extend %flex;
+        flex-direction: column;
+        h2{
+            color:$color-secundario;
+            text-align: center;
+            font-family: 'Pacifico', cursive;
+            font-size:nth($font-size,1 );
+            margin: 20px;
+            padding-top: 5px;}
+    div.uyc{
+
+        div.usuario{
+        margin: 10px;
+        @extend %flex;
+        flex-direction: column;
+        margin: 10px;
+        label{
+            font-family:  'Raleway', sans-serif;
+            color: $color-secundario ;
+            font-size: nth($font-size,4);}
+            }
+        dir.contrasena{
+            margin: 10px;
+            @extend %flex;
+            flex-direction: column;
+            margin: 10px; 
+                label{
+                    font-family:  'Raleway', sans-serif;
+                    color: $color-secundario ;
+                    font-size: nth($font-size,4);}
+                }
+}
+            
+        }
+        div.botonmiembros{
+            @extend %flex;
+            flex-direction: row;
+                input{
+                    font-family:  'Raleway', sans-serif;
+                    font-size: nth($font-size,5);
+                    background-color: $color-fondo;
+                    color: $color-principal;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    margin: 10px;
+                }
+                label{
+                    font-family:  'Raleway', sans-serif;
+                    font-size: nth($font-size,5);
+                    color: $color-secundario;
+                }
+            
+        }
+        div.botonformar{
+            a{
+                color:$color-principal;
+                text-align: center;
+                font-family: 'Pacifico', cursive;
+                font-size:nth($font-size,3 );
+                margin: 50px;
+                padding: 10px;
+                background-color:$color-secundario;
+                border: 4px solid $color-fondo;
+                text-decoration: none;
+            }
+        }
+
+div.adherentes{
+    h2{
+        color:$color-secundario;
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        font-size:nth($font-size,2 );
+        margin: 20px;
+        padding-top: 5px;
+    }
+    p{
+        color:$color-secundario;
+        text-align: center;
+        font-family:  'Raleway', sans-serif;
+        font-size:nth($font-size,4 );
+    }
+}
+
+}
+

@@ -180,9 +180,7 @@
     }
     
 }
-
-
-.galeriaCursos{
+.eventos{
     height: 150vh;
     width: 100%;
     top: 0;
@@ -192,7 +190,6 @@
     background-position: center;
     background-color: rgb(0, 0, 0);
 
-
     h2{
         position: relative;
         color: $color-principal;
@@ -201,44 +198,105 @@
         font-size: nth($font-size, 1);
         margin: 25px;
         padding-top: 45px;
-
     }
-    div.alineargaleria{
-        margin: 50px;
-        @extend %flex;
+    div.grid-webi{
+        div.grid-item{
+            @extend %flex;
+            flex-direction: column;
+            border: 2px solid black;
 
-        div.grid-galeria{
-            display: grid;
-            grid-template-columns:repeat(3,1fr); ;
-            grid-auto-rows: 150px;
-            gap: 15px;
-            width: 75%;
-
-            div.grid-item{
-                img{
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-
+            
+            h3{
+                color: $color-secundario;
+                text-align: center;
+                font-family: 'Raleway', sans-serif;
+                font-size: nth($font-size, 4);}
+                p{
+                    color: $color-secundario;
+                    text-align: center;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: nth($font-size, 4);
                 }
-            }
-            .img-1{
-                grid-column: span 2 ;
-            }
-            .img-5{
-                grid-row: span 2;
-            }
-            .img-8{
-                grid-row: span 2;
-            }
-            .img-9{
-                grid-column: span 2;
-                grid-row: span 2;
-            }
-                
-            }
+                a{
+                    img{
+                        width: 580px;
+                        height: 650px;
+                        margin: 5px;
+                        padding: 5px;
+                    }
+                }
+                a{
+                    text-decoration: none;
+                    color: $color-principal;
+                    text-align: center;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: nth($font-size, 4);
+                    background-color:$color-fondo;
+                    margin: 20px;
+                    padding: 15px;
+                }
         }
+
     }
+}
+
+// .galeriaCursos{
+//     height: 150vh;
+//     width: 100%;
+//     top: 0;
+//     background-size: cover;
+//     background-attachment: fixed;
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-color: rgb(0, 0, 0);
+
+
+//     h2{
+//         position: relative;
+//         color: $color-principal;
+//         text-align: center;
+//         font-family: 'Pacifico', cursive;
+//         font-size: nth($font-size, 1);
+//         margin: 25px;
+//         padding-top: 45px;
+
+//     }
+    // div.alineargaleria{
+    //     margin: 50px;
+    //     @extend %flex;
+
+    //     div.grid-galeria{
+    //         display: grid;
+    //         grid-template-columns:repeat(3,1fr); ;
+    //         grid-auto-rows: 150px;
+    //         gap: 15px;
+    //         width: 75%;
+
+    //         div.grid-item{
+    //             img{
+    //                 width: 100%;
+    //                 height: 100%;
+    //                 object-fit: cover;
+
+    //             }
+    //         }
+    //         .img-1{
+    //             grid-column: span 2 ;
+    //         }
+    //         .img-5{
+    //             grid-row: span 2;
+    //         }
+    //         .img-8{
+    //             grid-row: span 2;
+    //         }
+    //         .img-9{
+    //             grid-column: span 2;
+    //             grid-row: span 2;
+    //         }
+                
+    //         }
+    //     }
+    // }
 
     
 
