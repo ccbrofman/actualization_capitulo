@@ -78,5 +78,47 @@
                 text-decoration: none;
             }
         }
-}
+
+        div.titulares{
+            h2{
+                color:$color-secundario;
+                text-align: center;
+                font-family: 'Pacifico', cursive;
+                font-size:nth($font-size,2 );
+                margin: 20px;
+                padding-top: 5px;}
+            }
+            h3{
+                font-family: 'Pacifico', cursive;
+                font-size: nth($font-size,3);
+                color: $color-secundario;
+            }
+            p{
+                font-family:  'Raleway', sans-serif;
+                font-size: nth($font-size,4);
+                color: $color-secundario;
+            }
+        }
+        div.adherentes{
+            h2{
+                color:$color-secundario;
+                text-align: center;
+                font-family: 'Pacifico', cursive;
+                font-size:nth($font-size,2 );
+                margin: 20px;
+                padding-top: 5px;}
+            
+            h3{
+                font-family: 'Pacifico', cursive;
+                font-size: nth($font-size,3);
+                color: $color-secundario;
+                margin: 10px;
+            }
+            p{
+                font-family:  'Raleway', sans-serif;
+                font-size: nth($font-size,4);
+                color: $color-secundario;
+            margin: 5px;}
+            }
+
 

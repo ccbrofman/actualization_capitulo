@@ -719,6 +719,44 @@ div.grid-contenedor .header {
   border: 4px solid #19193d;
   text-decoration: none; }
 
+.heromiembros div.titulares h2 {
+  color: black;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  margin: 20px;
+  padding-top: 5px; }
+
+.heromiembros h3 {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  color: black; }
+
+.heromiembros p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: black; }
+
+div.adherentes h2 {
+  color: black;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  margin: 20px;
+  padding-top: 5px; }
+
+div.adherentes h3 {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  color: black;
+  margin: 10px; }
+
+div.adherentes p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: black;
+  margin: 5px; }
+
 .educacion {
   width: 100%;
   height: 80vh;
@@ -1582,17 +1620,19 @@ div.grid-contenedor .header {
         width: 450px; } }
 
 @media screen and (max-width: 550px) {
-  .eventos h2 {
-    font-size: 30px; }
-  .eventos div.grid-webi div.grid-item a img {
-    width: 450px;
-    height: 540px; }
+  .eventos {
+    height: 140vh; }
+    .eventos h2 {
+      font-size: 30px; }
+    .eventos div.grid-webi div.grid-item a img {
+      width: 450px;
+      height: 540px; }
   .formarparte {
     height: 225vh; } }
 
 @media screen and (max-width: 522px) {
   .eventos {
-    height: 140vh; }
+    height: 130vh; }
     .eventos h2 {
       margin: 10px; }
     .eventos div.grid-webi div.grid-item a img {
@@ -1783,7 +1823,7 @@ div.grid-contenedor .header {
 
 @media screen and (max-width: 475px) {
   .eventos {
-    height: 130vh; }
+    height: 115vh; }
     .eventos div.grid-webi div.grid-item a img {
       width: 300px;
       height: 380px; }
@@ -1856,7 +1896,7 @@ div.grid-contenedor .header {
   .formarparte {
     height: 250vh; }
   .actividades {
-    height: 240vh; }
+    height: 220vh; }
     .actividades div.texto {
       width: 95%; }
     .actividades div.cursos div.grid-cursos {
@@ -1898,7 +1938,9 @@ div.grid-contenedor .header {
         width: 300px; }
       .smiles div.cacsmile div.cacsm2 img {
         height: 250px;
-        width: 300px; } }
+        width: 300px; }
+  .actividades {
+    height: 225vh; } }
 
 @media screen and (max-width: 390px) {
   .construccion div.webinars23 div.grid-webi div.grid-item a {
@@ -1952,6 +1994,8 @@ div.grid-contenedor .header {
 @media screen and (max-width: 364px) {
   .eventos {
     height: 100vh; }
+    .eventos h2 {
+      font-size: 20px; }
     .eventos div.grid-webi div.grid-item a img {
       width: 230px;
       height: 280px; }

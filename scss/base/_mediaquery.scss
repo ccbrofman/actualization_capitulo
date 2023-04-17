@@ -1336,7 +1336,7 @@ div.websmile{
 
     @media screen and (max-width: 550px){
         .eventos{
-
+height: 140vh;
             h2{
                 font-size: nth($font-size, 2);
             }
@@ -1364,7 +1364,7 @@ div.websmile{
 
 @media screen and (max-width: 522px){
     .eventos{
-height: 140vh;
+height: 130vh;
 h2{
     margin: 10px;
 }
@@ -1852,7 +1852,7 @@ display: none;
 @media screen and (max-width: 475px){
 
     .eventos{
-        height: 130vh;
+        height: 115vh;
 
                 div.grid-webi{
                     div.grid-item{
@@ -2093,7 +2093,7 @@ div{
     }
 
     .actividades{
-        height: 240vh;
+        height: 220vh;
         div.texto{
             width: 95%;
         }
@@ -2195,7 +2195,10 @@ div{
             }
              }
 
-
+             .actividades{
+                height: 225vh;
+            }
+            
 
 
 }
@@ -2367,6 +2370,9 @@ div{
 
         .eventos{
             height: 100vh;
+            h2{
+                font-size: nth($font-size, 3 );
+            }
     
                     div.grid-webi{
                         div.grid-item{
