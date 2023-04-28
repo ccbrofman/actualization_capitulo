@@ -35,7 +35,7 @@ div.webinars23{
         div.grid-item{
             @extend %flex;
             flex-direction: column;
-            border: 2px solid black;
+
             width: 85%;
 
                 h3{
@@ -49,23 +49,11 @@ div.webinars23{
                     font-family: 'Raleway', sans-serif;
                     font-size: nth($font-size, 4);
                 }
-                a{
-                    img{
-                        width: 350px;
-                        height: 350px;
-                        margin: 5px;
-                        padding: 5px;
-                    }
-                }
-                a{
-                    text-decoration: none;
-                    color: $color-principal;
-                    text-align: center;
-                    font-family: 'Raleway', sans-serif;
-                    font-size: nth($font-size, 4);
-                    background-color:$color-fondo;
-                    margin: 20px;
-                    padding: 15px;
+                iframe{
+                    width: 350px;
+                    height: 350px;
+                    margin: 5px;
+                    padding: 5px;
                 }
             }
         

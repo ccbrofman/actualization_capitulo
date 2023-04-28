@@ -1415,12 +1415,12 @@ h2{
         div.webinars23{
             div.grid-webi{
                 div.grid-item{
-                    a{
-                        img{
+                    
+                        iframe{
                             width: 300px;
                             height: 300px;
                         }
-                    }
+                    
                 }
             }
         }
@@ -1879,13 +1879,13 @@ display: none;
         div.grid-webi{
 
         div.grid-item{
-            a{
-                img{
+            
+                iframe{
                     width: 280px;
                     height: 280px;
 
                 }
-            }
+            
         }
         }
 
@@ -1906,13 +1906,13 @@ display: none;
             div.grid-webi{
 
             div.grid-item{
-                a{
-                    img{
+                
+                    iframe{
                         width: 250px;
                         height: 250px;
 
                     }
-                }
+                
             }
             }
 
@@ -2131,24 +2131,6 @@ div{
 
 
 
-    .construccion{
-        div.webinars23{
-            div.grid-webi{
-
-            div.grid-item{
-                a{
-                    margin: 10px;
-
-                    padding: 5px;
-
-
-
-                }
-            }
-            }
-
-        }
-    }
     .formarparte{
         height: 260vh;
     }
@@ -2211,17 +2193,13 @@ div{
                 div.grid-webi{
 
                 div.grid-item{
-                    a{
-                        margin-bottom: 10px;
 
-                        padding: 5px;
-
-                        img{
+                        iframe{
                             width: 200px;
                             height: 200px;
                         }
 
-                    }
+                    
                 }
                 }
 

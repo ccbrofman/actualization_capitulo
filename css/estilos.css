@@ -874,7 +874,6 @@ div.adherentes p {
       margin: 30px; }
       .construccion div.webinars23 div.grid-webi div.grid-item {
         flex-direction: column;
-        border: 2px solid black;
         width: 85%; }
         .construccion div.webinars23 div.grid-webi div.grid-item h3 {
           color: black;
@@ -886,20 +885,11 @@ div.adherentes p {
           text-align: center;
           font-family: 'Raleway', sans-serif;
           font-size: 15px; }
-        .construccion div.webinars23 div.grid-webi div.grid-item a img {
+        .construccion div.webinars23 div.grid-webi div.grid-item iframe {
           width: 350px;
           height: 350px;
           margin: 5px;
           padding: 5px; }
-        .construccion div.webinars23 div.grid-webi div.grid-item a {
-          text-decoration: none;
-          color: white;
-          text-align: center;
-          font-family: 'Raleway', sans-serif;
-          font-size: 15px;
-          background-color: #19193d;
-          margin: 20px;
-          padding: 15px; }
   .construccion div.webinars21 {
     margin: 0px; }
     .construccion div.webinars21 h2 {
@@ -1645,7 +1635,7 @@ div.adherentes p {
     font-size: 20px; }
   .construccion div h2 {
     font-size: 30px; }
-  .construccion div.webinars23 div.grid-webi div.grid-item a img {
+  .construccion div.webinars23 div.grid-webi div.grid-item iframe {
     width: 300px;
     height: 300px; }
   .construccion div.webinars21 h2 {
@@ -1829,12 +1819,12 @@ div.adherentes p {
       height: 380px; }
   .formarparte {
     height: 245vh; }
-  .construccion div.webinars23 div.grid-webi div.grid-item a img {
+  .construccion div.webinars23 div.grid-webi div.grid-item iframe {
     width: 280px;
     height: 280px; } }
 
 @media screen and (max-width: 465px) {
-  .construccion div.webinars23 div.grid-webi div.grid-item a img {
+  .construccion div.webinars23 div.grid-webi div.grid-item iframe {
     width: 250px;
     height: 250px; }
   .educacion {
@@ -1915,9 +1905,6 @@ div.adherentes p {
         width: 250px; } }
 
 @media screen and (max-width: 411px) {
-  .construccion div.webinars23 div.grid-webi div.grid-item a {
-    margin: 10px;
-    padding: 5px; }
   .formarparte {
     height: 260vh; }
   .smiles {
@@ -1943,12 +1930,9 @@ div.adherentes p {
     height: 225vh; } }
 
 @media screen and (max-width: 390px) {
-  .construccion div.webinars23 div.grid-webi div.grid-item a {
-    margin-bottom: 10px;
-    padding: 5px; }
-    .construccion div.webinars23 div.grid-webi div.grid-item a img {
-      width: 200px;
-      height: 200px; }
+  .construccion div.webinars23 div.grid-webi div.grid-item iframe {
+    width: 200px;
+    height: 200px; }
   .formarparte {
     height: 190vh; }
     .formarparte div h2 {
