@@ -108,7 +108,7 @@ div.jorotono{
 
 
     .smiles{
-            height: 400vh;
+            height: 430vh;
         div.cacsmile{
             display: grid;
             grid-template-columns:repeat(3,1fr);
@@ -296,7 +296,7 @@ div.jorotono{
 @media screen and (max-width:1128px){
 
     .smiles{
-        height: 310vh;
+        height: 440vh;
 
     }
 }
@@ -309,7 +309,7 @@ div.jorotono{
 
 @media screen and (max-width:1090px){
 .smiles{
-    height: 340vh;
+
     div.websmile{
         div.websm1{
             img{
@@ -409,7 +409,7 @@ div.jorotono{
 
 @media screen and (max-width:1000px){
 .smiles{
-height: 350vh;
+height: 450vh;
 
     div.cacsmile{
         display: grid;
@@ -565,7 +565,7 @@ height: 350vh;
 
     @media screen and (max-width: 868px) {
         .smiles{
-            height: 360vh;
+            height: 460vh;
 
             div.websmile{
                 display: grid;
@@ -698,7 +698,7 @@ height: 350vh;
 
     .smiles{
 
-        height: 370vh;
+        height: 470vh;
 
     }
 }
@@ -1120,7 +1120,7 @@ height: 350vh;
 }
 @media screen and (max-width: 680px){
     .smiles{
-        height: 660vh;
+        height: 850vh;
     div.websmile{
     
             width: 95%;
@@ -1297,7 +1297,7 @@ height: 350vh;
 }
 @media screen and (max-width: 630px){ 
 .smiles{
-    height: 820vh;
+    height: 1050vh;
 
         div.cacsmile{
             width: 95%;
@@ -1344,9 +1344,7 @@ height: 350vh;
 
 @media screen and (max-width: 610px){
 
-.smiles{
-    height: 840vh;
-}
+
     .formarparte{
         height: 215vh;
 
@@ -1899,7 +1897,7 @@ display: none;
 
 @media screen and (max-width: 485px){
     .smiles{
-        height: 730vh;
+        height: 950vh;
 
 
     div.websmile{
@@ -2202,7 +2200,7 @@ div{
 @media screen and (max-width: 450px){
 
 .smiles{
-height: 650vh;
+height: 900vh;
     div.titsmile{
         h2{
             font-size:nth($font-size, 2 );
