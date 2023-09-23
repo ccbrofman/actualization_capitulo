@@ -154,7 +154,7 @@ div.grid-contenedor a.top img.show {
           padding-bottom: 15px; }
 
 .eventos {
-  height: 150vh;
+  height: 250vh;
   width: 100%;
   top: 0;
   background-size: cover;
@@ -173,25 +173,18 @@ div.grid-contenedor a.top img.show {
   .eventos div.grid-webi div.grid-item {
     flex-direction: column;
     border: 2px solid black; }
-    .eventos div.grid-webi div.grid-item a img {
+    .eventos div.grid-webi div.grid-item img {
       width: 580px;
       height: 650px;
       margin: 5px;
       padding: 5px; }
-    .eventos div.grid-webi div.grid-item a {
-      text-decoration: none;
-      color: white;
-      text-align: center;
-      font-family: 'Raleway', sans-serif;
-      font-size: 15px;
-      background-color: #19193d;
-      margin: 20px;
-      padding: 15px; }
     .eventos div.grid-webi div.grid-item p {
       color: white;
-      text-align: center;
+      text-align: justify;
       font-family: 'Raleway', sans-serif;
-      font-size: 20px; }
+      font-size: 20px;
+      padding: 15px;
+      margin: 20px; }
 
 .mensajes {
   height: 80vh;
@@ -423,7 +416,7 @@ div.grid-contenedor .header {
         text-align: center; }
 
 .heroautoridades {
-  height: 100vh;
+  height: 200vh;
   top: 0;
   background-size: cover;
   background-attachment: fixed;
