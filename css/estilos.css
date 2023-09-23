@@ -170,12 +170,20 @@ div.grid-contenedor a.top img.show {
     font-size: 40px;
     margin: 25px;
     padding-top: 45px; }
+  .eventos h3 {
+    position: relative;
+    color: white;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    margin: 25px;
+    padding-top: 15px; }
   .eventos div.grid-webi div.grid-item {
     flex-direction: column;
     border: 2px solid black; }
     .eventos div.grid-webi div.grid-item img {
-      width: 580px;
-      height: 650px;
+      width: 591px;
+      height: 591px;
       margin: 5px;
       padding: 5px; }
     .eventos div.grid-webi div.grid-item p {

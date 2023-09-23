@@ -199,14 +199,23 @@
         margin: 25px;
         padding-top: 45px;
     }
+    h3{
+        position: relative;
+        color: $color-principal;
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        font-size: nth($font-size, 1);
+        margin: 25px;
+        padding-top: 15px;
+    }
     div.grid-webi{
         div.grid-item{
             @extend %flex;
             flex-direction: column;
             border: 2px solid black;
             img{
-                width: 580px;
-                height: 650px;
+                width: 591px;
+                height: 591px;
                 margin: 5px;
                 padding: 5px;
             }
