@@ -15,15 +15,15 @@
         flex-direction: column;
         p{
             font-family: 'Raleway', sans-serif;
-            font-size: nth($font-size, 3 );
-            color: $color-secundario;
+            font-size: nth(variables.$font-size, 3 );
+            color: variables.$color-secundario;
         }
         a{
-            color: $color-principal;
+            color: variables.$color-principal;
             background-color:$color-fondo;
             text-align: center;
             font-family: 'Pacifico', cursive;
-            font-size: nth($font-size, 4 );
+            font-size: nth(variables.$font-size, 4 );
             margin: 20px;
             padding: 15px;
             text-decoration: none;

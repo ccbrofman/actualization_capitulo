@@ -5,18 +5,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Raleway', sans-serif; }
+  font-family: "Raleway", sans-serif;
+}
 
 body {
-  height: 100vh; }
+  height: 100vh;
+}
 
-.actividades div.texto, .actividades div.cursos, .actividades div.cursos div.grid-cursos div.grid-itemcursos, .eventos div.grid-webi div.grid-item, .mensajes, .mensajes div, .textarea div, .titulo .cirujano, .acerca div.heroacercadel, .herogob div, .herogob div div, .heropres div, .heropres div div, .heroautoridades div, .heroautoridades div div, .heroautoridades div div ol, .heroautoridades div div ul, .formarparte div, .contacto div, .footer div.logosfooter div.mapa, .heromiembros div, .heromiembros div div.uyc div.usuario, .heromiembros div div.uyc dir.contrasena, .heromiembros div.botonmiembros, .educacion .cursos div.grid-cursos div, .comision div, .construccion div, .construccion div.webinars23, .construccion div.webinars23 div.grid-webi, .construccion div.webinars23 div.grid-webi div.grid-item, .construccion div.webinars21, .construccion div.webinars21 div.grid-webi, .construccion div.webinars21 div.grid-webi div.grid-item, .construccion div.webinars20, .construccion div.webinars20 div.grid-webi, .construccion div.webinars20 div.grid-webi div.grid-item, .smiles div.titsmile div, .smiles div.titsmile div div.integrantesmile, .smiles div.actsmile, .smiles div.jorotono div, .smiles div.jorotono div.smilejorotono, .smiles div.formarsmile, .constact, .constcursos {
+.constcursos, .constact, .smiles div.formarsmile, .smiles div.jorotono div.smilejorotono, .smiles div.jorotono div, .smiles div.actsmile, .smiles div.titsmile div div.integrantesmile, .smiles div.titsmile div, .construccion div.webinars20 div.grid-webi div.grid-item, .construccion div.webinars20 div.grid-webi, .construccion div.webinars20, .construccion div.webinars21 div.grid-webi div.grid-item, .construccion div.webinars21 div.grid-webi, .construccion div.webinars21, .construccion div.webinars23 div.grid-webi div.grid-item, .construccion div.webinars23 div.grid-webi, .construccion div.webinars23, .construccion div, .comision div, .educacion .cursos div.grid-cursos div, .heromiembros div.botonmiembros, .heromiembros div div.uyc dir.contrasena, .heromiembros div div.uyc div.usuario, .heromiembros div, .footer div.logosfooter div.mapa, .contacto div, .formarparte div, .heroautoridades div div ul, .heroautoridades div div ol, .heroautoridades div div, .heroautoridades div, .heropres div div, .heropres div, .herogob div div, .herogob div, .acerca div.heroacercadel, .titulo .cirujano, .textarea div, .mensajes div, .mensajes, .eventos div.grid-webi div.grid-item, .congress div.congreso div.grid-congreso div.grid-itemcongreso, .congress div.congreso, .congress div.textcongreso, .actividades div.cursos div.grid-cursos div.grid-itemcursos, .actividades div.cursos, .actividades div.texto {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 div.grid-contenedor a.top {
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+}
 
 div.grid-contenedor a.top img {
   display: inline-block;
@@ -25,7 +29,8 @@ div.grid-contenedor a.top img {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  z-index: 1000; }
+  z-index: 1000;
+}
 
 div.grid-contenedor a.top img::after {
   content: "\f077";
@@ -33,61 +38,67 @@ div.grid-contenedor a.top img::after {
   font-style: normal;
   font-size: 2em;
   line-height: 50px;
-  color: #03b9d1;
-  border-radius: 50%; }
+  color: rgb(3, 185, 209);
+  border-radius: 50%;
+}
 
 div.grid-contenedor a.top img:hover {
   cursor: pointer;
-  background-color: #03b9d1;
-  border-radius: 50%; }
+  background-color: rgb(3, 185, 209);
+  border-radius: 50%;
+}
 
 div.grid-contenedor a.top img:active {
-  background-color: #03b9d1;
-  border-radius: 50%; }
+  background-color: rgb(3, 185, 209);
+  border-radius: 50%;
+}
 
 div.grid-contenedor a.top img.show {
   opacity: 0;
-  visibility: visible; }
+  visibility: visible;
+}
 
 .carousel-inner img {
   position: relative;
   height: 50vh;
   width: 100%;
-  object-fit: cover; }
-
+  object-fit: cover;
+}
 .carousel-inner div h5 {
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
   font-style: bold;
   margin: 20px;
-  padding-top: 5px; }
-
+  padding-top: 5px;
+}
 .carousel-inner div p {
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 15px;
   font-style: italic;
   margin: 20px;
-  padding-top: 5px; }
+  padding-top: 5px;
+}
 
 .carousel-item div a {
   color: white;
-  background-color: #19193d;
+  background-color: rgb(25, 25, 61);
   text-align: center;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   font-size: 15px;
   margin: 20px;
   padding: 15px;
-  text-decoration: none; }
-
+  text-decoration: none;
+}
 .carousel-item div p {
-  color: #8d8d8d;
-  font-family: 'Raleway', sans-serif;
+  color: rgb(141, 141, 141);
+  font-family: "Raleway", sans-serif;
   font-size: 15px;
-  font-style: italic; }
+  font-style: italic;
+}
 
 .actividades {
   height: 110vh;
@@ -95,63 +106,149 @@ div.grid-contenedor a.top img.show {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  background-color: rgba(134, 197, 255, 0.321); }
-  .actividades div.texto {
-    flex-direction: column; }
-    .actividades div.texto h2 {
-      position: relative;
-      color: black;
-      text-align: center;
-      font-family: 'Pacifico', cursive;
-      font-size: 40px;
-      padding-top: 30px; }
-    .actividades div.texto p {
-      position: relative;
-      color: black;
-      text-align: center;
-      font-family: 'Raleway', sans-serif;
-      font-size: 20px;
-      padding-top: 10px;
-      margin-top: 25px;
-      padding-bottom: 10px; }
-  .actividades div.cursos {
-    flex-wrap: wrap; }
-    .actividades div.cursos div.grid-cursos {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-auto-rows: 70px;
-      gap: 15px;
-      width: 85%;
-      margin-top: 20px;
-      padding-top: 150px; }
-      .actividades div.cursos div.grid-cursos div.grid-itemcursos {
-        flex-direction: column; }
-        .actividades div.cursos div.grid-cursos div.grid-itemcursos:hover {
-          transform: scale(1.1); }
-        .actividades div.cursos div.grid-cursos div.grid-itemcursos img {
-          width: 225px;
-          height: 225px;
-          box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
-          -webkit-box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
-          -moz-box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
-          margin-bottom: 0px; }
-        .actividades div.cursos div.grid-cursos div.grid-itemcursos a {
-          width: 225px;
-          height: 80px;
-          font-size: 12px;
-          font-family: 'Raleway', sans-serif;
-          color: white;
-          background-color: #19193d;
-          border: 2px solid #19193d;
-          padding: 5px;
-          display: inline-block;
-          list-style: none;
-          text-decoration: none;
-          margin-bottom: 10px;
-          text-align: center;
-          margin-top: 0;
-          padding-top: 15px;
-          padding-bottom: 15px; }
+  background-color: rgba(134, 197, 255, 0.321);
+}
+.actividades div.texto {
+  flex-direction: column;
+}
+.actividades div.texto h2 {
+  position: relative;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  padding-top: 30px;
+}
+.actividades div.texto p {
+  position: relative;
+  color: black;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  padding-top: 10px;
+  margin-top: 25px;
+  padding-bottom: 10px;
+}
+.actividades div.cursos {
+  flex-wrap: wrap;
+}
+.actividades div.cursos div.grid-cursos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 70px;
+  gap: 15px;
+  width: 85%;
+  margin-top: 20px;
+  padding-top: 150px;
+}
+.actividades div.cursos div.grid-cursos div.grid-itemcursos {
+  flex-direction: column;
+}
+.actividades div.cursos div.grid-cursos div.grid-itemcursos:hover {
+  transform: scale(1.1);
+}
+.actividades div.cursos div.grid-cursos div.grid-itemcursos img {
+  width: 225px;
+  height: 225px;
+  box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
+  margin-bottom: 0px;
+}
+.actividades div.cursos div.grid-cursos div.grid-itemcursos a {
+  width: 225px;
+  height: 80px;
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  background-color: rgb(25, 25, 61);
+  border: 2px solid rgb(25, 25, 61);
+  padding: 5px;
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.congress {
+  height: 270vh;
+  width: 100%;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(16, 14, 67);
+}
+.congress div.textcongreso {
+  flex-direction: column;
+}
+.congress div.textcongreso h2 {
+  position: relative;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  padding-top: 30px;
+}
+.congress div.textcongreso h3 {
+  position: relative;
+  color: black;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  padding-top: 10px;
+  margin-top: 25px;
+  padding-bottom: 10px;
+}
+.congress div.congreso {
+  flex-wrap: wrap;
+}
+.congress div.congreso div.grid-congreso {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 50px;
+  gap: 15px;
+  width: 85%;
+  margin-top: 20px;
+  padding-top: 150px;
+}
+.congress div.congreso div.grid-congreso div.grid-itemcongreso {
+  flex-direction: column;
+}
+.congress div.congreso div.grid-congreso div.grid-itemcongreso:hover {
+  transform: scale(1.1);
+}
+.congress div.congreso div.grid-congreso div.grid-itemcongreso img {
+  width: 75px;
+  height: 75px;
+  box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
+  margin-bottom: 0px;
+}
+.congress div.congreso div.grid-congreso div.grid-itemcongreso h4 {
+  width: 225px;
+  height: 80px;
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  background-color: rgb(25, 25, 61);
+  border: 2px solid rgb(25, 25, 61);
+  padding: 5px;
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 
 .eventos {
   height: 270vh;
@@ -161,38 +258,44 @@ div.grid-contenedor a.top img.show {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: black; }
-  .eventos h2 {
-    position: relative;
-    color: white;
-    text-align: center;
-    font-family: 'Pacifico', cursive;
-    font-size: 40px;
-    margin: 25px;
-    padding-top: 45px; }
-  .eventos h3 {
-    position: relative;
-    color: white;
-    text-align: center;
-    font-family: 'Pacifico', cursive;
-    font-size: 40px;
-    margin: 25px;
-    padding-top: 15px; }
-  .eventos div.grid-webi div.grid-item {
-    flex-direction: column;
-    border: 2px solid black; }
-    .eventos div.grid-webi div.grid-item img {
-      width: 591px;
-      height: 591px;
-      margin: 5px;
-      padding: 5px; }
-    .eventos div.grid-webi div.grid-item p {
-      color: white;
-      text-align: justify;
-      font-family: 'Raleway', sans-serif;
-      font-size: 20px;
-      padding: 15px;
-      margin: 20px; }
+  background-color: rgb(0, 0, 0);
+}
+.eventos h2 {
+  position: relative;
+  color: white;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  margin: 25px;
+  padding-top: 45px;
+}
+.eventos h3 {
+  position: relative;
+  color: white;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  margin: 25px;
+  padding-top: 15px;
+}
+.eventos div.grid-webi div.grid-item {
+  flex-direction: column;
+  border: 2px solid black;
+}
+.eventos div.grid-webi div.grid-item img {
+  width: 591px;
+  height: 591px;
+  margin: 5px;
+  padding: 5px;
+}
+.eventos div.grid-webi div.grid-item p {
+  color: white;
+  text-align: justify;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  padding: 15px;
+  margin: 20px;
+}
 
 .mensajes {
   height: 80vh;
@@ -204,128 +307,151 @@ div.grid-contenedor a.top img.show {
   background-repeat: no-repeat;
   background-position: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.471), rgba(0, 0, 0, 0.409)), url(../img/pexels-pixabay-247786.jpg);
-  flex-direction: column; }
-  .mensajes h2 {
-    color: white;
-    text-align: center;
-    font-family: 'Pacifico', cursive;
-    font-size: 30px;
-    padding-top: 5px;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    padding-bottom: 20px; }
-  .mensajes div {
-    flex-direction: column; }
+  flex-direction: column;
+}
+.mensajes h2 {
+  color: white;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  padding-top: 5px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.mensajes div {
+  flex-direction: column;
+}
 
 .textarea div {
-  flex-direction: row; }
-  .textarea div input {
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: 12px;
-    background-color: #19193d;
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin: 10px; }
+  flex-direction: row;
+}
+.textarea div input {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: rgb(25, 25, 61);
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 10px;
+}
 
 .nombre {
-  margin: 10px; }
+  margin: 10px;
+}
 
 label {
   color: white;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold; }
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
 
 .correo {
   margin: 10px;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+}
 
 div.grid-contenedor .header {
   grid-area: header;
   position: sticky;
-  z-index: 2; }
+  z-index: 2;
+}
 
 .titulo {
-  background-color: #19193d;
+  background-color: rgb(25, 25, 61);
   top: 0;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
-  .titulo a img {
-    width: 180px;
-    height: 100%;
-    padding: 0;
-    margin: 0; }
-  .titulo h1 {
-    color: white;
-    background-color: #19193d;
-    padding-top: 10px;
-    font-size: nth 40px, 30px, 20px, 15px, 12px, 10px, 1;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    text-align: center; }
-  .titulo .cirujano {
-    background-color: #19193d;
-    margin-top: 0;
-    margin-right: 20px;
-    flex-direction: column; }
-    .titulo .cirujano a {
-      text-decoration: none;
-      color: white;
-      font-family: 'Raleway', sans-serif;
-      font-size: 10px;
-      margin-top: 10px;
-      text-align: center;
-      margin-left: 5px; }
-      .titulo .cirujano a img {
-        width: 70px;
-        height: 70px;
-        padding-top: 10px;
-        padding-left: 10px; }
+  align-items: center;
+}
+.titulo a img {
+  width: 180px;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.titulo h1 {
+  color: white;
+  background-color: rgb(25, 25, 61);
+  padding-top: 10px;
+  font-size: nth 40px, 30px, 20px, 15px, 12px, 10px, 1;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  text-align: center;
+}
+.titulo .cirujano {
+  background-color: rgb(25, 25, 61);
+  margin-top: 0;
+  margin-right: 20px;
+  flex-direction: column;
+}
+.titulo .cirujano a {
+  text-decoration: none;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 10px;
+  margin-top: 10px;
+  text-align: center;
+  margin-left: 5px;
+}
+.titulo .cirujano a img {
+  width: 70px;
+  height: 70px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
 
 .menu nav {
   list-style: none;
-  background-color: #19193d;
+  background-color: rgb(25, 25, 61);
   margin-top: 0;
   position: sticky;
   display: flex;
-  justify-content: center; }
-  .menu nav div {
-    list-style: none;
-    background-color: #19193d;
-    margin-top: 0;
-    position: sticky;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row; }
-    .menu nav div span.navbar-toggler-icon {
-      background-image: url(../img/hamburger.jpg);
-      width: 20px;
-      height: 20px; }
-  .menu nav ul {
-    text-decoration: none;
-    text-align: left;
-    color: white;
-    background-color: #19193d;
-    overflow: visible; }
-    .menu nav ul li {
-      display: inline-block;
-      margin: 0px;
-      padding: 5px; }
-      .menu nav ul li:hover {
-        background: #122271; }
-      .menu nav ul li a {
-        font-family: 'Raleway', sans-serif;
-        text-decoration: none;
-        text-align: center;
-        color: white;
-        background-color: #19193d; }
-        .menu nav ul li a:hover {
-          background: #122271; }
+  justify-content: center;
+}
+.menu nav div {
+  list-style: none;
+  background-color: rgb(25, 25, 61);
+  margin-top: 0;
+  position: sticky;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+.menu nav div span.navbar-toggler-icon {
+  background-image: url(../img/hamburger.jpg);
+  width: 20px;
+  height: 20px;
+}
+.menu nav ul {
+  text-decoration: none;
+  text-align: left;
+  color: white;
+  background-color: rgb(25, 25, 61);
+  overflow: visible;
+}
+.menu nav ul li {
+  display: inline-block;
+  margin: 0px;
+  padding: 5px;
+}
+.menu nav ul li:hover {
+  background: rgb(18, 34, 113);
+}
+.menu nav ul li a {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: rgb(25, 25, 61);
+}
+.menu nav ul li a:hover {
+  background: rgb(18, 34, 113);
+}
 
 .acerca div.heroacercadel {
   height: 100vh;
@@ -338,20 +464,23 @@ div.grid-contenedor .header {
   background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)), url(../img/pexels-anna-shvets-4483327.jpg);
   height: 50vh;
   width: 100%;
-  flex-direction: column; }
-  .acerca div.heroacercadel p {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    color: black; }
-  .acerca div.heroacercadel a {
-    color: white;
-    background-color: #19193d;
-    text-align: center;
-    font-family: 'Pacifico', cursive;
-    font-size: 15px;
-    margin: 20px;
-    padding: 15px;
-    text-decoration: none; }
+  flex-direction: column;
+}
+.acerca div.heroacercadel p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+.acerca div.heroacercadel a {
+  color: white;
+  background-color: rgb(25, 25, 61);
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 15px;
+  margin: 20px;
+  padding: 15px;
+  text-decoration: none;
+}
 
 .herogob {
   height: 100vh;
@@ -361,120 +490,142 @@ div.grid-contenedor .header {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)), url(../img/pexels-anna-shvets-4483327.jpg); }
-  .herogob h2 {
-    color: black;
-    text-align: center;
-    font-family: 'Pacifico', cursive;
-    font-size: 40px;
-    margin-top: 0;
-    padding-top: 20px; }
-  .herogob div {
-    flex-direction: column; }
-    .herogob div div {
-      flex-direction: column; }
-      .herogob div div h3 {
-        font-family: 'Raleway', sans-serif;
-        font-size: 20px;
-        color: black;
-        margin: 20px;
-        padding: 20px;
-        text-decoration: underline; }
-      .herogob div div p {
-        font-family: 'Raleway', sans-serif;
-        font-size: 20px;
-        color: black;
-        margin: 10px;
-        padding: 10px;
-        text-align: center; }
+  background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)), url(../img/pexels-anna-shvets-4483327.jpg);
+}
+.herogob h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  margin-top: 0;
+  padding-top: 20px;
+}
+.herogob div {
+  flex-direction: column;
+}
+.herogob div div {
+  flex-direction: column;
+}
+.herogob div div h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin: 20px;
+  padding: 20px;
+  text-decoration: underline;
+}
+.herogob div div p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
 
 .heropres {
-  height: 100vh;
+  height: 120vh;
   height: 100%;
   top: 0;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)), url(../img/pexels-anna-shvets-4483327.jpg); }
-  .heropres h2 {
-    color: black;
-    text-align: center;
-    font-family: 'Pacifico', cursive;
-    font-size: 40px;
-    margin-top: 0;
-    padding-top: 20px; }
-  .heropres div {
-    flex-direction: column; }
-    .heropres div div {
-      flex-direction: column; }
-      .heropres div div h3 {
-        font-family: 'Raleway', sans-serif;
-        font-size: 20px;
-        color: black;
-        margin: 20px;
-        padding: 20px;
-        text-decoration: underline; }
-      .heropres div div p {
-        font-family: 'Raleway', sans-serif;
-        font-size: 20px;
-        color: black;
-        margin: 10px;
-        padding: 10px;
-        text-align: center; }
+  background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)), url(../img/pexels-anna-shvets-4483327.jpg);
+}
+.heropres h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  margin-top: 0;
+  padding-top: 20px;
+}
+.heropres div {
+  flex-direction: column;
+}
+.heropres div div {
+  flex-direction: column;
+}
+.heropres div div h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin: 20px;
+  padding: 20px;
+  text-decoration: underline;
+}
+.heropres div div p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
 
 .heroautoridades {
-  height: 200vh;
+  height: 220vh;
   top: 0;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)), url(../img/pexels-anna-shvets-4483327.jpg); }
-  .heroautoridades h2 {
-    color: black;
-    text-align: center;
-    font-family: 'Pacifico', cursive;
-    font-size: 40px;
-    margin: 20px;
-    padding-top: 5px; }
-  .heroautoridades div {
-    flex-direction: column; }
-    .heroautoridades div div {
-      flex-direction: column; }
-      .heroautoridades div div h3 {
-        font-family: 'Raleway', sans-serif;
-        font-size: 20px;
-        color: black;
-        margin: 20px;
-        padding: 20px;
-        text-decoration: underline; }
-      .heroautoridades div div p {
-        font-family: 'Raleway', sans-serif;
-        font-size: 20px;
-        color: black;
-        margin: 10px;
-        padding: 10px;
-        text-align: center; }
-      .heroautoridades div div ol {
-        flex-direction: column; }
-        .heroautoridades div div ol li {
-          font-family: 'Raleway', sans-serif;
-          font-size: 20px;
-          color: black;
-          margin: 10px;
-          padding: 10px;
-          text-justify: auto; }
-      .heroautoridades div div ul {
-        flex-direction: column;
-        border: 3px #19193d solid; }
-        .heroautoridades div div ul li {
-          font-family: 'Raleway', sans-serif;
-          font-size: 20px;
-          color: black;
-          margin: 10px;
-          padding: 10px;
-          list-style: none; }
+  background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)), url(../img/pexels-anna-shvets-4483327.jpg);
+}
+.heroautoridades h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  margin: 20px;
+  padding-top: 5px;
+}
+.heroautoridades div {
+  flex-direction: column;
+}
+.heroautoridades div div {
+  flex-direction: column;
+}
+.heroautoridades div div h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin: 20px;
+  padding: 20px;
+  text-decoration: underline;
+}
+.heroautoridades div div p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.heroautoridades div div ol {
+  flex-direction: column;
+}
+.heroautoridades div div ol li {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin: 10px;
+  padding: 10px;
+  text-justify: auto;
+}
+.heroautoridades div div ul {
+  flex-direction: column;
+  border: 3px rgb(25, 25, 61) solid;
+}
+.heroautoridades div div ul li {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+}
 
 .formarparte {
   height: 150vh;
@@ -484,51 +635,62 @@ div.grid-contenedor .header {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)), url(../img/pexels-anna-shvets-4483327.jpg); }
-  .formarparte div {
-    flex-direction: column; }
-    .formarparte div h2 {
-      color: black;
-      text-align: center;
-      font-family: 'Pacifico', cursive;
-      font-size: 40px;
-      margin: 10px;
-      padding-top: 15px; }
-    .formarparte div div.textoformarparte {
-      width: 85%; }
-      .formarparte div div.textoformarparte p {
-        font-family: 'Raleway', sans-serif;
-        font-size: 20px;
-        color: black;
-        margin-top: 25px; }
-      .formarparte div div.textoformarparte ol li {
-        font-family: 'Raleway', sans-serif;
-        font-size: 20px;
-        color: black;
-        text-justify: auto; }
-      .formarparte div div.textoformarparte a.formulario {
-        color: white;
-        text-align: center;
-        font-family: 'Pacifico', cursive;
-        font-size: 30px;
-        margin: 20px;
-        padding: 10px;
-        background-color: black;
-        border: 4px solid #010f56;
-        text-decoration: none; }
-      .formarparte div div.textoformarparte div.serfacs {
-        margin-top: 20px; }
-        .formarparte div div.textoformarparte div.serfacs p {
-          font-family: 'Raleway', sans-serif;
-          font-size: 20px;
-          color: black;
-          margin-top: 25px; }
-        .formarparte div div.textoformarparte div.serfacs a.ser {
-          border: none;
-          background-color: none; }
-          .formarparte div div.textoformarparte div.serfacs a.ser img.facs {
-            width: 200px;
-            height: 70px; }
+  background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)), url(../img/pexels-anna-shvets-4483327.jpg);
+}
+.formarparte div {
+  flex-direction: column;
+}
+.formarparte div h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  margin: 10px;
+  padding-top: 15px;
+}
+.formarparte div div.textoformarparte {
+  width: 85%;
+}
+.formarparte div div.textoformarparte p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin-top: 25px;
+}
+.formarparte div div.textoformarparte ol li {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-justify: auto;
+}
+.formarparte div div.textoformarparte a.formulario {
+  color: white;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  margin: 20px;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  border: 4px solid rgb(1, 15, 86);
+  text-decoration: none;
+}
+.formarparte div div.textoformarparte div.serfacs {
+  margin-top: 20px;
+}
+.formarparte div div.textoformarparte div.serfacs p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin-top: 25px;
+}
+.formarparte div div.textoformarparte div.serfacs a.ser {
+  border: none;
+  background-color: none;
+}
+.formarparte div div.textoformarparte div.serfacs a.ser img.facs {
+  width: 200px;
+  height: 70px;
+}
 
 .contacto div {
   height: 100%;
@@ -539,83 +701,99 @@ div.grid-contenedor .header {
   background-repeat: no-repeat;
   background-position: center;
   background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)), url(../img/pexels-anna-shvets-4483327.jpg);
-  flex-direction: column; }
-  .contacto div h2 {
-    color: black;
-    text-align: center;
-    font-family: 'Pacifico', cursive;
-    font-size: 40px;
-    margin: 20px;
-    padding-top: 5px; }
-  .contacto div p {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    color: black;
-    margin: 50px;
-    padding: 30px;
-    text-justify: auto; }
-  .contacto div a {
-    color: white;
-    text-align: center;
-    font-family: 'Pacifico', cursive;
-    font-size: 20px;
-    margin: 15px;
-    padding: 5px;
-    background-color: black;
-    border: 4px solid #010f56;
-    text-decoration: none; }
+  flex-direction: column;
+}
+.contacto div h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  margin: 20px;
+  padding-top: 5px;
+}
+.contacto div p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin: 50px;
+  padding: 30px;
+  text-justify: auto;
+}
+.contacto div a {
+  color: white;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+  margin: 15px;
+  padding: 5px;
+  background-color: rgb(0, 0, 0);
+  border: 4px solid rgb(1, 15, 86);
+  text-decoration: none;
+}
 
 .footer {
-  background-color: #19193d;
+  background-color: rgb(25, 25, 61);
   width: 100%;
   height: 45vh;
-  margin: 0; }
-  .footer div h2 {
-    color: white;
-    text-align: center;
-    font-family: 'Pacifico', cursive;
-    font-size: 30px;
-    padding-top: 25px;
-    text-decoration: underline; }
-  .footer div.logosfooter {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row; }
-    .footer div.logosfooter div.redes {
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      flex-direction: row;
-      flex-wrap: wrap; }
-      .footer div.logosfooter div.redes a img {
-        width: 50px;
-        height: 50px;
-        margin: 7px; }
-        .footer div.logosfooter div.redes a img:active {
-          border: 2px white solid; }
-    .footer div.logosfooter div.mapa {
-      flex-direction: column; }
-      .footer div.logosfooter div.mapa iframe {
-        margin-top: 0;
-        width: 150px;
-        height: 150px;
-        border: 2px solid #cbcbcb;
-        margin-bottom: 10px; }
-      .footer div.logosfooter div.mapa p {
-        font-size: 15px;
-        font-family: 'Raleway', sans-serif;
-        color: white;
-        margin-top: 0px; }
-    .footer div.logosfooter .divfacs a img {
-      width: 80px;
-      height: 80px;
-      margin: 7px; }
-      .footer div.logosfooter .divfacs a img:active {
-        border: 2px crimson solid; }
-    .footer div.logosfooter .divfacs img {
-      width: 90px;
-      height: 100px; }
+  margin: 0;
+}
+.footer div h2 {
+  color: white;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  padding-top: 25px;
+  text-decoration: underline;
+}
+.footer div.logosfooter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.footer div.logosfooter div.redes {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.footer div.logosfooter div.redes a img {
+  width: 50px;
+  height: 50px;
+  margin: 7px;
+}
+.footer div.logosfooter div.redes a img:active {
+  border: 2px white solid;
+}
+.footer div.logosfooter div.mapa {
+  flex-direction: column;
+}
+.footer div.logosfooter div.mapa iframe {
+  margin-top: 0;
+  width: 150px;
+  height: 150px;
+  border: 2px solid rgb(203, 203, 203);
+  margin-bottom: 10px;
+}
+.footer div.logosfooter div.mapa p {
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  margin-top: 0px;
+}
+.footer div.logosfooter .divfacs a img {
+  width: 80px;
+  height: 80px;
+  margin: 7px;
+}
+.footer div.logosfooter .divfacs a img:active {
+  border: 2px crimson solid;
+}
+.footer div.logosfooter .divfacs img {
+  width: 90px;
+  height: 100px;
+}
 
 .herohistoria {
   height: 100vh;
@@ -625,33 +803,38 @@ div.grid-contenedor .header {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)), url(../img/pexels-anna-shvets-4483327.jpg); }
-  .herohistoria h2 {
-    color: black;
-    text-align: center;
-    font-family: 'Pacifico', cursive;
-    font-size: 40px;
-    margin: 20px;
-    padding-top: 45px; }
-  .herohistoria div.textohistoria {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: row; }
-    .herohistoria div.textohistoria p {
-      font-family: 'Raleway', sans-serif;
-      font-size: 20px;
-      color: black;
-      margin: 30px;
-      padding: 30px;
-      line-height: 45px;
-      text-align: justify; }
-    .herohistoria div.textohistoria img {
-      width: 200px;
-      height: 250px;
-      margin-top: 70px;
-      margin-left: 50px;
-      margin-right: 50px; }
+  background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)), url(../img/pexels-anna-shvets-4483327.jpg);
+}
+.herohistoria h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  margin: 20px;
+  padding-top: 45px;
+}
+.herohistoria div.textohistoria {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.herohistoria div.textohistoria p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin: 30px;
+  padding: 30px;
+  line-height: 45px;
+  text-align: justify;
+}
+.herohistoria div.textohistoria img {
+  width: 200px;
+  height: 250px;
+  margin-top: 70px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
 
 .heromiembros div {
   width: 100%;
@@ -662,96 +845,105 @@ div.grid-contenedor .header {
   background-repeat: no-repeat;
   background-position: center;
   background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)), url(../img/pexels-anna-shvets-4483327.jpg);
-  flex-direction: column; }
-  .heromiembros div h2 {
-    color: black;
-    text-align: center;
-    font-family: 'Pacifico', cursive;
-    font-size: 40px;
-    margin: 20px;
-    padding-top: 5px; }
-  .heromiembros div div.uyc div.usuario {
-    margin: 10px;
-    flex-direction: column;
-    margin: 10px; }
-    .heromiembros div div.uyc div.usuario label {
-      font-family: 'Raleway', sans-serif;
-      color: black;
-      font-size: 15px; }
-  .heromiembros div div.uyc dir.contrasena {
-    margin: 10px;
-    flex-direction: column;
-    margin: 10px; }
-    .heromiembros div div.uyc dir.contrasena label {
-      font-family: 'Raleway', sans-serif;
-      color: black;
-      font-size: 15px; }
-
+  flex-direction: column;
+}
+.heromiembros div h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  margin: 20px;
+  padding-top: 5px;
+}
+.heromiembros div div.uyc div.usuario {
+  margin: 10px;
+  flex-direction: column;
+  margin: 10px;
+}
+.heromiembros div div.uyc div.usuario label {
+  font-family: "Raleway", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+.heromiembros div div.uyc dir.contrasena {
+  margin: 10px;
+  flex-direction: column;
+  margin: 10px;
+}
+.heromiembros div div.uyc dir.contrasena label {
+  font-family: "Raleway", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
 .heromiembros div.botonmiembros {
-  flex-direction: row; }
-  .heromiembros div.botonmiembros input {
-    font-family: 'Raleway', sans-serif;
-    font-size: 12px;
-    background-color: #19193d;
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin: 10px; }
-  .heromiembros div.botonmiembros label {
-    font-family: 'Raleway', sans-serif;
-    font-size: 12px;
-    color: black; }
-
+  flex-direction: row;
+}
+.heromiembros div.botonmiembros input {
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  background-color: rgb(25, 25, 61);
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 10px;
+}
+.heromiembros div.botonmiembros label {
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  color: rgb(0, 0, 0);
+}
 .heromiembros div.botonformar a {
   color: white;
   text-align: center;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   font-size: 20px;
   margin: 50px;
   padding: 10px;
-  background-color: black;
-  border: 4px solid #19193d;
-  text-decoration: none; }
-
+  background-color: rgb(0, 0, 0);
+  border: 4px solid rgb(25, 25, 61);
+  text-decoration: none;
+}
 .heromiembros div.titulares h2 {
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: center;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   font-size: 30px;
   margin: 20px;
-  padding-top: 5px; }
-
+  padding-top: 5px;
+}
 .heromiembros h3 {
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   font-size: 20px;
-  color: black; }
-
+  color: rgb(0, 0, 0);
+}
 .heromiembros p {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 15px;
-  color: black; }
+  color: rgb(0, 0, 0);
+}
 
 div.adherentes h2 {
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: center;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   font-size: 30px;
   margin: 20px;
-  padding-top: 5px; }
-
+  padding-top: 5px;
+}
 div.adherentes h3 {
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   font-size: 20px;
-  color: black;
-  margin: 10px; }
-
+  color: rgb(0, 0, 0);
+  margin: 10px;
+}
 div.adherentes p {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 15px;
-  color: black;
-  margin: 5px; }
+  color: rgb(0, 0, 0);
+  margin: 5px;
+}
 
 .educacion {
   width: 100%;
@@ -761,57 +953,66 @@ div.adherentes p {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)), url(../img/pexels-anna-shvets-4483327.jpg); }
-  .educacion h2 {
-    color: black;
-    text-align: center;
-    font-family: 'Pacifico', cursive;
-    font-size: 40px;
-    padding-top: 25px; }
-  .educacion .cursos {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row; }
-    .educacion .cursos h2 {
-      font-size: 40px; }
-    .educacion .cursos div.grid-cursos {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-auto-rows: 70px;
-      gap: 60px;
-      width: 85%;
-      margin-top: 20px;
-      padding-top: 150px; }
-      .educacion .cursos div.grid-cursos div {
-        flex-direction: column; }
-        .educacion .cursos div.grid-cursos div:hover {
-          transform: scale(1.1); }
-        .educacion .cursos div.grid-cursos div img {
-          width: 250px;
-          height: 250px;
-          box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
-          -webkit-box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
-          -moz-box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
-          margin-bottom: 0px; }
-        .educacion .cursos div.grid-cursos div a {
-          width: 250px;
-          height: 50px;
-          font-size: 12px;
-          font-family: 'Raleway', sans-serif;
-          color: white;
-          background-color: #19193d;
-          border: 2px solid #19193d;
-          padding-left: 5px;
-          padding-right: 5px;
-          display: inline-block;
-          list-style: none;
-          text-decoration: none;
-          margin-bottom: 10px;
-          text-align: center;
-          margin-top: 0;
-          padding-top: 15px;
-          padding-bottom: 15px; }
+  background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)), url(../img/pexels-anna-shvets-4483327.jpg);
+}
+.educacion h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  padding-top: 25px;
+}
+.educacion .cursos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+.educacion .cursos h2 {
+  font-size: 40px;
+}
+.educacion .cursos div.grid-cursos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 70px;
+  gap: 60px;
+  width: 85%;
+  margin-top: 20px;
+  padding-top: 150px;
+}
+.educacion .cursos div.grid-cursos div {
+  flex-direction: column;
+}
+.educacion .cursos div.grid-cursos div:hover {
+  transform: scale(1.1);
+}
+.educacion .cursos div.grid-cursos div img {
+  width: 250px;
+  height: 250px;
+  box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 37px -7px rgba(0, 0, 0, 0.75);
+  margin-bottom: 0px;
+}
+.educacion .cursos div.grid-cursos div a {
+  width: 250px;
+  height: 50px;
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  background-color: rgb(25, 25, 61);
+  border: 2px solid rgb(25, 25, 61);
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 
 .comision div {
   height: 100%;
@@ -822,31 +1023,35 @@ div.adherentes p {
   background-repeat: no-repeat;
   background-position: center;
   background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)), url(../img/pexels-anna-shvets-4483327.jpg);
-  flex-direction: column; }
-  .comision div h2 {
-    color: black;
-    text-align: center;
-    font-family: 'Pacifico', cursive;
-    font-size: 40px;
-    margin: 20px;
-    padding-top: 5px; }
-  .comision div div h3 {
-    font-family: 'Raleway', sans-serif;
-    text-decoration: underline;
-    font-style: bold;
-    font-size: 20px;
-    color: black;
-    margin: 10px;
-    padding: 5px;
-    text-justify: auto; }
-  .comision div div p {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    color: black;
-    margin: 10px;
-    padding: 5px;
-    text-justify: auto;
-    text-align: center; }
+  flex-direction: column;
+}
+.comision div h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  margin: 20px;
+  padding-top: 5px;
+}
+.comision div div h3 {
+  font-family: "Raleway", sans-serif;
+  text-decoration: underline;
+  font-style: bold;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin: 10px;
+  padding: 5px;
+  text-justify: auto;
+}
+.comision div div p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin: 10px;
+  padding: 5px;
+  text-justify: auto;
+  text-align: center;
+}
 
 .construccion {
   top: 0;
@@ -854,106 +1059,129 @@ div.adherentes p {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: linear-gradient(rgba(28, 27, 27, 0.471), rgba(255, 255, 255, 0.409)), url(../img/pexels-anna-shvets-4483327.jpg); }
-  .construccion div {
-    flex-direction: column; }
-    .construccion div h2 {
-      color: black;
-      text-align: center;
-      font-family: 'Pacifico', cursive;
-      font-size: 40px;
-      margin: 30px;
-      padding: 20px; }
-  .construccion div.webinars23 {
-    margin: 0px; }
-    .construccion div.webinars23 div.grid-webi {
-      margin: 30px; }
-      .construccion div.webinars23 div.grid-webi div.grid-item {
-        flex-direction: column;
-        width: 85%; }
-        .construccion div.webinars23 div.grid-webi div.grid-item h3 {
-          color: black;
-          text-align: center;
-          font-family: 'Raleway', sans-serif;
-          font-size: 15px; }
-        .construccion div.webinars23 div.grid-webi div.grid-item p {
-          color: black;
-          text-align: center;
-          font-family: 'Raleway', sans-serif;
-          font-size: 15px; }
-        .construccion div.webinars23 div.grid-webi div.grid-item iframe {
-          width: 350px;
-          height: 350px;
-          margin: 5px;
-          padding: 5px; }
-  .construccion div.webinars21 {
-    margin: 0px; }
-    .construccion div.webinars21 h2 {
-      color: black;
-      text-align: center;
-      font-family: 'Pacifico', cursive;
-      font-size: 40px;
-      margin: 30px;
-      padding: 20px; }
-    .construccion div.webinars21 div.grid-webi {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-auto-rows: 500px;
-      gap: 15px;
-      margin: 30px; }
-      .construccion div.webinars21 div.grid-webi div.grid-item {
-        flex-direction: column;
-        border: 2px solid black;
-        width: 85%; }
-        .construccion div.webinars21 div.grid-webi div.grid-item h3 {
-          color: black;
-          text-align: center;
-          font-family: 'Raleway', sans-serif;
-          font-size: 15px; }
-          .construccion div.webinars21 div.grid-webi div.grid-item h3 p {
-            color: black;
-            text-align: center;
-            font-family: 'Raleway', sans-serif;
-            font-size: 15px; }
-        .construccion div.webinars21 div.grid-webi div.grid-item iframe {
-          width: 350px;
-          height: 350px;
-          margin: 5px;
-          padding: 5px; }
-  .construccion div.webinars20 {
-    margin: 0px; }
-    .construccion div.webinars20 h2 {
-      color: black;
-      text-align: center;
-      font-family: 'Pacifico', cursive;
-      font-size: 40px;
-      margin: 30px;
-      padding: 20px; }
-    .construccion div.webinars20 div.grid-webi {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-auto-rows: 500px;
-      gap: 15px;
-      margin: 30px; }
-      .construccion div.webinars20 div.grid-webi div.grid-item {
-        flex-direction: column;
-        border: 2px solid black;
-        width: 85%; }
-        .construccion div.webinars20 div.grid-webi div.grid-item h3 {
-          color: black;
-          text-align: center;
-          font-family: 'Raleway', sans-serif;
-          font-size: 15px; }
-          .construccion div.webinars20 div.grid-webi div.grid-item h3 p {
-            color: black;
-            text-align: center;
-            font-family: 'Raleway', sans-serif;
-            font-size: 15px; }
-        .construccion div.webinars20 div.grid-webi div.grid-item iframe {
-          width: 350px;
-          height: 350px;
-          margin: 5px;
-          padding: 5px; }
+  background-image: linear-gradient(rgba(28, 27, 27, 0.471), rgba(255, 255, 255, 0.409)), url(../img/pexels-anna-shvets-4483327.jpg);
+}
+.construccion div {
+  flex-direction: column;
+}
+.construccion div h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  margin: 30px;
+  padding: 20px;
+}
+.construccion div.webinars23 {
+  margin: 0px;
+}
+.construccion div.webinars23 div.grid-webi {
+  margin: 30px;
+}
+.construccion div.webinars23 div.grid-webi div.grid-item {
+  flex-direction: column;
+  width: 85%;
+}
+.construccion div.webinars23 div.grid-webi div.grid-item h3 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+}
+.construccion div.webinars23 div.grid-webi div.grid-item p {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+}
+.construccion div.webinars23 div.grid-webi div.grid-item iframe {
+  width: 350px;
+  height: 350px;
+  margin: 5px;
+  padding: 5px;
+}
+.construccion div.webinars21 {
+  margin: 0px;
+}
+.construccion div.webinars21 h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  margin: 30px;
+  padding: 20px;
+}
+.construccion div.webinars21 div.grid-webi {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 500px;
+  gap: 15px;
+  margin: 30px;
+}
+.construccion div.webinars21 div.grid-webi div.grid-item {
+  flex-direction: column;
+  border: 2px solid black;
+  width: 85%;
+}
+.construccion div.webinars21 div.grid-webi div.grid-item h3 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+}
+.construccion div.webinars21 div.grid-webi div.grid-item h3 p {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+}
+.construccion div.webinars21 div.grid-webi div.grid-item iframe {
+  width: 350px;
+  height: 350px;
+  margin: 5px;
+  padding: 5px;
+}
+.construccion div.webinars20 {
+  margin: 0px;
+}
+.construccion div.webinars20 h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  margin: 30px;
+  padding: 20px;
+}
+.construccion div.webinars20 div.grid-webi {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 500px;
+  gap: 15px;
+  margin: 30px;
+}
+.construccion div.webinars20 div.grid-webi div.grid-item {
+  flex-direction: column;
+  border: 2px solid black;
+  width: 85%;
+}
+.construccion div.webinars20 div.grid-webi div.grid-item h3 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+}
+.construccion div.webinars20 div.grid-webi div.grid-item h3 p {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+}
+.construccion div.webinars20 div.grid-webi div.grid-item iframe {
+  width: 350px;
+  height: 350px;
+  margin: 5px;
+  padding: 5px;
+}
 
 .smiles {
   height: 400vh;
@@ -962,1134 +1190,1500 @@ div.adherentes p {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)), url(../img/pexels-anna-shvets-4483327.jpg); }
-  .smiles div.titsmile h2 {
-    color: black;
-    text-align: center;
-    font-family: 'Pacifico', cursive;
-    font-size: 40px;
-    margin-top: 0px;
-    margin-bottom: 40px;
-    padding-top: 45px; }
-  .smiles div.titsmile div {
-    flex-direction: row; }
-    .smiles div.titsmile div img {
-      height: 280px;
-      width: 250px; }
-    .smiles div.titsmile div div.integrantesmile {
-      flex-direction: column; }
-      .smiles div.titsmile div div.integrantesmile b {
-        font-family: 'Raleway', sans-serif;
-        font-size: 15px;
-        color: black;
-        text-align: center;
-        text-decoration: underline; }
-      .smiles div.titsmile div div.integrantesmile p {
-        font-family: 'Raleway', sans-serif;
-        font-size: 15px;
-        color: black;
-        text-align: center; }
-  .smiles div.actsmile {
-    flex-direction: column;
-    margin-top: 100px; }
-    .smiles div.actsmile h3 {
-      margin-top: 30px;
-      font-family: 'Pacifico', cursive;
-      font-size: 30px;
-      color: black;
-      text-align: center;
-      text-decoration: underline; }
-    .smiles div.actsmile p {
-      font-family: 'Raleway', sans-serif;
-      font-size: 20px;
-      color: black;
-      text-align: center;
-      margin-bottom: 50px; }
-  .smiles div.websmile {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 350px;
-    gap: 15px; }
-    .smiles div.websmile div.websm1 img {
-      height: 350px;
-      width: 350px; }
-    .smiles div.websmile div.websm2 a img {
-      height: 350px;
-      width: 350px; }
-    .smiles div.websmile div {
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      flex-direction: column; }
-      .smiles div.websmile div h3 {
-        font-family: 'Raleway', sans-serif;
-        font-size: 20px;
-        color: black;
-        text-align: center;
-        text-decoration: underline; }
-      .smiles div.websmile div p {
-        font-family: 'Raleway', sans-serif;
-        font-size: 15px;
-        color: black;
-        text-align: center; }
-  .smiles div.cacsmile {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 350px;
-    gap: 15px;
-    margin: 40px; }
-    .smiles div.cacsmile div {
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      flex-direction: column; }
-      .smiles div.cacsmile div h3 {
-        font-family: 'Raleway', sans-serif;
-        font-size: 20px;
-        color: black;
-        text-align: center;
-        text-decoration: underline;
-        margin-bottom: 30px;
-        margin-left: 30px;
-        margin-right: 30px; }
-      .smiles div.cacsmile div p {
-        font-family: 'Raleway', sans-serif;
-        font-size: 15px;
-        color: black;
-        text-align: center;
-        margin-left: 30px;
-        margin-right: 30px; }
-    .smiles div.cacsmile div.cacsm1 img {
-      height: 350px;
-      width: 450px; }
-    .smiles div.cacsmile div.cacsm2 img {
-      height: 350px;
-      width: 450px; }
-  .smiles div.jorotono div {
-    flex-direction: column; }
-    .smiles div.jorotono div h3 {
-      font-family: 'Raleway', sans-serif;
-      font-size: 20px;
-      color: black;
-      text-align: center;
-      text-decoration: underline;
-      margin-bottom: 30px;
-      margin-left: 30px;
-      margin-right: 30px; }
-    .smiles div.jorotono div p {
-      font-family: 'Raleway', sans-serif;
-      font-size: 15px;
-      color: black;
-      text-align: center;
-      margin-left: 30px;
-      margin-right: 30px; }
-  .smiles div.jorotono div.smilejorotono {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 370px;
-    gap: 5px;
-    margin: 10px; }
-    .smiles div.jorotono div.smilejorotono img {
-      height: 350px;
-      width: 450px; }
-  .smiles div.formarsmile a {
-    color: white;
-    text-align: center;
-    font-family: 'Pacifico', cursive;
-    font-size: 15px;
-    margin: 50px;
-    padding: 20px;
-    background-color: black;
-    text-decoration: none; }
+  background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)), url(../img/pexels-anna-shvets-4483327.jpg);
+}
+.smiles div.titsmile h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  padding-top: 45px;
+}
+.smiles div.titsmile div {
+  flex-direction: row;
+}
+.smiles div.titsmile div img {
+  height: 280px;
+  width: 250px;
+}
+.smiles div.titsmile div div.integrantesmile {
+  flex-direction: column;
+}
+.smiles div.titsmile div div.integrantesmile b {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: underline;
+}
+.smiles div.titsmile div div.integrantesmile p {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.smiles div.actsmile {
+  flex-direction: column;
+  margin-top: 100px;
+}
+.smiles div.actsmile h3 {
+  margin-top: 30px;
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: underline;
+}
+.smiles div.actsmile p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 50px;
+}
+.smiles div.websmile {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 350px;
+  gap: 15px;
+}
+.smiles div.websmile div.websm1 img {
+  height: 350px;
+  width: 350px;
+}
+.smiles div.websmile div.websm2 a img {
+  height: 350px;
+  width: 350px;
+}
+.smiles div.websmile div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.smiles div.websmile div h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: underline;
+}
+.smiles div.websmile div p {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.smiles div.cacsmile {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 350px;
+  gap: 15px;
+  margin: 40px;
+}
+.smiles div.cacsmile div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.smiles div.cacsmile div h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.smiles div.cacsmile div p {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.smiles div.cacsmile div.cacsm1 img {
+  height: 350px;
+  width: 450px;
+}
+.smiles div.cacsmile div.cacsm2 img {
+  height: 350px;
+  width: 450px;
+}
+.smiles div.jorotono div {
+  flex-direction: column;
+}
+.smiles div.jorotono div h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.smiles div.jorotono div p {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.smiles div.jorotono div.smilejorotono {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 370px;
+  gap: 5px;
+  margin: 10px;
+}
+.smiles div.jorotono div.smilejorotono img {
+  height: 350px;
+  width: 450px;
+}
+.smiles div.formarsmile a {
+  color: white;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 15px;
+  margin: 50px;
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  text-decoration: none;
+}
 
 .constact {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)), url(../img/pexels-anna-shvets-4483327.jpg); }
-  .constact img {
-    height: 400px;
-    width: 450px; }
+  background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)), url(../img/pexels-anna-shvets-4483327.jpg);
+}
+.constact img {
+  height: 400px;
+  width: 450px;
+}
 
 .constcursos {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)), url(../img/pexels-anna-shvets-4483327.jpg); }
-  .constcursos img {
-    height: 400px;
-    width: 450px; }
+  background-image: linear-gradient(rgba(255, 255, 255, 0.471), rgba(255, 255, 255, 0.409)), url(../img/pexels-anna-shvets-4483327.jpg);
+}
+.constcursos img {
+  height: 400px;
+  width: 450px;
+}
 
 @media screen and (max-width: 1410px) {
   .smiles {
-    height: 320vh; }
-    .smiles div.cacsmile {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-auto-rows: 250px; }
-      .smiles div.cacsmile div.cacsmile1 img {
-        height: 250px;
-        width: 350px; }
-      .smiles div.cacsmile div.cacsmile1 img {
-        height: 250px;
-        width: 350px; }
-    .smiles div.jorotono div.smilejorotono img {
-      height: 320px;
-      width: 420px; } }
-
+    height: 320vh;
+  }
+  .smiles div.cacsmile {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+  }
+  .smiles div.cacsmile div.cacsmile1 img {
+    height: 250px;
+    width: 350px;
+  }
+  .smiles div.cacsmile div.cacsmile1 img {
+    height: 250px;
+    width: 350px;
+  }
+  .smiles div.jorotono div.smilejorotono img {
+    height: 320px;
+    width: 420px;
+  }
+}
 @media screen and (max-width: 1350px) {
   .eventos {
-    height: 320vh; }
+    height: 320vh;
+  }
   .educacion {
-    height: 70vh; }
-    .educacion .cursos div.grid-cursos div img {
-      width: 220px;
-      height: 220px; }
-    .educacion .cursos div.grid-cursos div a {
-      width: 220px;
-      height: 50px; }
+    height: 70vh;
+  }
+  .educacion .cursos div.grid-cursos div img {
+    width: 220px;
+    height: 220px;
+  }
+  .educacion .cursos div.grid-cursos div a {
+    width: 220px;
+    height: 50px;
+  }
   .construccion div.webinars21 div.grid-webi div.grid-item iframe {
     width: 300px;
-    height: 300px; }
+    height: 300px;
+  }
   .construccion div.webinars20 div.grid-webi div.grid-item iframe {
     width: 300px;
-    height: 300px; } }
-
+    height: 300px;
+  }
+}
 @media screen and (max-width: 1290px) {
   .smiles {
-    height: 340vh; }
-    .smiles div.jorotono div.smilejorotono img {
-      height: 310px;
-      width: 380px; } }
-
+    height: 340vh;
+  }
+  .smiles div.jorotono div.smilejorotono img {
+    height: 310px;
+    width: 380px;
+  }
+}
 @media screen and (max-width: 1250px) {
   .smiles {
-    height: 430vh; }
-    .smiles div.cacsmile {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-auto-rows: 210px; }
-      .smiles div.cacsmile div.cacsm1 img {
-        height: 210px;
-        width: 310px; }
-      .smiles div.cacsmile div.cacsm2 img {
-        height: 210px;
-        width: 310px; }
-    .smiles div.websmile div.websm1 img {
-      height: 300px;
-      width: 300px; }
-    .smiles div.websmile div.websm2 a img {
-      height: 300px;
-      width: 300px; }
-    .smiles div.jorotono div.smilejorotono img {
-      height: 300px;
-      width: 300px; }
+    height: 430vh;
+  }
+  .smiles div.cacsmile {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 210px;
+  }
+  .smiles div.cacsmile div.cacsm1 img {
+    height: 210px;
+    width: 310px;
+  }
+  .smiles div.cacsmile div.cacsm2 img {
+    height: 210px;
+    width: 310px;
+  }
+  .smiles div.websmile div.websm1 img {
+    height: 300px;
+    width: 300px;
+  }
+  .smiles div.websmile div.websm2 a img {
+    height: 300px;
+    width: 300px;
+  }
+  .smiles div.jorotono div.smilejorotono img {
+    height: 300px;
+    width: 300px;
+  }
   .construccion div.webinars21 div.grid-webi div.grid-item h3 {
-    font-size: 12px; }
+    font-size: 12px;
+  }
   .construccion div.webinars21 div.grid-webi div.grid-item iframe {
     width: 220px;
-    height: 220px; }
+    height: 220px;
+  }
   .construccion div.webinars20 div.grid-webi div.grid-item h3 {
-    font-size: 12px; }
+    font-size: 12px;
+  }
   .construccion div.webinars20 div.grid-webi div.grid-item iframe {
     width: 220px;
-    height: 220px; }
+    height: 220px;
+  }
   .grid-contenedor a.top img {
     width: 25px;
-    height: 25px; }
+    height: 25px;
+  }
   .grid-contenedor .header div.titulo h1 {
-    font-size: 30px; }
+    font-size: 30px;
+  }
   .grid-contenedor .header div.titulo a img {
     width: 130px;
-    height: 150px; }
+    height: 150px;
+  }
   .grid-contenedor .header div.titulo div.cirujano a {
-    font-size: 10px; }
-    .grid-contenedor .header div.titulo div.cirujano a img {
-      width: 50px;
-      height: 50px; }
+    font-size: 10px;
+  }
+  .grid-contenedor .header div.titulo div.cirujano a img {
+    width: 50px;
+    height: 50px;
+  }
   .educacion h2 {
-    color: black;
+    color: rgb(0, 0, 0);
     text-align: center;
-    font-family: 'Pacifico', cursive;
+    font-family: "Pacifico", cursive;
     font-size: 40px;
-    padding-top: 25px; }
+    padding-top: 25px;
+  }
   .educacion div.cursos {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-direction: row; }
-    .educacion div.cursos div.grid-cursos {
-      gap: 20px; }
+    flex-direction: row;
+  }
+  .educacion div.cursos div.grid-cursos {
+    gap: 20px;
+  }
   .formarparte {
-    height: 160vh; }
-    .formarparte div div.textoformarparte div.serfacs {
-      width: 95%; }
-      .formarparte div div.textoformarparte div.serfacs a.ser img.facs {
-        box-shadow: black;
-        margin-top: 40px; }
+    height: 160vh;
+  }
+  .formarparte div div.textoformarparte div.serfacs {
+    width: 95%;
+  }
+  .formarparte div div.textoformarparte div.serfacs a.ser img.facs {
+    box-shadow: black;
+    margin-top: 40px;
+  }
   .mensajes {
-    height: 100vh; }
+    height: 100vh;
+  }
   .footer {
-    height: 50vh; }
+    height: 50vh;
+  }
   .actividades {
-    height: 130vh; } }
-
+    height: 130vh;
+  }
+}
 @media screen and (max-width: 1128px) {
   .smiles {
-    height: 440vh; } }
-
+    height: 440vh;
+  }
+}
 @media screen and (max-width: 1090px) {
   .smiles div.websmile div.websm1 img {
     height: 300px;
-    width: 300px; }
+    width: 300px;
+  }
   .smiles div.websmile div.websm2 a img {
     height: 300px;
-    width: 300px; }
+    width: 300px;
+  }
   .smiles div.cacsmile {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 350px;
-    gap: 15px; }
-    .smiles div.cacsmile div .cacsm1 img {
-      height: 300px;
-      width: 400px; }
-    .smiles div.cacsmile div .cacsm2 img {
-      height: 300px;
-      width: 400px; }
+    gap: 15px;
+  }
+  .smiles div.cacsmile div .cacsm1 img {
+    height: 300px;
+    width: 400px;
+  }
+  .smiles div.cacsmile div .cacsm2 img {
+    height: 300px;
+    width: 400px;
+  }
   .formarparte {
-    height: 170vh; }
+    height: 170vh;
+  }
   .educacion {
-    height: 80vh; }
-    .educacion .cursos div.grid-cursos div img {
-      width: 200px;
-      height: 200px; }
-    .educacion .cursos div.grid-cursos div a {
-      width: 200px;
-      height: 50px; }
+    height: 80vh;
+  }
+  .educacion .cursos div.grid-cursos div img {
+    width: 200px;
+    height: 200px;
+  }
+  .educacion .cursos div.grid-cursos div a {
+    width: 200px;
+    height: 50px;
+  }
   .actividades {
-    height: 140vh; }
-    .actividades div.cursos div.grid-cursos div.grid-itemcursos img {
-      width: 205px;
-      height: 205px; }
-    .actividades div.cursos div.grid-cursos div.grid-itemcursos a {
-      width: 205px; } }
-
+    height: 140vh;
+  }
+  .actividades div.cursos div.grid-cursos div.grid-itemcursos img {
+    width: 205px;
+    height: 205px;
+  }
+  .actividades div.cursos div.grid-cursos div.grid-itemcursos a {
+    width: 205px;
+  }
+}
 @media screen and (max-width: 1000px) {
   .eventos {
-    height: 250vh; }
-    .eventos div.grid-webi div.grid-item img {
-      width: 591px;
-      height: 591px;
-      margin: 5px;
-      padding: 5px; }
-    .eventos div.grid-webi div.grid-item p {
-      font-size: 15px;
-      padding: 10px;
-      margin: 10px; }
+    height: 250vh;
+  }
+  .eventos div.grid-webi div.grid-item img {
+    width: 591px;
+    height: 591px;
+    margin: 5px;
+    padding: 5px;
+  }
+  .eventos div.grid-webi div.grid-item p {
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+  }
   .smiles {
-    height: 450vh; }
-    .smiles div.cacsmile {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-auto-rows: 180px;
-      margin-top: 50px;
-      width: 80%; }
-      .smiles div.cacsmile div h3 {
-        margin: 10px; }
-      .smiles div.cacsmile div p {
-        margin-left: 10px;
-        margin-right: 10px; }
-    .smiles div.jorotono div.smilejorotono {
-      gap: 5px; }
-      .smiles div.jorotono div.smilejorotono img {
-        height: 250px;
-        width: 280px; }
+    height: 450vh;
+  }
+  .smiles div.cacsmile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 180px;
+    margin-top: 50px;
+    width: 80%;
+  }
+  .smiles div.cacsmile div h3 {
+    margin: 10px;
+  }
+  .smiles div.cacsmile div p {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .smiles div.jorotono div.smilejorotono {
+    gap: 5px;
+  }
+  .smiles div.jorotono div.smilejorotono img {
+    height: 250px;
+    width: 280px;
+  }
   .educacion {
-    height: 120vh; }
-    .educacion .cursos {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: row; }
-      .educacion .cursos div.grid-cursos {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 200px; }
+    height: 120vh;
+  }
+  .educacion .cursos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .educacion .cursos div.grid-cursos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 200px;
+  }
   .grid-contenedor .header .titulo h1 {
-    font-size: 30px; }
+    font-size: 30px;
+  }
   .grid-contenedor .header .titulo a img {
     width: 130px;
-    height: 150px; }
+    height: 150px;
+  }
   .grid-contenedor .header .titulo .cirujano a {
-    font-size: 10px; }
+    font-size: 10px;
+  }
   .actividades {
-    height: 170vh; }
-    .actividades div.texto h2 {
-      font-size: 30px;
-      padding-top: 50px; }
-    .actividades div.cursos div.grid-cursos {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: 350px;
-      padding-top: 0;
-      margin: 10px;
-      gap: 50px; }
+    height: 170vh;
+  }
+  .actividades div.texto h2 {
+    font-size: 30px;
+    padding-top: 50px;
+  }
+  .actividades div.cursos div.grid-cursos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 350px;
+    padding-top: 0;
+    margin: 10px;
+    gap: 50px;
+  }
   .formarparte {
-    height: 180vh; }
-    .formarparte div h2 {
-      font-size: 30px;
-      margin-bottom: 10px;
-      padding: 5px; }
-    .formarparte div.textoformarparte p {
-      font-size: 15px; }
-    .formarparte div.textoformarparte ol li {
-      font-size: 15px; }
-    .formarparte div.textoformarparte a.formulario {
-      font-size: 20px;
-      margin-top: 20px;
-      padding: 5px; }
-    .formarparte div.textoformarparte div.serfacs {
-      width: 90%; }
-      .formarparte div.textoformarparte div.serfacs p {
-        font-size: 15px; } }
-
+    height: 180vh;
+  }
+  .formarparte div h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  .formarparte div.textoformarparte p {
+    font-size: 15px;
+  }
+  .formarparte div.textoformarparte ol li {
+    font-size: 15px;
+  }
+  .formarparte div.textoformarparte a.formulario {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 5px;
+  }
+  .formarparte div.textoformarparte div.serfacs {
+    width: 90%;
+  }
+  .formarparte div.textoformarparte div.serfacs p {
+    font-size: 15px;
+  }
+}
 @media screen and (max-width: 868px) {
   .smiles {
-    height: 460vh; }
-    .smiles div.websmile {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-auto-rows: 280px;
-      margin-top: 50px;
-      width: 80%; }
-      .smiles div.websmile div h3 {
-        margin: 10px; }
-      .smiles div.websmile div p {
-        margin-left: 10px;
-        margin-right: 10px; }
-    .smiles div.jorotono div.smilejorotono {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-auto-rows: 250px;
-      gap: 5px;
-      margin: 10px;
-      gap: 5px; }
-      .smiles div.jorotono div.smilejorotono img {
-        height: 200px;
-        width: 220px; }
+    height: 460vh;
+  }
+  .smiles div.websmile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 280px;
+    margin-top: 50px;
+    width: 80%;
+  }
+  .smiles div.websmile div h3 {
+    margin: 10px;
+  }
+  .smiles div.websmile div p {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .smiles div.jorotono div.smilejorotono {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    gap: 5px;
+    margin: 10px;
+    gap: 5px;
+  }
+  .smiles div.jorotono div.smilejorotono img {
+    height: 200px;
+    width: 220px;
+  }
   .construccion div.webinars21 div.grid-webi div.grid-item iframe {
     width: 180px;
-    height: 180px; }
+    height: 180px;
+  }
   .construccion div.webinars20 div.grid-webi div.grid-item iframe {
     width: 180px;
-    height: 180px; }
+    height: 180px;
+  }
   .herohistoria div.textohistoria {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; }
-    .herohistoria div.textohistoria div.allende img {
-      margin: 20px; }
+    flex-direction: column;
+  }
+  .herohistoria div.textohistoria div.allende img {
+    margin: 20px;
+  }
   .grid-contenedor .header .titulo h1 {
-    font-size: 25px; }
+    font-size: 25px;
+  }
   .grid-contenedor .header .titulo a img {
     width: 100px;
-    height: 110px; }
+    height: 110px;
+  }
   .cirujano a img {
     width: 45px;
-    height: 45px; }
+    height: 45px;
+  }
   .actividades h2 {
     font-size: 30px;
     margin-top: 15px;
-    padding-top: 25px; } }
-
+    padding-top: 25px;
+  }
+}
 @media screen and (max-width: 780px) {
   .smiles {
-    height: 470vh; }
+    height: 470vh;
+  }
   .eventos {
-    height: 250vh; }
-    .eventos h2 {
-      font-size: 30px; }
-    .eventos h3 {
-      font-size: 20px; }
-    .eventos div.grid-webi div.grid-item img {
-      width: 491px;
-      height: 491px; } }
-
+    height: 250vh;
+  }
+  .eventos h2 {
+    font-size: 30px;
+  }
+  .eventos h3 {
+    font-size: 20px;
+  }
+  .eventos div.grid-webi div.grid-item img {
+    width: 491px;
+    height: 491px;
+  }
+}
 @media screen and (max-width: 739px) {
   .construccion div.webinars21 div.grid-webi {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 350px;
-    gap: 15px; }
-    .construccion div.webinars21 div.grid-webi div.grid-item iframe {
-      width: 250px;
-      height: 250px; }
+    gap: 15px;
+  }
+  .construccion div.webinars21 div.grid-webi div.grid-item iframe {
+    width: 250px;
+    height: 250px;
+  }
   .construccion div.webinars20 div.grid-webi {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 350px;
-    gap: 15px; }
-    .construccion div.webinars20 div.grid-webi div.grid-item iframe {
-      width: 250px;
-      height: 250px; }
+    gap: 15px;
+  }
+  .construccion div.webinars20 div.grid-webi div.grid-item iframe {
+    width: 250px;
+    height: 250px;
+  }
   .formarparte {
-    height: 190vh; }
+    height: 190vh;
+  }
   .comision div div p {
     font-size: 15px;
-    text-align: center; }
+    text-align: center;
+  }
   .contacto div {
     width: 100%;
-    height: 50vh; }
-    .contacto div h2 {
-      font-size: 30px; }
-    .contacto div p {
-      font-size: 15px;
-      margin: 40px;
-      padding: 20px; }
-    .contacto div a {
-      font-size: 15px; }
+    height: 50vh;
+  }
+  .contacto div h2 {
+    font-size: 30px;
+  }
+  .contacto div p {
+    font-size: 15px;
+    margin: 40px;
+    padding: 20px;
+  }
+  .contacto div a {
+    font-size: 15px;
+  }
   .acerca {
-    height: 50vh; }
-    .acerca div.heroacercadel {
-      height: 50vh;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      .acerca div.heroacercadel p {
-        font-size: 15px; }
+    height: 50vh;
+  }
+  .acerca div.heroacercadel {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .acerca div.heroacercadel p {
+    font-size: 15px;
+  }
   .hero {
-    height: 30vh; }
-    .hero div div div img {
-      height: 30vh; }
+    height: 30vh;
+  }
+  .hero div div div img {
+    height: 30vh;
+  }
   .educacion {
-    height: 120vh; }
-    .educacion h2 {
-      font-size: 30px; }
-    .educacion .cursos div.grid-cursos {
-      padding-top: 100px; }
-      .educacion .cursos div.grid-cursos div img {
-        width: 180px;
-        height: 180px; }
-      .educacion .cursos div.grid-cursos div a {
-        text-align: center;
-        height: 55px;
-        width: 180px;
-        padding-bottom: 15px; }
+    height: 120vh;
+  }
+  .educacion h2 {
+    font-size: 30px;
+  }
+  .educacion .cursos div.grid-cursos {
+    padding-top: 100px;
+  }
+  .educacion .cursos div.grid-cursos div img {
+    width: 180px;
+    height: 180px;
+  }
+  .educacion .cursos div.grid-cursos div a {
+    text-align: center;
+    height: 55px;
+    width: 180px;
+    padding-bottom: 15px;
+  }
   .menu nav div div ul li a {
-    font-size: 12px; }
+    font-size: 12px;
+  }
   .heroautoridades h2 {
-    font-size: 30px; }
+    font-size: 30px;
+  }
   .heroautoridades div div h3 {
-    font-size: 20px; }
+    font-size: 20px;
+  }
   .heroautoridades div div p {
-    font-size: 15px; }
+    font-size: 15px;
+  }
   .heroautoridades div div ol li {
-    font-size: 15px; }
+    font-size: 15px;
+  }
   .heroautoridades div div ul li {
-    font-size: 15px; }
+    font-size: 15px;
+  }
   .herogob h2 {
     padding-top: 20px;
     margin-top: 0;
-    font-size: 30px; }
+    font-size: 30px;
+  }
   .herogob div div h3 {
-    font-size: 20px; }
+    font-size: 20px;
+  }
   .herogob div div p {
-    font-size: 15px; }
+    font-size: 15px;
+  }
   .heropres h2 {
     padding-top: 20px;
     margin-top: 0;
-    font-size: 30px; }
+    font-size: 30px;
+  }
   .heropres div div h3 {
-    font-size: 20px; }
+    font-size: 20px;
+  }
   .heropres div div p {
-    font-size: 15px; }
+    font-size: 15px;
+  }
   .herohistoria h2 {
-    font-size: 30px; }
+    font-size: 30px;
+  }
   .herohistoria div.textohistoria p {
     font-size: 20px;
     padding: 15px;
     margin: 15px;
-    line-height: 36px; }
+    line-height: 36px;
+  }
   .heroautoridades h2 {
-    font-size: 30px; }
+    font-size: 30px;
+  }
   .heroautoridades div.autoridades div.lista ol li {
-    font-size: 16px; }
+    font-size: 16px;
+  }
   .heroautoridades div.autoridades div.lista p {
-    font-size: 16px; }
+    font-size: 16px;
+  }
   .actividades {
-    height: 150vh; }
-    .actividades div.texto {
-      width: 95%; }
-      .actividades div.texto h2 {
-        font-size: 30px;
-        margin-top: 15px;
-        padding-top: 25px; }
-      .actividades div.texto p {
-        font-size: 15px; }
-    .actividades div.cursos div.grid-cursos {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: 350px;
-      gap: 10px;
-      padding: 10px; }
-      .actividades div.cursos div.grid-cursos div.grid-itemcursos {
-        display: flex;
-        align-items: center;
-        justify-content: center; }
-        .actividades div.cursos div.grid-cursos div.grid-itemcursos img {
-          width: 170px;
-          height: 170px; }
-        .actividades div.cursos div.grid-cursos div.grid-itemcursos a {
-          width: 170px;
-          height: 50px;
-          padding-top: 5px;
-          padding-bottom: 10px; }
+    height: 150vh;
+  }
+  .actividades div.texto {
+    width: 95%;
+  }
+  .actividades div.texto h2 {
+    font-size: 30px;
+    margin-top: 15px;
+    padding-top: 25px;
+  }
+  .actividades div.texto p {
+    font-size: 15px;
+  }
+  .actividades div.cursos div.grid-cursos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 350px;
+    gap: 10px;
+    padding: 10px;
+  }
+  .actividades div.cursos div.grid-cursos div.grid-itemcursos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .actividades div.cursos div.grid-cursos div.grid-itemcursos img {
+    width: 170px;
+    height: 170px;
+  }
+  .actividades div.cursos div.grid-cursos div.grid-itemcursos a {
+    width: 170px;
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
   .footer {
-    height: 45vh; }
-    .footer div h2 {
-      font-size: 20px; }
-    .footer div.logosfooter .mapa iframe {
-      margin-top: 20px;
-      width: 120px;
-      height: 120px; }
-    .footer div.logosfooter .mapa p {
-      padding-top: 2px;
-      font-size: 12px;
-      margin: 5px; }
-    .footer div.logosfooter .divfacs img {
-      display: none; } }
-
+    height: 45vh;
+  }
+  .footer div h2 {
+    font-size: 20px;
+  }
+  .footer div.logosfooter .mapa iframe {
+    margin-top: 20px;
+    width: 120px;
+    height: 120px;
+  }
+  .footer div.logosfooter .mapa p {
+    padding-top: 2px;
+    font-size: 12px;
+    margin: 5px;
+  }
+  .footer div.logosfooter .divfacs img {
+    display: none;
+  }
+}
 @media screen and (max-width: 680px) {
   .smiles {
-    height: 850vh; }
-    .smiles div.websmile {
-      width: 95%;
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-auto-rows: 450px; }
-      .smiles div.websmile div.websm1 img {
-        height: 450px;
-        width: 450px; }
-      .smiles div.websmile div.websm2 a img {
-        height: 450px;
-        width: 450px; }
-      .smiles div.websmile div h3 {
-        font-size: 30px; }
-      .smiles div.websmile div p {
-        font-size: 20px; }
-    .smiles div.cacsmile {
-      width: 95%;
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-auto-rows: 450px; }
-      .smiles div.cacsmile div h3 {
-        font-size: 30px; }
-      .smiles div.cacsmile div p {
-        font-size: 20px; }
-      .smiles div.cacsmile div.cacsm1 img {
-        height: 450px;
-        width: 550px; }
-      .smiles div.cacsmile div.cacsm2 img {
-        height: 450px;
-        width: 550px; }
-    .smiles div.jorotono div.smilejorotono {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-auto-rows: 370px; }
-      .smiles div.jorotono div.smilejorotono img {
-        height: 250px;
-        width: 300px; } }
-
+    height: 850vh;
+  }
+  .smiles div.websmile {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 450px;
+  }
+  .smiles div.websmile div.websm1 img {
+    height: 450px;
+    width: 450px;
+  }
+  .smiles div.websmile div.websm2 a img {
+    height: 450px;
+    width: 450px;
+  }
+  .smiles div.websmile div h3 {
+    font-size: 30px;
+  }
+  .smiles div.websmile div p {
+    font-size: 20px;
+  }
+  .smiles div.cacsmile {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 450px;
+  }
+  .smiles div.cacsmile div h3 {
+    font-size: 30px;
+  }
+  .smiles div.cacsmile div p {
+    font-size: 20px;
+  }
+  .smiles div.cacsmile div.cacsm1 img {
+    height: 450px;
+    width: 550px;
+  }
+  .smiles div.cacsmile div.cacsm2 img {
+    height: 450px;
+    width: 550px;
+  }
+  .smiles div.jorotono div.smilejorotono {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 370px;
+  }
+  .smiles div.jorotono div.smilejorotono img {
+    height: 250px;
+    width: 300px;
+  }
+}
 @media screen and (max-width: 670px) {
   .eventos {
-    height: 270vh; }
+    height: 270vh;
+  }
   .construccion div.webinars21 div.grid-webi div.grid-item iframe {
     width: 220px;
-    height: 220px; }
+    height: 220px;
+  }
   .construccion div.webinars20 div.grid-webi div.grid-item iframe {
     width: 220px;
-    height: 220px; } }
-
+    height: 220px;
+  }
+}
 @media screen and (max-width: 650px) {
   .formarparte {
-    height: 200vh; }
+    height: 200vh;
+  }
   .educacion {
-    height: 125vh; }
-    .educacion h2 {
-      font-size: 30px; }
-    .educacion .cursos {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: row; }
-      .educacion .cursos div.grid-cursos {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: 170px;
-        gap: 100px;
-        width: 65%;
-        margin-top: 50px;
-        padding-top: 50px; }
-        .educacion .cursos div.grid-cursos div img {
-          width: 150px;
-          height: 150px; }
-        .educacion .cursos div.grid-cursos div a {
-          text-align: center;
-          height: 55px;
-          width: 150px;
-          padding-bottom: 15px; } }
-
+    height: 125vh;
+  }
+  .educacion h2 {
+    font-size: 30px;
+  }
+  .educacion .cursos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .educacion .cursos div.grid-cursos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 170px;
+    gap: 100px;
+    width: 65%;
+    margin-top: 50px;
+    padding-top: 50px;
+  }
+  .educacion .cursos div.grid-cursos div img {
+    width: 150px;
+    height: 150px;
+  }
+  .educacion .cursos div.grid-cursos div a {
+    text-align: center;
+    height: 55px;
+    width: 150px;
+    padding-bottom: 15px;
+  }
+}
 @media screen and (max-width: 630px) {
   .smiles {
-    height: 1050vh; }
-    .smiles div.cacsmile {
-      width: 95%;
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-auto-rows: 450px; }
-      .smiles div.cacsmile div.cacsm1 img {
-        height: 380px;
-        width: 400px; }
-      .smiles div.cacsmile div.cacsm2 img {
-        height: 380px;
-        width: 400px; }
-    .smiles div.jorotono {
-      width: 95%; }
-      .smiles div.jorotono div.smilejorotono {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-auto-rows: 370px;
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-        .smiles div.jorotono div.smilejorotono img {
-          height: 370px;
-          width: 400px; } }
-
+    height: 1050vh;
+  }
+  .smiles div.cacsmile {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 450px;
+  }
+  .smiles div.cacsmile div.cacsm1 img {
+    height: 380px;
+    width: 400px;
+  }
+  .smiles div.cacsmile div.cacsm2 img {
+    height: 380px;
+    width: 400px;
+  }
+  .smiles div.jorotono {
+    width: 95%;
+  }
+  .smiles div.jorotono div.smilejorotono {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .smiles div.jorotono div.smilejorotono img {
+    height: 370px;
+    width: 400px;
+  }
+}
 @media screen and (max-width: 610px) {
   .formarparte {
-    height: 215vh; }
+    height: 215vh;
+  }
   .construccion div.webinars21 div.grid-webi div.grid-item iframe {
     width: 180px;
-    height: 180px; }
+    height: 180px;
+  }
   .construccion div.webinars20 div.grid-webi div.grid-item iframe {
     width: 180px;
-    height: 180px; } }
-
+    height: 180px;
+  }
+}
 @media screen and (max-width: 550px) {
   .eventos div.grid-webi div.grid-item img {
     width: 391px;
-    height: 391px; }
+    height: 391px;
+  }
   .formarparte {
-    height: 225vh; } }
-
+    height: 225vh;
+  }
+}
 @media screen and (max-width: 522px) {
   .comision div h2 {
-    font-size: 30px; }
+    font-size: 30px;
+  }
   .comision div div h3 {
-    font-size: 20px; }
+    font-size: 20px;
+  }
   .construccion div h2 {
-    font-size: 30px; }
+    font-size: 30px;
+  }
   .construccion div.webinars23 div.grid-webi div.grid-item iframe {
     width: 300px;
-    height: 300px; }
+    height: 300px;
+  }
   .construccion div.webinars21 h2 {
-    font-size: 30px; }
+    font-size: 30px;
+  }
   .construccion div.webinars21 div.grid-webi {
     display: grid;
     grid-template-columns: 1fr;
-    grid-auto-rows: 350px; }
-    .construccion div.webinars21 div.grid-webi div.grid-item iframe {
-      width: 250px;
-      height: 250px; }
+    grid-auto-rows: 350px;
+  }
+  .construccion div.webinars21 div.grid-webi div.grid-item iframe {
+    width: 250px;
+    height: 250px;
+  }
   .construccion div.webinars20 h2 {
-    font-size: 30px; }
+    font-size: 30px;
+  }
   .construccion div.webinars20 div.grid-webi {
     display: grid;
     grid-template-columns: 1fr;
-    grid-auto-rows: 350px; }
-    .construccion div.webinars20 div.grid-webi div.grid-item iframe {
-      width: 250px;
-      height: 250px; }
+    grid-auto-rows: 350px;
+  }
+  .construccion div.webinars20 div.grid-webi div.grid-item iframe {
+    width: 250px;
+    height: 250px;
+  }
   .contacto div {
-    height: 70vh; }
-    .contacto div h2 {
-      font-size: 30px; }
-    .contacto div p {
-      font-size: 15px;
-      margin: 20px;
-      padding: 10px; }
-    .contacto div a {
-      font-size: 15px; }
+    height: 70vh;
+  }
+  .contacto div h2 {
+    font-size: 30px;
+  }
+  .contacto div p {
+    font-size: 15px;
+    margin: 20px;
+    padding: 10px;
+  }
+  .contacto div a {
+    font-size: 15px;
+  }
   .acerca {
-    height: 70vh; }
-    .acerca div.heroacercadel {
-      height: 70vh; }
-      .acerca div.heroacercadel p {
-        font-size: 12px; }
-      .acerca div.heroacercadel a {
-        font-size: 12px; }
+    height: 70vh;
+  }
+  .acerca div.heroacercadel {
+    height: 70vh;
+  }
+  .acerca div.heroacercadel p {
+    font-size: 12px;
+  }
+  .acerca div.heroacercadel a {
+    font-size: 12px;
+  }
   .hero {
-    height: 30vh; }
-    .hero div div img {
-      height: 30vh; }
+    height: 30vh;
+  }
+  .hero div div img {
+    height: 30vh;
+  }
   .formarparte {
-    height: 235vh; }
+    height: 235vh;
+  }
   .educacion {
-    height: 120vh; }
-    .educacion h2 {
-      font-size: 20px; }
-    .educacion .cursos div.grid-cursos {
-      gap: 100px; }
-      .educacion .cursos div.grid-cursos div img {
-        width: 120px;
-        height: 120px; }
-      .educacion .cursos div.grid-cursos div a {
-        width: 120px; }
+    height: 120vh;
+  }
+  .educacion h2 {
+    font-size: 20px;
+  }
+  .educacion .cursos div.grid-cursos {
+    gap: 100px;
+  }
+  .educacion .cursos div.grid-cursos div img {
+    width: 120px;
+    height: 120px;
+  }
+  .educacion .cursos div.grid-cursos div a {
+    width: 120px;
+  }
   .herogob h2 {
-    font-size: 20px; }
+    font-size: 20px;
+  }
   .herogob div div h3 {
-    font-size: 15px; }
+    font-size: 15px;
+  }
   .herogob div div p {
-    font-size: 12px; }
+    font-size: 12px;
+  }
   .heropres h2 {
     padding-top: 20px;
     margin-top: 0;
-    font-size: 20px; }
+    font-size: 20px;
+  }
   .heropres div div h3 {
-    font-size: 15px; }
+    font-size: 15px;
+  }
   .heropres div div p {
-    font-size: 12px; }
+    font-size: 12px;
+  }
   .herohistoria h2 {
-    font-size: 30px; }
+    font-size: 30px;
+  }
   .herohistoria div.textohistoria p {
     font-size: 15px;
     padding: 10px;
     margin: 10px;
-    line-height: 30px; }
+    line-height: 30px;
+  }
   .heroautoridades div h2 {
-    font-size: 20px; }
+    font-size: 20px;
+  }
   .heroautoridades div div h3 {
-    font-size: 12px; }
+    font-size: 12px;
+  }
   .heroautoridades div div p {
-    font-size: 12px; }
+    font-size: 12px;
+  }
   .grid-contenedor .header div.titulo h1 {
-    font-size: 20px; }
+    font-size: 20px;
+  }
   .grid-contenedor .header div.titulo a img {
     width: 75px;
     height: 85px;
-    margin-top: 0px; }
+    margin-top: 0px;
+  }
   .grid-contenedor .header div.titulo div.cirujano a {
-    display: none; }
+    display: none;
+  }
   .actividades {
-    height: 150vh; }
-    .actividades h2 {
-      font-size: 20px;
-      margin: 20px; }
-    .actividades p {
-      font-size: 15px; }
-    .actividades div.cursos {
-      margin-top: 10px;
-      padding-top: 10px; }
-      .actividades div.cursos div.grid-cursos {
-        padding: 5px; }
+    height: 150vh;
+  }
+  .actividades h2 {
+    font-size: 20px;
+    margin: 20px;
+  }
+  .actividades p {
+    font-size: 15px;
+  }
+  .actividades div.cursos {
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  .actividades div.cursos div.grid-cursos {
+    padding: 5px;
+  }
   .mensajes {
-    height: 70vh; }
-    .mensajes h2 {
-      font-size: 20px; }
-    .mensajes .textarea {
-      width: 150px;
-      height: 170px; }
-      .mensajes .textarea div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row; }
-        .mensajes .textarea div label {
-          font-size: 15px; }
-        .mensajes .textarea div input {
-          font-family: 'Raleway', sans-serif;
-          font-size: 12px;
-          background-color: #19193d;
-          color: white;
-          padding-left: 10px;
-          padding-right: 10px;
-          padding-top: 5px;
-          padding-bottom: 5px;
-          margin: 10px; }
+    height: 70vh;
+  }
+  .mensajes h2 {
+    font-size: 20px;
+  }
+  .mensajes .textarea {
+    width: 150px;
+    height: 170px;
+  }
+  .mensajes .textarea div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .mensajes .textarea div label {
+    font-size: 15px;
+  }
+  .mensajes .textarea div input {
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    background-color: rgb(25, 25, 61);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+  }
   .footer {
-    height: 25vh; }
-    .footer div h2 {
-      font-size: 20px; }
-    .footer div.logosfooter {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 20px; }
-      .footer div.logosfooter div.redes a img {
-        width: 40px;
-        height: 40px; }
-      .footer div.logosfooter div.mapa iframe {
-        display: none; }
-      .footer div.logosfooter div.mapa p {
-        display: none; } }
-
+    height: 25vh;
+  }
+  .footer div h2 {
+    font-size: 20px;
+  }
+  .footer div.logosfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  .footer div.logosfooter div.redes a img {
+    width: 40px;
+    height: 40px;
+  }
+  .footer div.logosfooter div.mapa iframe {
+    display: none;
+  }
+  .footer div.logosfooter div.mapa p {
+    display: none;
+  }
+}
 @media screen and (max-width: 485px) {
   .smiles {
-    height: 950vh; }
-    .smiles div.websmile {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-auto-rows: 300px; }
-      .smiles div.websmile div.websm1 img {
-        height: 300px;
-        width: 300px; }
-      .smiles div.websmile div.websm2 a img {
-        height: 300px;
-        width: 300px; }
-      .smiles div.websmile div h3 {
-        font-size: 15px; }
-      .smiles div.websmile div p {
-        font-size: 15px; }
-    .smiles div.cacsmile {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-auto-rows: 350px;
-      width: 85%; }
-      .smiles div.cacsmile div h3 {
-        font-size: 15px; }
-      .smiles div.cacsmile div p {
-        font-size: 15px; }
-      .smiles div.cacsmile div.cacsm1 img {
-        height: 300px;
-        width: 400px; }
-      .smiles div.cacsmile div.cacsm2 img {
-        height: 300px;
-        width: 400px; } }
-
+    height: 950vh;
+  }
+  .smiles div.websmile {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 300px;
+  }
+  .smiles div.websmile div.websm1 img {
+    height: 300px;
+    width: 300px;
+  }
+  .smiles div.websmile div.websm2 a img {
+    height: 300px;
+    width: 300px;
+  }
+  .smiles div.websmile div h3 {
+    font-size: 15px;
+  }
+  .smiles div.websmile div p {
+    font-size: 15px;
+  }
+  .smiles div.cacsmile {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 350px;
+    width: 85%;
+  }
+  .smiles div.cacsmile div h3 {
+    font-size: 15px;
+  }
+  .smiles div.cacsmile div p {
+    font-size: 15px;
+  }
+  .smiles div.cacsmile div.cacsm1 img {
+    height: 300px;
+    width: 400px;
+  }
+  .smiles div.cacsmile div.cacsm2 img {
+    height: 300px;
+    width: 400px;
+  }
+}
 @media screen and (max-width: 475px) {
   .eventos {
-    height: 250vh; }
-    .eventos h2 {
-      font-size: 20px; }
-    .eventos h3 {
-      font-size: 15px; }
-    .eventos div.grid-webi div.grid-item img {
-      width: 291px;
-      height: 291px; }
-    .eventos div.grid-webi div.grid-item p {
-      font-size: 15px; }
+    height: 250vh;
+  }
+  .eventos h2 {
+    font-size: 20px;
+  }
+  .eventos h3 {
+    font-size: 15px;
+  }
+  .eventos div.grid-webi div.grid-item img {
+    width: 291px;
+    height: 291px;
+  }
+  .eventos div.grid-webi div.grid-item p {
+    font-size: 15px;
+  }
   .formarparte {
-    height: 245vh; }
+    height: 245vh;
+  }
   .construccion div.webinars23 div.grid-webi div.grid-item iframe {
     width: 280px;
-    height: 280px; } }
-
+    height: 280px;
+  }
+}
 @media screen and (max-width: 465px) {
   .construccion div.webinars23 div.grid-webi div.grid-item iframe {
     width: 250px;
-    height: 250px; }
+    height: 250px;
+  }
   .educacion {
-    height: 180vh; }
-    .educacion h2 {
-      font-size: 20px; }
-    .educacion .cursos div.grid-cursos {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 90px;
-      margin-top: 0;
-      padding-top: 70px; }
-      .educacion .cursos div.grid-cursos div img {
-        width: 180px;
-        height: 180px; }
-      .educacion .cursos div.grid-cursos div a {
-        width: 180px;
-        height: 50px;
-        font-size: 10px; }
+    height: 180vh;
+  }
+  .educacion h2 {
+    font-size: 20px;
+  }
+  .educacion .cursos div.grid-cursos {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 90px;
+    margin-top: 0;
+    padding-top: 70px;
+  }
+  .educacion .cursos div.grid-cursos div img {
+    width: 180px;
+    height: 180px;
+  }
+  .educacion .cursos div.grid-cursos div a {
+    width: 180px;
+    height: 50px;
+    font-size: 10px;
+  }
   div.acerca {
-    height: 30vh; }
-    div.acerca div.heroacercadel {
-      display: flex;
-      justify-content: flex-start;
-      align-items: center; }
+    height: 30vh;
+  }
+  div.acerca div.heroacercadel {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
   .hero {
-    height: 20vh; }
-    .hero div div div img {
-      height: 20vh; }
+    height: 20vh;
+  }
+  .hero div div div img {
+    height: 20vh;
+  }
   .herohistoria h2 {
-    font-size: 30px; }
+    font-size: 30px;
+  }
   .herohistoria div.textohistoria p {
     padding: 10px;
     margin: 10px;
-    line-height: 30px; }
+    line-height: 30px;
+  }
   .grid-contenedor .header .titulo h1 {
-    font-size: 15px; }
+    font-size: 15px;
+  }
   .grid-contenedor .header .titulo a img {
     width: 55px;
-    height: 65px; }
+    height: 65px;
+  }
   .actividades {
-    height: 160vh; }
-    .actividades h2 {
-      font-size: 20px;
-      margin-top: 15px;
-      padding-top: 25px; }
-    .actividades p {
-      font-size: 15px;
-      padding: 5px; }
+    height: 160vh;
+  }
+  .actividades h2 {
+    font-size: 20px;
+    margin-top: 15px;
+    padding-top: 25px;
+  }
+  .actividades p {
+    font-size: 15px;
+    padding: 5px;
+  }
   .formarparte {
-    height: 245vh; }
-    .formarparte div div.textoformarparte div.serfacs {
-      width: 100%; }
-      .formarparte div div.textoformarparte div.serfacs a.ser img.facs {
-        width: 150px;
-        height: 50px; } }
-
+    height: 245vh;
+  }
+  .formarparte div div.textoformarparte div.serfacs {
+    width: 100%;
+  }
+  .formarparte div div.textoformarparte div.serfacs a.ser img.facs {
+    width: 150px;
+    height: 50px;
+  }
+}
 @media screen and (max-width: 450px) {
   .smiles {
-    height: 900vh; }
-    .smiles div.titsmile h2 {
-      font-size: 30px; }
-    .smiles div.titsmile div {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column; }
-    .smiles div.websmile div h3 {
-      font-size: 20px; }
-    .smiles div.websmile div p {
-      font-size: 15px; }
-    .smiles div.cacsmile div h3 {
-      font-size: 20px; }
-    .smiles div.cacsmile div p {
-      font-size: 15px; }
-    .smiles div.cacsmile div.cacsm1 img {
-      height: 250px;
-      width: 350px; }
-    .smiles div.cacsmile div.cacsm2 img {
-      height: 250px;
-      width: 350px; }
-    .smiles div.jorotono div.smilejorotono img {
-      height: 280px;
-      width: 320px; } }
-
+    height: 900vh;
+  }
+  .smiles div.titsmile h2 {
+    font-size: 30px;
+  }
+  .smiles div.titsmile div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .smiles div.websmile div h3 {
+    font-size: 20px;
+  }
+  .smiles div.websmile div p {
+    font-size: 15px;
+  }
+  .smiles div.cacsmile div h3 {
+    font-size: 20px;
+  }
+  .smiles div.cacsmile div p {
+    font-size: 15px;
+  }
+  .smiles div.cacsmile div.cacsm1 img {
+    height: 250px;
+    width: 350px;
+  }
+  .smiles div.cacsmile div.cacsm2 img {
+    height: 250px;
+    width: 350px;
+  }
+  .smiles div.jorotono div.smilejorotono img {
+    height: 280px;
+    width: 320px;
+  }
+}
 @media screen and (max-width: 428px) {
   .cuerpo.eventos {
-    height: 450px; }
+    height: 450px;
+  }
   .formarparte {
-    height: 250vh; }
+    height: 250vh;
+  }
   .actividades {
-    height: 240vh; }
-    .actividades div.texto {
-      width: 95%; }
-    .actividades div.cursos div.grid-cursos {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 70px;
-      margin-bottom: 0px;
-      margin-top: 80px;
-      gap: 180px;
-      padding-top: 0px;
-      padding-bottom: 0px; }
-      .actividades div.cursos div.grid-cursos div.grid-itemcursos img {
-        width: 250px;
-        height: 200px; }
-      .actividades div.cursos div.grid-cursos div.grid-itemcursos a {
-        width: 250px; } }
-
+    height: 240vh;
+  }
+  .actividades div.texto {
+    width: 95%;
+  }
+  .actividades div.cursos div.grid-cursos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px;
+    margin-bottom: 0px;
+    margin-top: 80px;
+    gap: 180px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .actividades div.cursos div.grid-cursos div.grid-itemcursos img {
+    width: 250px;
+    height: 200px;
+  }
+  .actividades div.cursos div.grid-cursos div.grid-itemcursos a {
+    width: 250px;
+  }
+}
 @media screen and (max-width: 411px) {
   .formarparte {
-    height: 260vh; }
+    height: 260vh;
+  }
   .actividades {
-    height: 225vh; }
+    height: 225vh;
+  }
   .eventos {
-    height: 220vh; }
-    .eventos div.grid-webi div.grid-item p {
-      font-size: 12px; } }
-
+    height: 220vh;
+  }
+  .eventos div.grid-webi div.grid-item p {
+    font-size: 12px;
+  }
+}
 @media screen and (max-width: 390px) {
   .construccion div.webinars23 div.grid-webi div.grid-item iframe {
     width: 200px;
-    height: 200px; }
+    height: 200px;
+  }
   .formarparte {
-    height: 190vh; }
-    .formarparte div h2 {
-      font-size: 20px; }
-    .formarparte div div.textoformarparte p {
-      font-size: 15px; }
-    .formarparte div div.textoformarparte ol li {
-      font-size: 15px; }
-    .formarparte div div.textoformarparte a.formulario {
-      font-size: 15px;
-      margin-top: 18px; }
-    .formarparte div div.textoformarparte div.serfacs {
-      width: 90%; }
-      .formarparte div div.textoformarparte div.serfacs p {
-        font-size: 15px; }
+    height: 190vh;
+  }
+  .formarparte div h2 {
+    font-size: 20px;
+  }
+  .formarparte div div.textoformarparte p {
+    font-size: 15px;
+  }
+  .formarparte div div.textoformarparte ol li {
+    font-size: 15px;
+  }
+  .formarparte div div.textoformarparte a.formulario {
+    font-size: 15px;
+    margin-top: 18px;
+  }
+  .formarparte div div.textoformarparte div.serfacs {
+    width: 90%;
+  }
+  .formarparte div div.textoformarparte div.serfacs p {
+    font-size: 15px;
+  }
   .acerca {
-    height: 70vh; }
-    .acerca div.heroacercadel {
-      height: 70vh; }
+    height: 70vh;
+  }
+  .acerca div.heroacercadel {
+    height: 70vh;
+  }
   .hero {
-    height: 20vh; }
-    .hero div div div img {
-      height: 20vh; }
+    height: 20vh;
+  }
+  .hero div div div img {
+    height: 20vh;
+  }
   .actividades {
-    height: 210vh; }
-    .actividades div.texto h2 {
-      font-size: 20px;
-      margin-top: 10px;
-      padding-top: 10px; }
-    .actividades div.texto p {
-      font-size: 13px;
-      padding: 2px; }
+    height: 210vh;
+  }
+  .actividades div.texto h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  .actividades div.texto p {
+    font-size: 13px;
+    padding: 2px;
+  }
   .mensajes h2 {
-    font-size: 20px; }
+    font-size: 20px;
+  }
   .mensajes div input {
-    width: 150px; }
+    width: 150px;
+  }
   .mensajes div.textarea textarea {
     width: 150px;
-    height: 170px; }
+    height: 170px;
+  }
   .mensajes div.textarea div input {
-    width: 55px; } }
-
+    width: 55px;
+  }
+}
 @media screen and (max-width: 364px) {
   .actividades {
-    height: 1400px; }
+    height: 1400px;
+  }
   .eventos {
-    height: 230vh; }
+    height: 230vh;
+  }
   .construccion div h2 {
-    font-size: 20px; }
+    font-size: 20px;
+  }
   .construccion div.webinars21 h2 {
-    font-size: 20px; }
+    font-size: 20px;
+  }
   .construccion div.webinars21 div.grid-webi div.grid-item iframe {
     width: 220px;
-    height: 220px; }
+    height: 220px;
+  }
   .construccion div.webinars20 h2 {
-    font-size: 20px; }
+    font-size: 20px;
+  }
   .construccion div.webinars20 div.grid-webi div.grid-item iframe {
     width: 220px;
-    height: 220px; }
+    height: 220px;
+  }
   .contacto div {
-    height: 70vh; }
-    .contacto div h2 {
-      font-size: 20px; }
-    .contacto div p {
-      font-size: 12px;
-      margin: 20px;
-      padding: 10px; }
-    .contacto div a {
-      font-size: 12px; }
+    height: 70vh;
+  }
+  .contacto div h2 {
+    font-size: 20px;
+  }
+  .contacto div p {
+    font-size: 12px;
+    margin: 20px;
+    padding: 10px;
+  }
+  .contacto div a {
+    font-size: 12px;
+  }
   .formarparte div h2 {
-    font-size: 20px; }
+    font-size: 20px;
+  }
   .formarparte div div {
-    width: 95%; }
-    .formarparte div div p {
-      text-align: center;
-      font-size: 12px; }
-    .formarparte div div ol li {
-      font-size: 12px; }
-    .formarparte div div a {
-      font-size: 15px; } }
+    width: 95%;
+  }
+  .formarparte div div p {
+    text-align: center;
+    font-size: 12px;
+  }
+  .formarparte div div ol li {
+    font-size: 12px;
+  }
+  .formarparte div div a {
+    font-size: 15px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
